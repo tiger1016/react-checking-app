@@ -1,0 +1,26 @@
+.Badge {
+  align-items: center;
+  background: rgb(216, 216, 216);
+  border-radius: 4px;
+  display: flex;
+  padding: 2px 3px;
+}
+
+.Badge .closable {
+  border-right: 1px solid rgb(118, 118, 118);
+  cursor: pointer;
+  padding: 1px 2px;
+}
+
+.Badge .closable .icon {
+  color: rgb(118, 118, 118);
+  font-size: 12px;
+}
+
+.Badge .text {
+  color: rgb(118, 118, 118);
+  font-size: 12px;
+  font-weight: normal;
+  padding: 1px 2px;
+  white-space: nowrap;
+}

@@ -1,0 +1,42 @@
+.ContentLoader {
+    animation: colorange 8s infinite;
+    border-radius: 3px;
+    flex: 1;
+    height: 16px;
+    -webkit-animation: colorchange 8s infinite;
+  }
+  @keyframes colorchange {
+    0% {
+      background: #d4d3d3;
+    }
+    25% {
+      background: #f3f3f3;
+    }
+    50% {
+      background: #d4d3d3;
+    }
+    75% {
+      background: #f3f3f3;
+    }
+    100% {
+      background: #d4d3d3;
+    }
+  }
+  @-webkit-keyframes colorchange {
+    0% {
+      background: #d4d3d3;
+    }
+    25% {
+      background: #f3f3f3;
+    }
+    50% {
+      background: #d4d3d3;
+    }
+    75% {
+      background: #f3f3f3;
+    }
+    100% {
+      background: #d4d3d3;
+    }
+  }
+  

@@ -1,0 +1,57 @@
+#Scheduler-WeekView div.appointment {
+  border-left: 2px solid #000;
+  padding: 5px 10px;
+  margin-bottom: 1px;
+  position: relative;
+}
+#Scheduler-WeekView div.appointment .walk-overlay {
+  background: rgba(255, 255, 255, .3);
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#Scheduler-WeekView div.appointment:hover .walk-overlay {
+  display: block;
+}
+#Scheduler-WeekView div.appointment.dragging {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+#Scheduler-WeekView div.appointment .walkInfo {
+  cursor: pointer;
+}
+#Scheduler-WeekView div.appointment .customer {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 5px;
+  word-wrap: normal;
+  white-space: nowrap;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+#Scheduler-WeekView div.appointment .service {
+  display: inline-block;
+  font-size: 11px;
+}
+#Scheduler-WeekView div.appointment .hover-quick-menu {
+  position: absolute;
+  color: #333;
+  display: flex;
+  right: 0;
+  top: 0;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+  padding: 0 5px;
+}
+#Scheduler-WeekView div.appointment .hover-quick-menu-entry {
+  padding: 2px;
+}
+#Scheduler-WeekView div.appointment .hover-quick-menu-entry-icon {
+  padding: 2px;
+}

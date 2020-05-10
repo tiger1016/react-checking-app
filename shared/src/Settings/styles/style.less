@@ -1,0 +1,245 @@
+.PetCheckMobileView {
+    .sub-nav-main-container {
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        font-family: Roboto;
+        font-size: 80%;
+        font-weight: 500;
+        line-height: 30px;
+        padding-right: 1px;
+    }
+    .sub-nav-header {
+        display: inline-block;
+        flex-direction: row;
+        height: 70px;
+        width: 100vw;
+        overflow: auto;
+        position: relative;
+        .scroll{
+            width: 700px;
+            height: 50px;
+        }
+    }
+    .sub-nav-link {
+        display: inline-block;
+        height: 100%;
+        border-bottom: 2px solid #F5F5F5;
+        color: #999999;
+        justify-content: center;
+        padding: 1.8% 1.5%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        cursor: pointer;
+        span {
+            font-size: 100%;
+            white-space: nowrap;
+        }
+    }
+    .sub-nav-body {
+
+        color: #4D4D4D;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 60px;
+        padding: 10px;
+    }
+    .sub-nav-inner-container {
+        padding-left: 4%;
+    }
+    [type="radio"] {
+        border: 1px solid red;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        outline: none
+    }
+    /* the basic, unchecked style */
+    [type="radio"]+span:before {
+        content: '';
+        display: inline-block;
+        width: .6em;
+        height: .6em;
+        vertical-align: -0.25em;
+        border-radius: 1em;
+        border: 0.25em solid #fff;
+        box-shadow: 0 0 0 2px #999999;
+        margin-right: 0.75em;
+        transition: 0.5s ease all;
+    }
+    /* the checked style using the :checked pseudo class */
+    [type="radio"]:checked+span:before {
+        background-color: #1875F0;
+        box-shadow: 0 0 0 2px rgb(24, 117, 240);
+    }
+    /* never forget focus styling */
+    [type="radio"]:focus+span:after {
+        font-size: 1.5em;
+        line-height: 1;
+        vertical-align: -0.125em;
+    }
+    .settings-container {
+        background-color: #FFFFFF;
+        border-radius: 6px;
+        box-shadow: -5px 8px 6px -6px #DADADA;
+    }
+    .settings-form form {
+        display: flex;
+        flex-direction: column;
+        color: #999999;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 33px;
+        label {
+            display: flex;
+            flex-drection: row;
+        }
+    }
+    .form-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .input-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .input-description {
+        width: 18%;
+    }
+    .input-selection {
+        display: flex;
+        flex-direction: column;
+        .dropdown-width {
+            width: 140px;
+            .Select-menu-outer {
+                width: 140px;
+            }
+        }
+    }
+    .services-container-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .services-body {
+        display: flex;
+        flex-direction: column;
+    }
+    .services-header {
+        display: flex;
+        flex-direction: row;
+        font-size: 48%;
+    }
+    .services-row-title {
+        display: flex;
+        height: 100%;
+        color: #999999;
+        justify-content: flex-start;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 18%;
+    }
+    .services-row-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .services-row {
+        display: flex;
+        height: 100%;
+        color: #999999;
+        justify-content: flex-start;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 18%;
+        font-size: 45%;
+    }
+    .Select.services-hour {
+        height: 45px;
+        .Select-control {
+            width: 80px;
+        }
+    }
+    .business-hours-container {
+        .sub-nav-link {
+            font-family: Roboto;
+            font-size: 40%;
+            font-weight: 500;
+            line-height: 30px;
+            padding-top: .5%;
+            padding-bottom: .5%;
+        }
+    }
+    .business-hours-body {
+        color: #999999;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 33px;
+        padding-left: 3.2%;
+    }
+    .add-new-service-title {
+        color: #4D4D4D;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 60px;
+        padding-left: 5%;
+        padding-top: 3%;
+        margin-bottom: 5%;
+        border-bottom: 2px solid #F5F5F5;
+    }
+    .add-service-row {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 40px;
+        align-items: center;
+        span {
+            display: flex;
+            flex: 1;
+            padding-left: 5%;
+        }
+        input {
+            display: flex;
+            flex: 2;
+            outline: none;
+            border: none;
+            color: grey;
+        }
+    }
+    .service-details-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .save-button {
+        outline: none;
+        height: 40px;
+        width: 120px;
+        border-radius: 4px;
+        background-color: #1875F0;
+        border: none;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 900;
+        text-align: center;
+        line-height: 14px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+    }
+}
+
+.ReactModal__Content.ReactModal__Content_Web--after-open {
+    left: 0;
+    margin-left: 25%;
+    width: 50%;
+    height: 70%;
+    min-width: 0;
+}

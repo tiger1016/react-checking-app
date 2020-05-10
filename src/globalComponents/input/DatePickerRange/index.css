@@ -1,0 +1,13 @@
+.DatePickerRange {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.DatePickerRange .left,
+.DatePickerRange .right {
+  max-width: 120px;
+}
+.DatePickerRange .to {
+  color: #999;
+  margin: 0 10px;
+}

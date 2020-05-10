@@ -1,0 +1,18 @@
+.DropBlock {
+  align-items: stretch;
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+}
+.DropBlock.droppable {
+  background: rgba(198,227,205,.8);
+}
+.BlockDivision {
+  flex: 1;
+}
+.BlockDivision.active {
+  background: #76887b;
+}
+.BlockDivision.not-droppable {
+  background: red;
+}

@@ -1,0 +1,35 @@
+version: "3"
+services:
+  petcheck-web-e2e:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: bash -c "/wait && forever start -c http-server '/app/dist' -p 3301 -P http://localhost:3301? && yarn e2e:doctor"
+    container_name: petcheck-web-e2e
+    depends_on:
+      - chrome
+    environment:
+      - BASE=http://localhost:3301
+      - E2E_BROWSER=chrome
+      - E2E_TEST_USERNAME=dougsimon8895@sbcglobal.net
+      - E2E_TEST_PASSWORD=AGEvlt3$$88
+      - E2E_TIMEOUT_SECONDS=60
+      - REACT_APP_API_URL=https://api2.petchecktechnology.com/
+      - REACT_APP_ASSETS_URL=https://s3.amazonaws.com/petcheck-assets/
+      - REACT_APP_TITLE=Petcheck
+      - REACT_APP_WITH_SYSTEMVARS=true
+      - REACT_APP_SENTRY_DSN=https://6b3c071ed34b4e9db83c8370d8b6ff79@sentry.io/1436917
+      - REACT_GOOGLE_MAPS_API_KEY=AIzaSyCYzAQ94Be9gTD_llKsXkqzfHWoUKd_ZKM
+      - SELENIUM_REMOTE_URL=http://chrome:4444/wd/hub
+      - WEBPACK_BUILD_TARGET=testing
+      - WAIT_HOSTS=chrome:4444
+    ports:
+      - "3301:3301"
+    volumes:
+      - .:/persist
+
+  chrome:
+    image: selenium/standalone-chrome
+    ports:
+      - "4444:4444"
+

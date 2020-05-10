@@ -1,0 +1,219 @@
+#CreateOrEditInvoice {
+    display: flex;
+    flex: 1;
+    padding: 14px 20px;
+    overflow: auto;
+}
+
+#CreateOrEditInvoice .invoices-profile-div .DatePicker {
+    width: 200px;
+}
+
+#CreateOrEditInvoice .issue-billing-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#CreateOrEditInvoice .invoices-profile-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#CreateOrEditInvoice .invoices-profile-div .left,
+#CreateOrEditInvoice .invoices-profile-div .right {
+    flex: 1;
+}
+
+#CreateOrEditInvoice .invoice-profile-table-container {
+    margin: 0 -20px;
+    height: 44px;
+    background: white;
+}
+
+#CreateOrEditInvoice .invoice-heading-adding {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    padding: 20px 0;
+    margin-left: auto;
+}
+
+#CreateOrEditInvoice .create-invoice-row:nth-child(even) {
+    background-color: #FFF;
+}
+
+#CreateOrEditInvoice .create-invoice-row:nth-child(odd) {
+    background-color: #F6F6F6;
+}
+
+#CreateOrEditInvoice .invoice-row-container {
+    height: auto;
+    overflow-y: auto;
+}
+
+#CreateOrEditInvoice .create-invoice-row-container {
+    flex: 1;
+    /*max-height: 280px;*/
+    /*overflow: auto;*/
+    margin: 0 -20px;
+    padding-bottom: 15px;
+    background: white;
+    /*z-index: -1;*/
+}
+
+#CreateOrEditInvoice .lining {
+    height: 60px;
+    border-bottom: 1px solid #DADADA;
+}
+
+#CreateOrEditInvoice .create-invoice-row {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#CreateOrEditInvoice .create-invoice-row.addon {
+    padding-left: 30px !important;
+}
+
+#CreateOrEditInvoice .invoice-heading-padding {
+    padding: 0 20px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#CreateOrEditInvoice .invoice-profile-table {
+    border-top: 3px solid #F4F4F4;
+    padding-bottom: 30px;
+    padding-top: 13px;
+    width: 100%;
+}
+
+#CreateOrEditInvoice .box {
+    width: 300px;
+    height: 90px;
+    text-shadow: 0 1px 1px #fff;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: #F4F4F4;
+    display: inline-table;
+    text-align: left;
+    float: right;
+}
+
+#CreateOrEditInvoice .box .item {
+    float: left;
+    width: 100%;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+#CreateOrEditInvoice .box span {
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #999999;
+}
+
+#CreateOrEditInvoice .box .box-label {
+    padding-right: 20px;
+    flex: 1
+}
+
+#CreateOrEditInvoice .round {
+    border-radius: 3px;
+}
+
+#CreateOrEditInvoice .line-align {
+    width: 10%;
+    float: left;
+}
+
+#CreateOrEditInvoice .invoice-profile-div {
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+#CreateOrEditInvoice .input-container {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#CreateOrEditInvoice .input-container .input-label {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    color: #6C6C6C;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    padding: 10px 10px 10px 0px;
+}
+
+#CreateOrEditInvoice .header-style:first-child {
+    margin-left: 0;
+}
+
+#CreateOrEditInvoice .header-style:last-child {
+    margin-right: 0;
+}
+
+#CreateOrEditInvoice .header-style {
+    color: #B3B3B3;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 5px;
+}
+
+#CreateOrEditInvoice .header-style:last-child {
+    text-align: center;
+    padding-left: 0;
+}
+
+#CreateOrEditInvoice .create-invoice-row-item {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+#CreateOrEditInvoice .create-invoice-row-item:first-child {
+    margin-left: 0;
+}
+
+#CreateOrEditInvoice .create-invoice-row-item:last-child {
+    margin-right: 0;
+}
+
+#CreateOrEditInvoice .approve button {
+    background: transparent;
+    border: none;
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #999999;
+}
+
+#CreateOrEditInvoice .memo-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#CreateOrEditInvoice .memo-container .info {
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #999999;
+    padding-top: 5px;
+}
+
+#CreateOrEditInvoice .term-text {
+    color: #B3B3B3;
+    font-family: Roboto;
+    font-size: 12px;
+}

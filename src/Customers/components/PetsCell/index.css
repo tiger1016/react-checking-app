@@ -1,0 +1,56 @@
+.PetsCell {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    width: 100%;
+  }
+  .multiple {
+    flex-direction: row;
+    flex-flow: initial;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill,minmax(100px, 1fr));
+  }
+  .PetsCell .container {
+    width: 32px;
+    height: 32px;
+  }
+  .PetsCell .pet-circle-img {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    height: 32px;
+    max-height: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    min-width: 32px;
+    width: 32px;
+  }
+  .PetsCell .pet-name {
+    color: #6C6C6C;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 6px 0 3px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .PetsCell .pet-name.tt {
+    color: #FFF;
+  }
+  .PetsCell .__react_component_tooltip.type-dark.place-top:after {
+    border-top-color: #6C6C6C;
+  }
+  .PetsCell .__react_component_tooltip.type-dark.place-left:after {
+    border-left-color: #6C6C6C;
+  }
+  .PetsCell .__react_component_tooltip.type-dark {
+    background: #6C6C6C;
+  }
+  

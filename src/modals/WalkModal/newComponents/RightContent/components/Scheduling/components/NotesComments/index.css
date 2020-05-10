@@ -1,0 +1,64 @@
+.NotesComments {
+  display: flex;
+  flex-direction: row;
+  /*max-width: 520px;*/
+  min-height: 215px;
+  padding-bottom: 20px;
+}
+.NotesComments .left-container {
+  flex: 3;
+  padding-right: 20px;
+}
+.NotesComments .right-container {
+  width:100px;
+}
+.NotesComments .left-container .row-container{
+display: flex;
+flex-direction: column;
+padding-bottom: 20px;
+}
+
+.NotesComments .left-container .row-container .label{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #808080
+}
+.NotesComments .left-container .row-container .label.red{
+  color: red
+
+}
+.NotesComments .left-container .row-container .label .edit{
+  cursor: pointer;
+  color: #00a1ff;
+  font-weight: 300;
+
+}
+.NotesComments .left-container .row-container .value{
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #808080;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column
+}
+.NotesComments .pets-Container{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.NotesComments .pet-image img{
+  width: 100px;
+  height: 100px;
+  padding-bottom: 5px;
+}
+.NotesComments .pet-name{
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #808080
+}

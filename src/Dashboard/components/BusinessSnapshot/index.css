@@ -1,0 +1,63 @@
+#Dashboard .dashboard-data-container .dashboard-data .content.business-snapshot-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 35px 0;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content.business-snapshot-container .pie-chart {
+  margin-right: 15%;
+  position: relative;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content.business-snapshot-container .pie-chart:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 1440px) {
+  #Dashboard .dashboard-data-container.BusinessSnapshot {
+    min-width: 40%;
+    max-width: 40%;
+  }
+  #Dashboard .dashboard-data-container .dashboard-data .content.business-snapshot-container .pie-chart {
+    margin-right: 6%;
+  }
+  #Dashboard .dashboard-data-container .dashboard-data .content.business-snapshot-container .pie-chart:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 1358px) {
+  #Dashboard .dashboard-data-container .dashboard-data .content.business-snapshot-container .pie-chart {
+    margin-right: 2%;
+  }
+  #Dashboard .dashboard-data-container .dashboard-data .content.business-snapshot-container .pie-chart:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 1250px) {
+  #Dashboard .dashboard-data-container.BusinessSnapshot {
+    min-width: 35%;
+    max-width: 35%;
+  }
+  #Dashboard .dashboard-data-container .dashboard-data .content.business-snapshot-container .pie-chart {
+    margin-right: 0;
+  }
+  #Dashboard .dashboard-data-container .dashboard-data .content.business-snapshot-container .pie-chart:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 1250px) {
+  #Dashboard .dashboard-data-container.BusinessSnapshot {
+    min-width: 40%;
+    max-width: 40%;
+  }
+}
+@media screen and (max-width: 990px) {
+  #Dashboard .dashboard-data-container .dashboard-data .content.business-snapshot-container .pie-chart {
+    margin-right: 13%;
+  }
+  #Dashboard .dashboard-data-container .dashboard-data .content.business-snapshot-container .pie-chart:last-child {
+    margin-right: 0;
+  }
+  #Dashboard .dashboard-data-container.BusinessSnapshot {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}

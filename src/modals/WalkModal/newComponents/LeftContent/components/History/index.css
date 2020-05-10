@@ -1,0 +1,46 @@
+#History {}
+
+#History .info-container {
+    padding: 15px 0;
+    max-width: 300px;
+}
+
+#History .info-container .label {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#History .info-container .description {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    padding-left: 10px;
+    line-height: 14px;
+}
+
+#History .info-container .description {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#History .actionButtons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#History .actionButtons .button-container.text-only .button {
+    color: #ffffff !important;
+}
+
+#History .endWalkBtn {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+}

@@ -1,0 +1,24 @@
+.CustomerProfileRight {
+  border-left: 2px solid #F5F5F5;
+  flex: 1;
+}
+.CustomerProfileRight .SectionHeader {
+  margin-bottom: 15px;
+}
+.CustomerProfileRight .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.CustomerProfileRight .division {
+  height: 2px;
+  background: #F5F5F5;
+  margin: 40px -35px;
+}
+.CustomerProfileRight .content > div {
+  flex: 1;
+  margin-bottom: 40px;
+  min-width: 380px;
+}
+.CustomerProfileRight .content > div:not(:last-child) {
+  margin-right: 40px;
+}

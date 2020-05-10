@@ -1,0 +1,9 @@
+.RadioInputGroup {
+  display: flex;
+}
+.RadioInputGroup.vertical {
+  flex-direction: column;
+}
+.RadioInputGroup.vertical .RadioInput {
+  margin-bottom: 10px;
+}

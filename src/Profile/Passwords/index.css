@@ -1,0 +1,17 @@
+#Passwords .header {
+  color: #c4c4c4;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 20px 0 10px;
+}
+#Passwords .DoubleInputAndAction {
+  padding: 20px 0;
+  margin-bottom: 60px;
+}
+#Passwords .error-label {
+  color: #c7011a;
+  font-weight: bold;
+  font-size: 13px;
+}

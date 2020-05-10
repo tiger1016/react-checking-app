@@ -1,0 +1,34 @@
+#AddNewPet {
+  flex: 1;
+  overflow: auto;
+}
+#AddNewPet .petPictureContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+#AddNewPet .petPictureContainer .right {
+  flex: 1;
+}
+#AddNewPet .container-1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  padding-left: 30px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 30px;
+  padding-top: 10px;
+  width: 100%;
+}
+#AddNewPet .pets-pic-div {
+  margin-left: 20px;
+  background-color: #fff;
+  display: block;
+  width: 170px !important;
+  height: 180px !important;
+}
+#AddNewPet .tabContainer{
+  justify-content: start !important;
+}

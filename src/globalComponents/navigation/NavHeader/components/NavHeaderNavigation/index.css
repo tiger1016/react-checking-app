@@ -1,0 +1,57 @@
+.NavHeaderNavigation {
+    align-items: center;
+    display: flex;
+}
+
+.NavHeaderNavigation .NavHeaderNavigation-Link {
+    color: #999;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.NavHeaderNavigation .NavHeaderNavigation-Link.active {
+    color: #1875f0;
+}
+
+.NavHeaderNavigation .NavHeaderNavigation-Link:hover {
+    text-decoration: underline;
+}
+
+.NavHeaderNavigation .NavHeaderNavigation-Link.active:hover {
+    text-decoration: none;
+}
+
+.NavHeaderNavigation .nav-header-logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0;
+    width: 15vw;
+}
+
+.NavHeaderNavigation .nav-header-logo img {
+    max-height: 60px;
+    max-width: 168px;
+}
+
+.NavHeaderNavigation .add-your-logo {
+    color: #1875F0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 1px;
+    /* margin-bottom: -11px; */
+}
+
+.NavHeaderNavigation .fileinput {
+    overflow: hidden;
+    width: 0px;
+    background: red;
+    display: none;
+}

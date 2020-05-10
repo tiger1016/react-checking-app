@@ -1,0 +1,33 @@
+#Scheduler-WeekView div#grid {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#Scheduler-WeekView div#grid > div:first-child {
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: auto;
+}
+#Scheduler-WeekView #grid-pinnedLeftColumn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #FFF;
+  min-width: 160px;
+}
+#Scheduler-WeekView #grid-pinnedToTopRow {
+  position: fixed;
+  top: 43px;
+  display: none;
+}
+#Scheduler-WeekView #grid-searchPinnedToTop {
+  position: fixed;
+  top: 43px;
+  left: 0;
+  box-shadow: 1px 0px 6px 1px #DADADA;
+  display: none;
+}
+
+#Scheduler-WeekView div#grid #h-scroll::-webkit-scrollbar {
+  display: none;
+}

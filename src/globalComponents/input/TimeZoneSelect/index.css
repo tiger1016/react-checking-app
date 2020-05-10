@@ -1,0 +1,5 @@
+.TimeZoneSelect,
+.TimeZoneSelect .CustomSelect .select-container {
+  flex: 1;
+  width: 400px;
+}

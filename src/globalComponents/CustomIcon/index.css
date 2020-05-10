@@ -1,0 +1,48 @@
+.CustomIcon.icon-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .CustomIcon .icon-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 28px;
+    line-height: 28px;
+    width: 28px;
+    overflow: hidden;
+  }
+  .CustomIcon.icon-container .icon-wrapper .icon {
+    display: flex;
+    flex: 1;
+    font-size: 24px;
+    color: #c7c7c7;
+  }
+  .CustomIcon.icon-container .icon-wrapper .icon:before {
+    flex: 1;
+  }
+  .CustomIcon.icon-container.xs .icon-wrapper {
+    height: 12px;
+    line-height: 12px;
+    width: 12px;
+  }
+  .CustomIcon.icon-container.small .icon-wrapper {
+    height: 18px;
+    line-height: 18px;
+    width: 18px;
+  }
+  .CustomIcon.icon-container.large .icon-wrapper {
+    height: 36px;
+    line-height: 36px;
+    width: 36px;
+  }
+  .CustomIcon.icon-container.xs .icon-wrapper .icon {
+    font-size: 12px;
+  }
+  .CustomIcon.icon-container.small .icon-wrapper .icon {
+    font-size: 18px;
+  }
+  .CustomIcon.icon-container.large .icon-wrapper .icon {
+    font-size: 36px;
+  }

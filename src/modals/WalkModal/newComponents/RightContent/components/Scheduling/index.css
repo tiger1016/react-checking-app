@@ -1,0 +1,39 @@
+#Scheduling {
+  flex: 1;
+}
+#Scheduling .ModalContainer {
+  display: flex;
+  flex-direction: row;
+  font-weight: 200;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+#Scheduling .revision-changes-message-container {
+  padding: 5px;
+  border-radius: 4px;
+  margin: 16px 16px 0px;
+  background-color: #e35d6a;
+}
+#Scheduling .revision-changes-message-container span {
+  font-size: 14px;
+  color: #FFF;
+  font-weight: normal;
+}
+#Scheduling .cost-summary-and-save-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+}
+#Scheduling .cost-summary-and-save-container .cost-summary-and-save {
+  background-color: #F4F4F4;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: -20px;
+  padding: 20px;
+  border-bottom-right-radius: 12px;
+}
+

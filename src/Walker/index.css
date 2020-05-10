@@ -1,0 +1,57 @@
+#Walker {
+  min-height: 400px;
+}
+#Walker .Switch label input[type=checkbox] + div:after {
+  top: 4px;
+}
+#Walker.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#Walker h6 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+#Walker .go-back {
+  margin-right: 15px;
+}
+#Walker .header-action-label {
+  font-size: 12px;
+  color: #B3B3B3;
+}
+#Walker .headerRightComponent {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+#Walker .headerRightComponent a {
+  z-index: 99999;
+}
+#Walker .headerRightComponent > div:not(:last-child) {
+  margin-right: 8px;
+}
+#Walker .headerRightComponent .button-container {
+  display: flex;
+}
+#Walker .headerRightComponent .delete-icon-container {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 28px;
+  justify-content: center;
+  max-height: 28px;
+  max-width: 28px;
+  min-height: 28px;
+  min-width: 28px;
+  overflow: hidden;
+  width: 28px;
+}
+#Walker .headerRightComponent .delete-icon-container img {
+  height: 60px;
+  margin-top: -2px;
+  width: 66px;
+}
+#Walker .SaveCancel {
+  margin-top: 40px;
+}

@@ -1,0 +1,7 @@
+.ServiceAddonsSelect {
+  min-width: 200px;
+  display: inline-block;
+}
+.ServiceAddonsSelect .CustomSelect .select-container {
+  width: 100%;
+}

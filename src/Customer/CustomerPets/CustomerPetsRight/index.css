@@ -1,0 +1,46 @@
+.CustomerPetsLeft .SectionBody .images-container .pet {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.CustomerPetsLeft .SectionBody .images-container .pet .image-container {
+  border-radius: 50%;
+  height: 80px;
+  overflow: hidden;
+  width: 80px;
+}
+.CustomerPetsLeft .SectionBody .images-container .pet .image-container img {
+  height: 100%;
+  width: 100%;
+}
+.CustomerPetsLeft .SectionBody .images-container .pet .pet-name {
+  color: #B3B3B3;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 100px;
+}
+.CustomerPetsRight {
+  flex: 1;
+  margin-bottom: 35px;
+}
+.CustomerPetsRight .SectionHeader .inner-container .left span {
+  font-size: 20px;
+}
+.CustomerPetsRight .data-display-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.CustomerPetsRight .data-display-container .DataDisplay {
+  width: 100%;
+}
+.CustomerPetsRight .data-display-container .DataDisplay:not(:last-child):not(.edit) {
+  margin-right: 60px;
+}
+.CustomerPetsRight .data-display-container .DataDisplay .DataDisplay-row .DataDisplay-column .label {
+  width: 180px;
+}

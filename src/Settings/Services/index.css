@@ -1,0 +1,35 @@
+#Services .loading {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  min-height: 300px;
+}
+#Services .CurrencyInput {
+  max-width: 100px;
+}
+#Services .Switch label input[type=checkbox] + div:after {
+  top: 4px;
+}
+#Services .Switch label {
+  line-height: normal;
+}
+
+#Services .CustomTable {
+  margin-left: -35px;
+  margin-right: -35px;
+}
+
+#Services .InputGroup {
+  margin-bottom: 0;
+}
+
+#Services .helper-msg {
+  padding: 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #666;
+  background: #ff81002e;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}

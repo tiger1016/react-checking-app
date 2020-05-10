@@ -1,0 +1,156 @@
+#Dashboard {
+  background: transparent !important;
+  box-shadow: none !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: -28px;
+  padding-bottom: 30px;
+}
+#Dashboard .dashboard-data-container {
+  display: flex;
+  flex: 1;
+  margin-bottom: 30px;
+  padding-right: 28px;
+}
+#Dashboard .dashboard-data-container .dashboard-data {
+  background-color: #FFFFFF;
+  border: 1px solid #F5F5F5;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  width: 100%;
+}
+#Dashboard .dashboard-data-container .dashboard-data .data-header {
+  align-items: center;
+  border-bottom: 2px solid #F5F5F5;
+  color: #666666;
+  display: flex;
+  flex-direction: row;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  height: 55px;
+  padding-left: 28px;
+  width: 100%;
+}
+
+#Dashboard .dashboard-data-container .dashboard-data .data-header > span{
+  position: relative;
+}
+
+#Dashboard .dashboard-data-container .dashboard-data .data-header > span .Help{
+  position: absolute;
+  right: -20px;
+  top: 2px;
+}
+
+#Dashboard .dashboard-data-container .dashboard-data .content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0;
+  position: relative;
+  /*
+        Pie chart
+         */
+  /*
+        Bar chart
+         */
+  /*
+        Line chart
+         */
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .pie-container {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin: auto;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .pie-container .inner-pie-data {
+  position: absolute;
+  top: 56px;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .pie-container .pie-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  padding-top: 15px;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .data-color {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .xAxis-labels {
+  display: flex;
+  flex-direction: row;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 0 4px;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .xAxis-labels span {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .barchart-legend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 8px;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .barchart-legend .data-color {
+  background: #42B856;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .barchart-legend span {
+  color: #B5B5B5;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 2px 24px 0 12px;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .line-chart-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding: 0 20px;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .line-chart-label div {
+  display: flex;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .line-chart-label div:last-child {
+  margin-right: 15%;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .line-chart-legend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+  padding: 0 20px;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content .line-chart-legend span {
+  padding-left: 15px;
+}

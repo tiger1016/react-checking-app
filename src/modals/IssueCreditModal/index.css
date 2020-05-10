@@ -1,0 +1,10 @@
+.IssueCreditModal {
+  flex: 1;
+  padding: 20px;
+}
+.IssueCreditModal .label {
+  /*width: 120px;*/
+}
+.IssueCreditModal .input {
+  /*width: 200px;*/
+}

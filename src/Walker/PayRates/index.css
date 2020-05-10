@@ -1,0 +1,47 @@
+#WalkerPayrate {
+  height: 781px;
+  margin: -35px;
+}
+#WalkerPayrate .rate {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  color: #999999;
+  line-height: 15px;
+  display: flex;
+}
+#WalkerPayrate .rate .payrateEdit {
+  width: 60px;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid #dadada;
+  color: #999999;
+  text-align: center;
+  font-size: 12px;
+}
+#WalkerPayrate .rate .icon {
+  cursor: pointer;
+  padding: 13px;
+  color: lightgrey;
+}
+#WalkerPayrate .payroll-services-container {
+  border-bottom: 1px solid #c4c4c4;
+}
+#WalkerPayrate .payroll-addons-container {
+  margin-top: 30px;
+}
+#WalkerPayrate .inner-container {
+  width: 100%;
+  overflow-y: auto;
+}
+#WalkerPayrate .inner-container .left {
+  width: 50%;
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: top;
+}
+#WalkerPayrate .inner-container .right {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}

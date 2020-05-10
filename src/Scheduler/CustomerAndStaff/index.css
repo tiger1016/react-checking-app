@@ -1,0 +1,111 @@
+#CustomerAndStaff .rbc-month-view {
+  border: none;
+  border-top: 2px solid #f3f4f5;
+  display: block;
+}
+#CustomerAndStaff .rbc-month-view .rbc-header {
+  border-bottom: 2px solid #f3f4f5;
+  color: #abacad;
+  font-size: 11px;
+  font-weight: normal;
+  padding: 40px;
+  text-transform: uppercase;
+}
+#CustomerAndStaff .rbc-month-view .rbc-header + .rbc-header {
+  border-left: 2px solid #f3f4f5;
+}
+#CustomerAndStaff .rbc-date-cell {
+  color: #c4c5c7;
+  font-size: 12px;
+  padding: 8px;
+  text-transform: uppercase;
+}
+#CustomerAndStaff .rbc-day-bg + .rbc-day-bg {
+  border-left: 2px solid #f3f4f5;
+}
+#CustomerAndStaff .rbc-month-row + .rbc-month-row {
+  border-top: 2px solid #f3f4f5;
+}
+#CustomerAndStaff .rbc-event {
+  border-radius: 0;
+  background: transparent;
+  font-size: 12px;
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+#CustomerAndStaff .rbc-event-label {
+  display: none;
+}
+#CustomerAndStaff .rbc-event .walk {
+  border-radius: 2px;
+  font-weight: normal;
+  padding: 5px 8px 15px 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#CustomerAndStaff .rbc-event .walk.approved {
+  background-color: #e4f6da;
+  color: #38792f;
+}
+#CustomerAndStaff .rbc-event .walk.late {
+  background-color: #fae5eb;
+  color: #9b405c;
+}
+#CustomerAndStaff .rbc-event .walk .pets {
+  font-weight: bold;
+  margin-right: 6px;
+}
+#CustomerAndStaff .rbc-show-more {
+  font-size: 11px;
+  color: #abacad;
+  background: #FFF;
+  padding: 0 0 0 6px;
+}
+#CustomerAndStaff .rbc-month-row {
+  min-height: 150px;
+  padding-bottom: 30px;
+  height: auto;
+}
+#CustomerAndStaff .rbc-time-view {
+  border: none;
+  border-top: 2px solid #f3f4f5;
+}
+#CustomerAndStaff .rbc-time-header > .rbc-row:first-child {
+  border-bottom: 2px solid #f3f4f5;
+}
+#CustomerAndStaff .rbc-header {
+  border-left: 2px solid #f3f4f5;
+  color: #abacad;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 30px 0 20px;
+  text-transform: uppercase;
+}
+#CustomerAndStaff .rbc-time-content {
+  border-top: 2px solid #f3f4f5;
+  overflow: visible;
+}
+#CustomerAndStaff .rbc-timeslot-group {
+  border-bottom: 2px solid #f3f4f5;
+}
+#CustomerAndStaff .rbc-time-content > * + * > * {
+  border-left: 2px solid #f3f4f5;
+}
+.rbc-label.rbc-header-gutter {
+  padding-top: 10px;
+}
+.rbc-label {
+  color: #abacad;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+}
+.rbc-label span {
+  background: #FFF;
+}
+.rbc-timeslot-group .rbc-label {
+  top: -7px;
+}

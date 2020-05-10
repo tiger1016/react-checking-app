@@ -1,0 +1,22 @@
+.ErrorDisplayContainer {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100%;
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+}
+.ErrorDisplayContainer .icon-container {
+    align-items: center;
+    color: #9b405c;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    padding: 10px;
+}
+.ErrorDisplayContainer .message {
+    font-size: 14px;
+}

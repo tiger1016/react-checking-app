@@ -1,0 +1,33 @@
+.DayMonthYear {
+  align-items: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.DayMonthYear .DaysOfMonthSelect {
+  margin-right: 10px;
+  max-width: 60px;
+  min-width: 60px;
+}
+.DayMonthYear .MonthsSelect {
+  margin-right: 10px;
+  max-width: 130px;
+  min-width: 130px;
+}
+.DayMonthYear .MonthsSelect.number-label {
+  margin-right: 10px;
+  max-width: 60px;
+  min-width: 60px;
+}
+.DayMonthYear div:last-child {
+  display: flex;
+  flex: 1;
+}
+.DayMonthYear div:last-child > div {
+  flex: 1;
+}
+.DayMonthYear .Select-menu {
+  flex-direction: column;
+}

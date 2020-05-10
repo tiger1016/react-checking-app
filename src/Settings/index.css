@@ -1,0 +1,28 @@
+#Settings {
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: -5px 8px 6px -6px #DADADA;
+}
+#Settings .settings-inner {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  font-size: 80%;
+  height: 100%;
+  font-weight: 500;
+  line-height: 30px;
+  padding-right: 1px;
+  width: 100%;
+}
+#Settings .settings-inner .settings-body .section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 200px;
+  padding-bottom: 20px;
+}
+#Settings .full-width-section {
+  margin-left: -35px;
+  margin-right: -37px;
+}

@@ -1,0 +1,16 @@
+.SectionBody {
+    color: #4D4D4D;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 35px;
+  }
+  .SectionBody.no-h-padding {
+    padding: 35px 0;
+  }
+  .SectionBody.no-v-padding {
+    padding: 0 35px;
+  }
+  .SectionBody.no-padding {
+    padding: 0;
+  }

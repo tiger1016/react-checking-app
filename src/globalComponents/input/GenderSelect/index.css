@@ -1,0 +1,6 @@
+.GenderSelect .CustomSelect .select-container {
+  width: 80px;
+}
+.GenderSelect {
+  display: inline-block;
+}

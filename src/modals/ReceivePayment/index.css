@@ -1,0 +1,550 @@
+.ReceivePayment {
+  flex: 1;
+  color: gray;
+  font-family: Roboto;
+  height: 100%;
+  overflow: hidden;
+  min-width: 600px;
+  min-height: 340px;
+}
+
+.ReceivePayment .issue-credit-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ReceivePayment .tab-container {
+  padding: 20px;
+}
+
+.ReceivePayment .div-container {
+  padding: 10px 0 20px;
+}
+
+.ReceivePayment .tab-container .tab-container {
+  padding: 20px 0;
+}
+
+.ReceivePayment .empty {
+  min-height: 200px;
+  padding: 0;
+}
+
+.ReceivePayment .span-label {
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  /*line-height: 15px;*/
+  padding: 10px 0 20px;
+  /*vertical-align: top;*/
+}
+
+.ReceivePayment .remaining-amount {
+  align-items: center;
+  display: flex;
+  font-size: 13px;
+  height: 24px;
+}
+.ReceivePayment .remaining-amount.positive-amount {
+  color: green;
+}
+
+.ReceivePayment .remaining-outstanding {
+  align-items: center;
+  display: flex;
+  font-size: 13px;
+  height: 24px;
+}
+.ReceivePayment .remaining-outstanding.positive-outstanding {
+  color: red;
+}
+
+
+.ReceivePayment .Invoice-head {
+  padding: 20px 0px 0px 30px;
+}
+
+.ReceivePayment .Invoice-head .title-text {
+  height: 60px;
+  width: 194px;
+  color: #4D4D4D;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 60px;
+  margin: 0px !important;
+}
+
+.ReceivePayment .Invoice-head .partial {
+  margin-left: 30px;
+  background-color: #aeaeae;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 5px 15px;
+}
+
+.ReceivePayment .Invoice-head .paid {
+  margin-left: 30px;
+  background-color: #3da647;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 5px 15px;
+}
+
+.ReceivePayment .Invoice-head .unpaid {
+  margin-left: 30px;
+  background-color: #FF9D9D;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 5px 15px;
+}
+
+.ReceivePayment .Datebox {
+  float: right;
+  width: 30%;
+  background: #f1f1f1;
+  padding: 10px;
+  font-size: 14px;
+  margin-right: 5%;
+  border-radius: 5px;
+}
+
+.ReceivePayment .Datebox span {
+  text-align: right;
+  margin-bottom: 5px;
+  font-weight: normal;
+  float: right;
+}
+
+.ReceivePayment .Datebox p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.ReceivePayment .Addressbox {
+  padding: 20px 0px 0px 30px;
+  width: 60%;
+  height: 120px;
+  display: inline-block;
+}
+
+.ReceivePayment .Addressbox .left {
+  width: 50%;
+  display: inline-block;
+  padding-right: 10%;
+}
+
+.ReceivePayment .Addressbox .right {
+  width: 50%;
+  display: inline-block;
+  padding-right: 10%;
+}
+
+.ReceivePayment .Addressbox .header {
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.ReceivePayment .Addressbox .namebilling {
+  font-size: 14px;
+}
+
+.ReceivePayment .Addressbox .name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ReceivePayment .Addressbox .address {
+  font-size: 14px;
+}
+
+.ReceivePayment .Addressbox .location {
+  font-size: 14px;
+}
+
+.ReceivePayment .payrolldetail-container {
+  height: 55%;
+}
+
+.ReceivePayment .payrolldetail-container .payrolldetail-column-headers {
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ReceivePayment .payrolldetail-container .payrolldetail-column-headers .header-style {
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  padding: 0px !important;
+  text-transform: uppercase;
+}
+
+.ReceivePayment .payrolldetail-container .payrolldate-container {
+  width: 20%;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+.ReceivePayment .payrolldetail-container .payrollitem-container {
+  width: 45%;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+.ReceivePayment .payrolldetail-container .payrollpet-container {
+  width: 20%;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+.ReceivePayment .payrolldetail-container .payrollamount-container {
+  width: 10%;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 3px;
+}
+
+.ReceivePayment .payrolldetail-container .row-container {
+  display: flex;
+  padding: 20px 30px 20px 30px !important;
+}
+
+.ReceivePayment .payrolldetail-container .row-container:nth-child(odd) {
+  background-color: #F6F6F6;
+}
+
+.ReceivePayment .payrolldetail-container .row-container:nth-child(even) {
+  background-color: #FFF;
+}
+
+.ReceivePayment .payrolldetail-container .row-scroll {
+  height: auto;
+  max-height: 70%;
+  overflow: auto;
+}
+
+.ReceivePayment .totalamount {
+  padding: 20px;
+  text-align: right;
+  display: flex;
+}
+
+.ReceivePayment .totalamount .amount {
+  display: inline-block;
+  text-align: left;
+  width: 10%;
+}
+
+.ReceivePayment .totalamount .label {
+  display: inline-block;
+  margin-left: -10px;
+  padding-right: 10px;
+  width: 85%;
+  text-align: right;
+}
+
+.ReceivePayment .tab {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 3px solid #D8D8D8;
+}
+
+.ReceivePayment .tab .tabItem {
+  padding-left: 20px;
+  width: 32%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.ReceivePayment .tab .tabItem .tabIcon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #D8D8D8;
+  border-radius: 50px;
+  float: left;
+  margin: 10px;
+  color: #D8D8D8;
+}
+
+.ReceivePayment .tab .tabItem .tabIcon.active {
+  border: 2px solid #1875F0;
+  color: #1875F0;
+}
+
+.ReceivePayment .tab .tabItem .tabStep {
+  width: 80px;
+  display: block;
+  font-size: 10px;
+  color: #D8D8D8;
+  padding-top: 13px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.ReceivePayment .tab .tabItem .tabTittle {
+  font-size: 12px;
+  color: #999999;
+}
+
+.ReceivePayment .issue-billing-box {
+  width: 100%;
+  height: 528px;
+  border-bottom: 1px solid #F5F5F5;
+  overflow-y: auto;
+  padding-bottom: 30px;
+}
+
+.ReceivePayment .issue-billing-box input[type=number] {
+  padding: 5px 5px 5px 5px;
+  width: 203px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ReceivePayment .issue-billing-box input[type=number]:focus {
+  border: 1px solid #555;
+  border-radius: 4px;
+}
+
+.ReceivePayment .refund-type-container {
+  background-color: white;
+  border: 2px solid #D8E0E2;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.ReceivePayment .tab-container {
+  padding-top: 20px;
+}
+
+.ReceivePayment .refundss-type-container {
+  width: 33%;
+}
+
+.ReceivePayment .refund-credit {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-top: 8px;
+  padding-left: 25px;
+}
+
+.ReceivePayment .value-refund-data {
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 14px;
+}
+
+.ReceivePayment .refund-column-headers {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.ReceivePayment .refund-header-style {
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  padding-left: 10px;
+}
+
+.ReceivePayment .checkbox_align {
+  width: 20px;
+  height: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ReceivePayment .refunds-header {
+  padding-left: 17px;
+  width: 15%;
+}
+
+.ReceivePayment .refunds-date-header {
+  padding-left: 20px;
+  width: 20%;
+}
+
+.ReceivePayment .refund-row-container:nth-child(even) {
+  background-color: #F6F6F6;
+}
+
+.ReceivePayment .refund-row-container:nth-child(odd) {
+  background-color: #FFF;
+}
+
+.ReceivePayment .refunds-invoice-scroll {
+  overflow-y: auto;
+  min-height: auto;
+  max-height: 180px;
+}
+
+.ReceivePayment .refund-row-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  border: 1px solid #F5F5F5;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  height: 58px;
+  padding-top: 22px;
+  padding-bottom: 21px;
+  padding-left: 5px;
+}
+
+.ReceivePayment .refund-row-container .dates-container {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: inherit;
+}
+
+.ReceivePayment .refund-row-container .amounts-container {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 17px;
+}
+
+.ReceivePayment .input-container {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.ReceivePayment .input-container .input-sub-container {
+  margin-bottom: 10px;
+}
+
+.ReceivePayment .checkPayment-container {
+  width: 450px;
+}
+
+.ReceivePayment .ccPayment-container {
+  padding-right: 30px;
+}
+
+.ReceivePayment .input-label {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px 10px 10px 0px;
+}
+
+.ReceivePayment .check-label {
+  text-transform: capitalize;
+  margin-top: 10px;
+  font-family: Roboto;
+  font-size: 13px;
+  padding-left: 5px;
+  color: #6C6C6C;
+}
+
+.ReceivePayment .value-label {
+  font-family: Roboto;
+  font-size: 13px;
+  padding-left: 5px;
+  color: #DADADA;
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+}
+
+.ReceivePayment .input-dollar {
+  font-family: Roboto;
+  font-size: 11px;
+  padding-right: 5px;
+  color: #DADADA;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.ReceivePayment .failed {
+  color: red;
+  max-width: 400px;
+}
+
+.ReceivePayment .failed i {
+  padding: 15px;
+  border: 2px solid red;
+  border-radius: 100%;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  color: red;
+}
+
+.ReceivePayment .failed span {
+  line-height: 10px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.paddedHeader .CustomTable .rt-thead.-header {
+  padding-right: 32px;
+}
+
+/* .ReceivePayment .ReactTable .rt-thead {
+  overflow-y: scroll;
+} */
+@media (max-height: 768px){
+  .padding-bottom {
+  padding-bottom: 50px !important
+  }
+}
+
+@media (max-height: 700px){
+  .padding-bottom {
+  padding-bottom: 100px !important
+  }
+}
+
+@media (max-height: 650px){
+  .padding-bottom {
+  padding-bottom: 100px !important
+  }
+}

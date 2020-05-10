@@ -1,0 +1,36 @@
+#Alerts {
+  min-height: 200px;
+}
+#Alerts.empty {
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  padding-bottom: 100px;
+}
+#Alerts .SectionHeader:nth-child(3) {
+  margin-bottom: 15px;
+}
+#Alerts .main-buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  jusrify-content: flex-end;
+}
+#Alerts .main-buttons-wrapper .button-container:first-child {
+  background-color: #999;
+  margin-right: 15px;
+}
+#Alerts .TableInputGroup .HeaderRow .Column:first-child,
+#Alerts .TableInputGroup .Row .Column:first-child {
+  padding-left: 20px;
+  padding-right: 0px;
+}
+#Alerts .pagination-container {
+  padding: 20px 60px;
+}
+#Alerts .alertLoading {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

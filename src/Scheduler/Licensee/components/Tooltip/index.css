@@ -1,0 +1,140 @@
+.WalkDetailTooltip {
+  background-color: #FFF;
+  border: 1px solid #bababa;
+  border-radius: 16px;
+  color: #ffffff;
+  overflow: hidden;
+  position: absolute;
+  width: 460px;
+  z-index: 15000;
+}
+.WalkDetailTooltip .container {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  color: #666666;
+  justify-content: flex-start;
+  position: relative;
+}
+.WalkDetailTooltip .container .close {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+}
+.WalkDetailTooltip .container .close .CustomIcon.icon-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.WalkDetailTooltip .container .close .CustomIcon.icon-container .icon {
+  color: #FFF;
+  font-size: 24px;
+  text-align: center;
+}
+.WalkDetailTooltip .container .top {
+  align-items: stretch;
+  background-color: rgb(19, 77, 119);
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 76px;
+  position: relative;
+}
+.WalkDetailTooltip .container .top .edit {
+  align-items: center;
+  background-color: rgb(40, 105, 152);
+  border-radius: 100%;
+  bottom: -20px;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.2);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: absolute;
+  left: 20px;
+}
+.WalkDetailTooltip .container .top .edit .CustomIcon .icon {
+  align-items: center;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.WalkDetailTooltip .container .top .title {
+  align-items: stretch;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.WalkDetailTooltip .container .top .title .line-1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.WalkDetailTooltip .container .top .title .line-2 {
+  font-weight: 300;
+}
+.WalkDetailTooltip .container .data {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 12px;
+  padding: 35px 20px 20px;
+  font-weight: 500;
+}
+.WalkDetailTooltip .data .details {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  position: relative;
+}
+.WalkDetailTooltip .data .details .delete {
+  position: absolute;
+  right: 0;
+  top: -5px;
+}
+.WalkDetailTooltip .data .details .delete .button-container.text-only.icon-only .icon-only-button .icon-container .icon-wrapper .icon {
+  color: rgb(119, 119, 119);
+}
+.WalkDetailTooltip .data .details > .icon-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 20px 0 18px;
+}
+.WalkDetailTooltip .data .details .icon-container .details-icon {
+  color: rgb(119, 119, 119);
+  font-size: 30px;
+}
+.WalkDetailTooltip .data .details .icon-container .color-badge {
+  height: 20px;
+  border-radius: 50%;
+  width: 20px;
+}
+.WalkDetailTooltip .data .details .details-text {
+  color: rgb(119, 119, 119);
+  display: flex;
+  font-weight: normal;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.WalkDetailTooltip .data .details .details-text .line-1 {
+  font-size: 18px;
+  margin-bottom: 2px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.WalkDetailTooltip .data .details .details-text .line-2 {
+  font-size: 14px;
+}
+
+
+
+

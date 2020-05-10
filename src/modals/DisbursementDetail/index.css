@@ -1,0 +1,172 @@
+#DisbursementDetail {
+  color: gray;
+  font-family: Roboto;
+  overflow: hidden;
+  min-width: 740px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+#DisbursementDetail .Disbursement-head {
+  padding: 20px 20px 0 20px;
+  width: 100%;
+}
+
+#DisbursementDetail .Disbursement-head .title-text {
+  height: 60px;
+  width: 194px;
+  color: #4D4D4D;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 60px;
+  margin: 0px !important;
+}
+
+#DisbursementDetail .Disbursement-head .partial {
+  margin-left: 30px;
+  background-color: #aeaeae;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 5px 15px;
+}
+
+#DisbursementDetail .Disbursement-head .paid {
+  margin-left: 30px;
+  background-color: #3da647;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 5px 15px;
+}
+
+#DisbursementDetail .Disbursement-head .unpaid {
+  margin-left: 30px;
+  background-color: #FF9D9D;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 5px 15px;
+}
+
+#DisbursementDetail .Datebox {
+  float: right;
+  width: 30%;
+  background: #f1f1f1;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+#DisbursementDetail .Datebox span {
+  text-align: right;
+  margin-bottom: 5px;
+  font-weight: normal;
+  float: right;
+  text-transform: capitalize;
+}
+
+#DisbursementDetail .Datebox p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#DisbursementDetail .payrolldetail-column-headers {
+  padding: 10px 30px 10px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+#DisbursementDetail .payrolldetail-column-headers div:first-child {
+  padding-left: 30px !important;
+}
+
+#DisbursementDetail .payrolldetail-column-headers .header-style {
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  padding: 0px !important;
+  text-transform: uppercase;
+}
+
+#DisbursementDetail .customer-container {
+  width: 130px;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+#DisbursementDetail .date-container {
+  width: 160px;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+#DisbursementDetail .salestax-container {
+  width: 150px;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+#DisbursementDetail .invoice-amount-container {
+  width: 120px;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 3px;
+}
+
+#DisbursementDetail .disbursed-amount-container {
+  width: 80px;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 3px;
+}
+
+#DisbursementDetail .pct-fee-container {
+  width: 85px;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 3px;
+}
+
+#DisbursementDetail .row-container {
+  align-items: center;
+  display: flex;
+  height: 47px;
+}
+
+#DisbursementDetail .row-container>div:first-child {
+  display: flex;
+  justify-content: center;
+}
+
+#DisbursementDetail .row-container:nth-child(odd) {
+  background-color: #F6F6F6;
+}
+
+#DisbursementDetail .row-container:nth-child(even) {
+  background-color: #FFF;
+}
+
+#DisbursementDetail .row-scroll {
+  flex: 1;
+}

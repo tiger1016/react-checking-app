@@ -1,0 +1,294 @@
+@import url(//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(//fonts.gstatic.com/s/roboto/v18/KFOiCnqEu92Fr1Mu51QrEzAdKg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxIIzc.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
+}
+
+html {
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #F6F6F6;
+    font-family: Roboto, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 1em;
+    height: 100%;
+    width: 100%;
+}
+
+body.ReactModal__Body--open #root {
+    overflow: hidden;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+#main-web-container {
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+.react-spinner {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    top: 16px;
+    left: 16px;
+}
+
+.react-spinner_bar {
+    -webkit-animation: react-spinner_spin 1.2s linear infinite;
+    -moz-animation: react-spinner_spin 1.2s linear infinite;
+    animation: react-spinner_spin 1.2s linear infinite;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    width: 20%;
+    height: 7.8%;
+    top: -3.9%;
+    left: -10%;
+}
+
+@keyframes react-spinner_spin {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.15;
+    }
+}
+
+@-moz-keyframes react-spinner_spin {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.15;
+    }
+}
+
+@-webkit-keyframes react-spinner_spin {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.15;
+    }
+}
+
+.desktopOnly a {
+    text-decoration: none;
+}
+
+.desktopOnly .btnPrimary {
+    outline: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    background-color: #1875F0;
+    border: none;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.desktopOnly .btnCircle {
+    background-color: buttonface;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 11px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    border-top-width: 10px;
+    padding-left: 16px;
+    border-left-width: 12px;
+    padding-right: 27px;
+    border-bottom-width: 18px;
+    margin-top: 12px;
+    height: 40px;
+    width: 156px;
+    float: right;
+}
+
+.desktopOnly .btnPrimaryCircle {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 11px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    border-top-width: 10px;
+    padding-left: 16px;
+    border-left-width: 12px;
+    padding-right: 27px;
+    border-bottom-width: 18px;
+    margin-top: 12px;
+    height: 40px;
+    width: 156px;
+    float: right;
+    background-color: #1875F0;
+}
+
+.desktopOnly .btnLight {
+    margin-left: 6.5%;
+    cursor: pointer;
+}
+
+.desktopOnly .header-top {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 21px;
+}
+
+.desktopOnly .header-top .header-right {
+    float: right;
+}
+
+.desktopOnly .header-top .header-right>* {
+    margin-left: 10px;
+}
+
+.desktopOnly .title-text {
+    height: 60px;
+    width: 194px;
+    color: #4D4D4D;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 60px;
+    margin-left: 20px;
+}
+
+.desktopOnly .ion-ios-calendar-outline {
+    position: absolute;
+    margin-left: -20px;
+    z-index: 9;
+    margin-top: 10px;
+    color: #DDDDDD;
+}
+
+.desktopOnly .row-scroll {
+    width: 100%;
+    overflow-y: auto;
+    height: inherit;
+}
+
+.desktopOnly .row-scroll .datePicker {
+    width: 100%;
+}
+
+.toastify {
+    z-index: 9999;
+}
+
+.errBorder {
+    border: 2px solid #c7011a !important;
+}
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    padding-bottom: 100px;
+}
+
+.loader {
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.selectLoading {
+    color: #808080 !important;
+    font-size: 12px;
+}
+
+.select-menu-outer {
+    z-index: 9999999 !important;
+}
+
+.react-datepicker-popper {
+    z-index: 9999999 !important;
+}
+
+.ReactTable .rt-table {
+    overflow-x: hidden !important;
+}
+
+.no-decoration {
+    text-decoration: none !important;
+}

@@ -1,0 +1,406 @@
+.addCustomer-container {
+  display: flex;
+  flex: 1;
+}
+.addCustomer-container .sub-align {
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+}
+.addCustomer-container .container {
+  width: 100%;
+}
+.addCustomer-container .container.two {
+  border-top: 3px solid #F4F4F4;
+  margin: 25px 0;
+  padding-top: 25px;
+}
+.addCustomer-container .table-container {
+  margin: 0 -20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.addCustomer-container .table-container .container{
+height: 215px;
+overflow-y: auto;
+}
+.addCustomer-container .petPictureContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.addCustomer-container .petPictureContainer .right {
+  flex: 1;
+}
+.addCustomer-container .add-profile-high {
+  height: 650px;
+  overflow-y: auto;
+}
+.addCustomer-container .add-customer {
+  width: 100%;
+}
+.addCustomer-container .add-customer-input-name {
+  width: 40%;
+}
+.addCustomer-container .inputClass {
+  width: 50%;
+  background-color: #b5b1b1;
+  color: #fff;
+}
+.addCustomer-container .input-container {
+  margin-bottom: 10px;
+}
+.addCustomer-container .input-container input {
+  vertical-align: bottom;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  height: 16px;
+  padding: 10px 10px 10px 10px !important;
+  border: 1px solid #DADADA;
+  border-radius: 5px !important;
+  width: 50%;
+}
+.addCustomer-container .input-container select {
+  height: 40px !important;
+  color: #999999;
+  width: 26%;
+  margin-right: 10px;
+}
+.addCustomer-container .input-container textarea {
+  height: 80px;
+  width: 50%;
+  resize: vertical;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #999999;
+  padding: 10px 10px 10px 10px !important;
+  border: 1.5 px solid #DADADA;
+  border-radius: 5px !important;
+}
+.addCustomer-container .input-container .Select {
+  width: 26%;
+  margin-right: 10px;
+  display: inline-block;
+  margin-bottom: -3px;
+}
+.addCustomer-container .input-container .Select input {
+  border: none;
+  width: 100%;
+}
+.addCustomer-container .input-container .Select-control {
+  border: 1px solid #DADADA;
+  min-height: 40px;
+}
+.addCustomer-container .input-container .Select-value-label {
+  color: #999999 !important;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 36px !important;
+}
+.addCustomer-container .input-container .passwordMask {
+  width: 50%;
+  display: inline-block;
+}
+.addCustomer-container .service-column-div-edit-rates {
+  width: 30%;
+  float: left;
+}
+.addCustomer-container .input-label {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px 10px 10px 0px;
+}
+.addCustomer-container .table-container-profile {
+  margin-left: 26px;
+  margin-top: 20px;
+  display: block;
+}
+.addCustomer-container .cus-profile-label {
+  vertical-align: top;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px;
+}
+.addCustomer-container .add-customer-title {
+  width: 100%;
+  color: #666666;
+  font-family: Roboto;
+  font-size: 24px;
+  margin: 0px 0px 20px;
+}
+.addCustomer-container .add-customer-title1 {
+  font-family: Roboto;
+  font-size: 40px;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+.addCustomer-container .add-service-actions {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  max-width: 455px;
+  justify-content: space-between;
+}
+.addCustomer-container .add-service-actions div {
+  border-radius: 4px;
+}
+.addCustomer-container .border-align {
+  border-radius: 25px;
+  padding-left: 130px;
+  width: 1100px;
+  height: auto;
+}
+.addCustomer-container .border-align-1 {
+  width: 1100px;
+  padding-top: 15px;
+  height: auto;
+}
+.addCustomer-container .sub-align-pricing .rate-row-edit-rates {
+  padding-left: 30px !important;
+}
+.addCustomer-container .main-align {
+  border-radius: 2px;
+  border: 2px solid lightgrey;
+  width: 1363px;
+  height: auto;
+}
+.addCustomer-container .cus-contact-container1 {
+  width: 100%;
+  height: 500px;
+  border-bottom: 1px solid #F5F5F5;
+}
+.addCustomer-container .add-new-cust-actions {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  justify-content: space-between;
+  border-top: 3px solid #F4F4F4;
+  float: right;
+}
+.addCustomer-container .add-new-cust-actions button {
+  width: 109px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.addCustomer-container .add-new-cust-actions .save button {
+  background-color: #3DA647;
+}
+.addCustomer-container .add-pet-profile-container {
+  margin-top: 5%;
+  width: 20%;
+  margin-left: 10%;
+}
+.addCustomer-container .add-pet-container {
+  margin-left: 20%;
+  padding-top: 2%;
+  width: 80%;
+}
+.addCustomer-container .pets-pic-div {
+  background-color: #fff;
+  width: 170px;
+  height: 180px;
+  margin-left: 30px;
+}
+.addCustomer-container .pets-show-pic-div {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.addCustomer-container .invoice-term-options-size .Select-control {
+  height: 30px;
+}
+.addCustomer-container .invoice-term-options-size .Select-control .Select-placeholder {
+  line-height: 26px;
+}
+.addCustomer-container .invoice-term-options-size .Select-control .Select-value {
+  line-height: 0px !important;
+}
+.addCustomer-container .invoice-term-options-size .Select-control .Select-value .Select-value-label {
+  line-height: 26px;
+}
+.addCustomer-container .invoice-term-options-size .Select-control .Select-input {
+  height: 26px;
+}
+.addCustomer-container .invoice-term-options-size .Select-menu-outer {
+  z-index: 99 !important;
+}
+.addCustomer-container .close {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.addCustomer-container .input-container {
+  margin-bottom: 10px;
+}
+.addCustomer-container .input-container .input-label {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px 10px 10px 0px;
+}
+.addCustomer-container .input-container input {
+  vertical-align: bottom;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  height: 16px;
+  padding: 10px 10px 10px 10px !important;
+  border: 1px solid #DADADA;
+  border-radius: 5px !important;
+  width: 50%;
+}
+.addCustomer-container .input-container select {
+  height: 40px !important;
+  color: #999999;
+  width: 26%;
+  margin-right: 10px;
+}
+.addCustomer-container .input-container textarea {
+  height: 80px;
+  width: 50%;
+  resize: vertical;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #999999;
+  padding: 10px 10px 10px 10px !important;
+  border: 1.5 px solid #DADADA;
+  border-radius: 5px !important;
+}
+.addCustomer-container .input-container .Select {
+  width: 26%;
+  margin-right: 10px;
+  display: inline-block;
+  margin-bottom: -3px;
+}
+.addCustomer-container .input-container .Select input {
+  border: none;
+  width: 100%;
+}
+.addCustomer-container .input-container .Select-control {
+  border: 1px solid #DADADA;
+  min-height: 40px;
+}
+.addCustomer-container .input-container .Select-value-label {
+  color: #999999 !important;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 36px !important;
+}
+.addCustomer-container .input-container .passwordMask {
+  width: 50%;
+  display: inline-block;
+}
+.addCustomer-container .input-container .ServicesSelect,
+.addCustomer-container .input-container .WalkersSelect {
+  width: 26%;
+  display: inline-block;
+}
+.addCustomer-container .rate-row-edit-rates2 {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 100%;
+  height: 50px;
+}
+.addCustomer-container .service-column-div-edit-rates {
+  width: 30%;
+  float: left;
+  display: flex;
+}
+.addCustomer-container .rate-row-edit-rates:nth-child(even) {
+  background-color: #F6F6F6;
+}
+.addCustomer-container .rate-row-edit-rates:nth-child(odd) {
+  background-color: #FFF;
+}
+.addCustomer-container .rate-row-edit-rates2:nth-child(even) {
+  background-color: #F6F6F6;
+}
+.addCustomer-container .rate-row-edit-rates2:nth-child(odd) {
+  background-color: #FFF;
+}
+.addCustomer-container .rate-heading-padding-edit-tab {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+.addCustomer-container .edit-rate-actions {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 455px;
+  justify-content: space-between;
+}
+.addCustomer-container .edit-rate-actions button {
+  width: 109px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.addCustomer-container .edit-rate-actions .add-service-modal button {
+  background-color: #3DA647;
+}
+.addCustomer-container .edit-rate-actions .delete button {
+  margin-left: 300px;
+  background-color: #7D7D7D;
+}
+.addCustomer-container .edit-rate-actions .save button {
+  margin-left: 20px;
+  background-color: #3DA647;
+}
+.addCustomer-container .row-span {
+  display: inline-block;
+  vertical-align: top;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px 10px 10px 0px;
+}
+.addCustomer-container .uploadBtn {
+  overflow: hidden;
+  width: 0px;
+  background: red;
+  display: none;
+}

@@ -1,0 +1,11 @@
+.DateArrows {
+  display: flex;
+  justify-content: space-between;
+}
+.DateArrows .back-button {
+  background: transparent;
+  border: none;
+  color: #000;
+  height: 30px;
+  width: 30px;
+}

@@ -1,0 +1,45 @@
+#Dashboard .dashboard-data-container.CustomerBase .dashboard-data .data-header {
+  border-bottom-color: transparent;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content.customer-base-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content.customer-base-container .customer-data {
+  display: flex;
+  font-family: Roboto;
+  line-height: 40px;
+  font-size: 26px;
+  font-weight: 400;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0 40px;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content.customer-base-container .customer-data div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content.customer-base-container .customer-legend {
+  display: flex;
+  flex-direction: column;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content.customer-base-container .customer-legend .legend-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 40px;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+}
+@media screen and (max-width: 990px) {
+  #Dashboard .dashboard-data-container.CustomerBase {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+.HourMinuteSelect {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.HourMinuteSelect:last-child {
+  margin-bottom: 0;
+}
+.HourMinuteSelect .preLabel {
+  margin-right: 10px;
+}
+.HourMinuteSelect .postLabel {
+  margin-left: 10px;
+}
+.HourMinuteSelect .separator {
+  padding: 0 5px;
+}
+.HourMinuteSelect .CustomSelect {
+  max-width: 80px;
+  width: 80px !important;
+
+}
+.HourMinuteSelect .CustomSelectWithIcon {
+  min-width: 80px;
+  max-width: 88px;
+}

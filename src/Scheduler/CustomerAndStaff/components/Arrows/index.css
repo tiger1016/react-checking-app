@@ -1,0 +1,15 @@
+.Arrows {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+.Arrows .button-square-container:first-child {
+  border-bottom-right-radius: 0;
+  border-right: none;
+  border-top-right-radius: 0;
+}
+.Arrows .button-square-container:nth-child(2) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}

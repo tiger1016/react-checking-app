@@ -1,0 +1,20 @@
+#TodayButton {
+}
+
+#TodayButton .today-button {
+  background-color: rgb(232,232,232);
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  line-height: 14px;
+  letter-spacing: 1px;
+  padding: 10px;
+  text-align: center;
+}
+
+#TodayButton .__react_component_tooltip.type-info {
+}

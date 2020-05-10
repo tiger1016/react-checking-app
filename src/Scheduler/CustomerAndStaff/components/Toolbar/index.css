@@ -1,0 +1,14 @@
+.ToolBar > .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 18px;
+}
+.ToolBar > .container .left,
+.ToolBar > .container .right {
+  display: flex;
+}
+.ToolBar > .container .date {
+  color: #383a3b;
+  font-size: 18px;
+}

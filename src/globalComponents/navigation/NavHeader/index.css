@@ -1,0 +1,168 @@
+.NavHeader {
+  align-self: flex-start;
+  background-color: white;
+  box-shadow: -5px 8px 6px -6px #dadada;
+  display: flex;
+  flex-direction: row;
+  height: 91px;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 0;
+}
+.NavHeader .left-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.NavHeader .right-header {
+  display: flex;
+  flex-direction: row;
+  min-width: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.NavHeader .right-header .clearfix {
+  width: 110px;
+}
+.NavHeader .right-header .myMenu {
+  position: absolute;
+  right: 0;
+  margin-top: 40px;
+  margin-right: 20px;
+  font-family: Roboto !important;
+  font-size: 13px !important;
+  color: #999999 !important;
+  top: -30px;
+}
+.NavHeader .right-header .myMenu a {
+  font-family: Roboto !important;
+  font-size: 13px !important;
+  color: #999999 !important;
+  text-decoration: none !important;
+}
+.NavHeader .right-header .myMenu .Menu__MenuOptions {
+  margin-top: 10px;
+}
+.NavHeader .right-header .myMenu .Menu__MenuOptions .Menu__MenuOption {
+  cursor: pointer;
+  padding: 15px;
+}
+.NavHeader .right-header .myMenu .Menu__MenuOptions .Menu__MenuOption a {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: -15px;
+}
+.NavHeader .right-header .myMenu .Menu__MenuOptions .Menu__MenuOption:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.NavHeader .right-header .myMenu .profile-pic {
+  height: 46px !important;
+  width: 46px !important  ;
+  border-radius: 100%;
+}
+.NavHeader .right-header .myMenu .profile-name {
+  padding: 20px 5px 10px 10px;
+  display: none;
+}
+.NavHeader .right-header .myMenu.active {
+  width: 160px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px grey;
+  z-index: 9;
+  margin-right: 38px;
+}
+.NavHeader .right-header .myMenu.active .profile-name {
+  display: inline-block;
+  width: 72px;
+}
+.NavHeader .right-header .profile-pic-container {
+  border-radius: 100%;
+  height: 46px;
+  display: inline-block;
+  width: 46px;
+  border: 2px solid transparent;
+  overflow: hidden;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.NavHeader .right-header .profile-pic span {
+  display: flex;
+  flex: 1;
+}
+.NavHeader .right-header > div {
+  position: relative;
+}
+.NavHeader .right-header > * {
+  margin-left: 15px;
+}
+.NavHeader .right-header > *:last-child {
+  margin-left: 20px;
+}
+.NavHeader .right-header .offline-strike {
+  -moz-transform: rotate(-28deg);
+  -ms-transform: rotate(-28deg);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104,sizingMethod='auto expand')";
+  -o-transform: rotate(-28deg);
+  -webkit-transform: rotate(-28deg);
+  background: #f0dbe1;
+  border: 1px solid #FFF;
+  bottom: 12px;
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.9914448613738104, M12=-0.13052619222005157, M21=0.13052619222005157, M22=0.9914448613738104);
+  height: 4px;
+  position: absolute;
+  transform: rotate(-28deg);
+  width: 110%;
+  zoom: 1;
+}
+.NavHeader .right-header .icon {
+  font-size: 24px;
+  color: #d5d5d5;
+}
+
+.NavHeader .right-header .icon.online {
+  color: #e4f5da;
+}
+
+.NavHeader .right-header .icon.offline {
+  color: #f0dbe1;
+}
+
+.NavHeader .right-header .icon.touchable {
+  cursor: pointer;
+}
+
+.NavHeader .right-header .active {
+  color: #1875F0;
+}
+
+.NavHeader .right-header .notifications {
+  position: relative;
+}
+
+.NavHeader .right-header .notifications .badge {
+  align-items: center;
+  background-color: red;
+  border-radius: 100%;
+  color: #FFF;
+  display: flex;
+  font-size: 9px;
+  height: 14px;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  right: -7px;
+  top: 0;
+  width: 14px;
+}
+
+.Menu1 {
+  max-width: 88px;
+}
+
+.Menu1.active {
+  max-width: 100% !important;
+}

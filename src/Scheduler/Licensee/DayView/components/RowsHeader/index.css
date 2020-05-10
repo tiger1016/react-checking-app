@@ -1,0 +1,43 @@
+#Scheduler-DayView #DailyViewHeader {
+  border-bottom: 1px solid #f5f5f5;
+}
+#Scheduler-DayView #DailyViewHeader-PinnedToTop {
+  position: fixed;
+  top: 43px;
+  left: 0;
+  background: transparent;
+  z-index: 101;
+  border: none;
+  display: none;
+}
+#Scheduler-DayView .hour-column-header {
+  align-items: center;
+  border-color: #f5f5f5;
+  border-style: solid;
+  border-width: 1px;
+  color: #B7B7B7;
+  display: flex;
+  float: left;
+  font-size: 12px;
+  font-weight: 500;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+}
+#Scheduler-DayView .hour-column-header.active {
+  background: #76887b;
+  color: #FFF;
+}
+#Scheduler-DayView .search-pinned-to-top-container {
+  height: 60px;
+  float: left;
+  background: #FFF;
+  text-align: center;
+  padding: 20px 0;
+  border-color: #f5f5f5;
+  border-style: solid;
+  border-width: 1px;
+  color: #B7B7B7;
+  font-size: 12px;
+  height: 58px;
+}

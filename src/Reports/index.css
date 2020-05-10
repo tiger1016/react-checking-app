@@ -1,0 +1,531 @@
+#Reports {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#Reports .content {
+    width: 100%;
+}
+
+#Reports .header-container {
+    width: 100%;
+}
+
+#Reports .information-header {
+    height: 40px;
+    width: 100%;
+    color: #666666;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 50px;
+    min-height: 40px;
+    min-width: 100%;
+    display: block;
+}
+
+#Reports .filter-container {
+    margin: 30px 25px 20px 25px;
+    background-color: #F4F4F4;
+    border-radius: 4px;
+    color: #808080;
+    height: auto;
+    padding: 10px 10px 10px 20px;
+    display: block;
+    box-sizing: border-box;
+}
+
+#Reports .filter-container .col-3 {
+    width: 33%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#Reports .action-container {
+    margin: 0px 20px;
+}
+
+#Reports .action-container .btnPrimary {
+    background-Color: #3DA647;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    font-family: 'Roboto';
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #FFFFFF;
+    height: 50px;
+    width: 150px;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+#Reports .action-container .info {
+    color: #666666;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+#Reports .input-group {
+    margin-top: 20px;
+}
+
+#Reports .input-group .label {
+    display: inline-block;
+    width: 30%;
+    font-size: 14px;
+    vertical-align: super;
+}
+
+#Reports .input-group .body {
+    display: inline-block;
+    width: 65%;
+}
+
+#Reports .cus-profile-label {
+    padding-left: 0px;
+    color: #666666;
+}
+
+#Reports .reportResult .payroll-container {
+    padding-bottom: 20px;
+}
+
+#Reports .reportResult .totals {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+#Reports .reportResult .totals .dashStat {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #999999;
+    padding: 15px 0px;
+    flex: 1;
+}
+
+#Reports .reportResult .totals .dashStat .number-small {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#Reports .reportResult .totals .dashStat .caption {
+    text-align: center;
+    text-transform: uppercase
+}
+
+#Reports .reportResult .totals .dashStat.border_right {
+    border-right: 1px solid #999999;
+}
+
+#Reports .reportResult .row-headers {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 40px 20px 30px;
+    color: #b3b3b3;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#Reports .reportResult .row-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 20px 30px !important;
+    border: 1px solid #F5F5F5;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+    height: 58px;
+}
+
+#Reports .reportResult .rowTotal-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 20px 30px !important;
+    border: 1px solid #F5F5F5;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+    height: 58px;
+    font-size: 13px;
+    color: #6C6C6C;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+#Reports .reportResult .table-row:nth-child(odd)>div {
+    background: #F6F6F6 !important;
+}
+
+#Reports .reportResult .table-row:nth-child(even)>div {
+    background: #FFF !important;
+}
+
+#Reports .reportResult .header-style {
+    padding: 0px;
+}
+
+#Reports .disbursement-container .reportResult .name-col {
+    width: 20%;
+    overflow: hidden;
+}
+
+#Reports .disbursement-container .reportResult .date-col {
+    width: 15%;
+    overflow: hidden;
+}
+
+#Reports .disbursement-container .reportResult .amount-col {
+    width: 15%;
+    overflow: hidden;
+}
+
+#Reports .disbursement-container .reportResult .total-col {
+    width: 15%;
+    overflow: hidden;
+}
+
+#Reports .disbursement-container .reportResult .fees-col {
+    width: 15%;
+    overflow: hidden;
+}
+
+#Reports .receivables-container .reportResult .date-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .receivables-container .reportResult .customer-col {
+    width: 15%;
+    overflow: hidden;
+}
+
+#Reports .receivables-container .reportResult .number-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .receivables-container .reportResult .dueDate-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .receivables-container .reportResult .days-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .receivables-container .reportResult .payment-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .receivables-container .reportResult .amount-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .receivables-container .reportResult .outstanding-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .qrcodes-container .reportResult .name-col {
+    width: 20%;
+    overflow: hidden;
+}
+
+#Reports .qrcodes-container .reportResult .total-col {
+    width: 20%;
+    overflow: hidden;
+}
+
+#Reports .transaction-container .reportResult .licensee-col {
+    width: 13%;
+    overflow: hidden;
+}
+
+#Reports .transaction-container .reportResult .customer-col {
+    width: 13%;
+    overflow: hidden;
+}
+
+#Reports .transaction-container .reportResult .date-col {
+    width: 11.1%;
+    overflow: hidden;
+}
+
+#Reports .transaction-container .reportResult .amount-col {
+    width: 11.1%;
+    overflow: hidden;
+}
+
+#Reports .transaction-container .reportResult .sales-col {
+    width: 11.1%;
+    overflow: hidden;
+}
+
+#Reports .transaction-container .reportResult .fee-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .transaction-container .reportResult .billing-col {
+    width: 11.1%;
+    overflow: hidden;
+}
+
+#Reports .transaction-container .reportResult .type-col {
+    width: 11.1%;
+    overflow: hidden;
+}
+
+#Reports .transaction-container .reportResult .status-col {
+    width: 11.1%;
+    overflow: hidden;
+}
+
+#Reports .activity-container .reportResult .date-col {
+    width: 9%;
+    overflow: hidden;
+}
+
+#Reports .activity-container .reportResult .walker-col {
+    width: 9%;
+    overflow: hidden;
+}
+
+#Reports .activity-container .reportResult .customer-col {
+    width: 9%;
+    overflow: hidden;
+}
+
+#Reports .activity-container .reportResult .pets-col {
+    width: 9%;
+    overflow: hidden;
+}
+
+#Reports .activity-container .reportResult .services-col {
+    width: 9%;
+    overflow: hidden;
+}
+
+#Reports .activity-container .reportResult .extrac-col {
+    width: 9%;
+    overflow: hidden;
+}
+
+#Reports .activity-container .reportResult .servicesStatus-col {
+    width: 9%;
+    overflow: hidden;
+}
+
+#Reports .activity-container .reportResult .billing-col {
+    width: 9%;
+    overflow: hidden;
+}
+
+#Reports .activity-container .reportResult .cost-col {
+    width: 9%;
+    overflow: hidden;
+}
+
+#Reports .activity-container .reportResult .invoiceNumber-col {
+    width: 9%;
+    overflow: hidden;
+}
+
+#Reports .activity-container .reportResult .invoiceDate-col {
+    width: 9%;
+    overflow: hidden;
+}
+
+#Reports .walkAudit-container .reportResult .date-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .walkAudit-container .reportResult .pet-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .walkAudit-container .reportResult .walk-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .walkAudit-container .reportResult .scanin-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .walkAudit-container .reportResult .scanout-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .walkAudit-container .reportResult .duration-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .walkAudit-container .reportResult .customer-col {
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .walkAudit-container .reportResult .walker-col {
+    padding-left: 10px;
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .walkAudit-container .reportResult .components-col {
+    padding-left: 10px;
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .walkAudit-container .reportResult .map-col {
+    padding-left: 10px;
+    width: 10%;
+    overflow: hidden;
+}
+
+#Reports .customerMailing-container .reportResult .firstname-col {
+    width: 13%;
+    overflow: hidden;
+}
+
+#Reports .customerMailing-container .reportResult .lastname-col {
+    width: 13%;
+    overflow: hidden;
+}
+
+#Reports .customerMailing-container .reportResult .email-col {
+    width: 17%;
+    overflow: hidden;
+}
+
+#Reports .customerMailing-container .reportResult .address-col {
+    width: 17%;
+    overflow: hidden;
+}
+
+#Reports .customerMailing-container .reportResult .city-col {
+    width: 12%;
+    overflow: hidden;
+}
+
+#Reports .customerMailing-container .reportResult .state-col {
+    width: 12%;
+    overflow: hidden;
+}
+
+#Reports .customerMailing-container .reportResult .zip-col {
+    width: 12%;
+    overflow: hidden;
+}
+
+#Reports .sales-container .reportResult .customer-col {
+    width: 20%;
+}
+
+#Reports .sales-container .reportResult .amount-col {
+    width: 20%;
+}
+
+#Reports .payrolls-container .reportResult .nunber-col {
+    width: 20%;
+}
+
+#Reports .payrolls-container .reportResult .date-col {
+    width: 20%;
+}
+
+#Reports .payrolls-container .reportResult .period-col {
+    width: 20%;
+}
+
+#Reports .payrolls-container .reportResult .amount-col {
+    width: 20%;
+}
+
+#Reports .actionBtn-container {
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+#Reports .actionBtn-container .action-btn {
+    padding: 10px;
+    font-size: 28px;
+    color: #BABABA;
+    cursor: pointer;
+}
+
+#Reports .no-records {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #999999;
+    width: 100%;
+    display: block;
+    padding: 20px 0px;
+}
+
+#Reports .CustomInputWithIcon .input-container {
+    width: 80%;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+#Reports .sort-ion {
+    margin-left: 15px;
+    font-size: 18px;
+    margin-top: -3px;
+    display: inline-block;
+    position: absolute;
+}
+
+#Reports .sort-header {
+    cursor: pointer;
+}
+
+#Reports .Select-value-label {
+    color: #999999 !important;
+}
+
+#Reports .Select-placeholder {
+    color: #999999 !important;
+}
+
+#Reports .empty {
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#Reports .totalFooter {
+    font-weight: 600;
+}
+
+#Reports .totalFooter.firstColumn {
+    padding: 10px;
+    padding-left: 15px;
+}
+
+#Reports .react-datepicker__year-read-view {
+    padding: 5px;
+}
+
+#Reports .react-datepicker__year-read-view--down-arrow {
+    margin-left: 25px;
+    top: 2px;
+}

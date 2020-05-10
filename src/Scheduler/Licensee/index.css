@@ -1,0 +1,12 @@
+#Scheduler-Licensee {
+  padding-bottom: 22px;
+  position: relative;
+}
+#Scheduler-Licensee .LoaderContainer {
+  height: 400px;
+}
+#Scheduler-Licensee.sticky-top-row #Scheduler-DayView .fixed-top-row,
+#Scheduler-Licensee.sticky-top-row #Scheduler-DayView .WalkerSearchContainer.sticky-top,
+#Scheduler-Licensee.sticky-top-row #Scheduler-WeekView .fixed-top-row {
+  display: block;
+}

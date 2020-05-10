@@ -1,0 +1,17 @@
+.FeedbackModal {
+    width: 50%;
+}
+
+.FeedbackModal .input {
+    flex: 1;
+}
+
+.FeedbackModal .label {
+    max-width: 100px;
+    min-width: 100px;
+}
+
+.FeedbackModal-Body {
+    width: 100%;
+    padding: 20px 20px 0px 20px;
+}

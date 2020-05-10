@@ -1,0 +1,88 @@
+#CalendarHeader {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  position: relative;
+}
+#CalendarHeader .filter-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #FAFAFA;
+  box-shadow: 1px 1px 1px #F5F5F5;
+}
+#CalendarHeader .filter-top-container .left,
+#CalendarHeader .filter-top-container .right {
+  align-items: center;
+  display: flex;
+}
+#CalendarHeader .filter-top-container > div > div:not(:first-child) {
+  margin-left: 15px;
+}
+#CalendarHeader .filter-top-container .right {
+  flex: 1;
+  justify-content: flex-end;
+  margin-left: 15px;
+}
+#CalendarHeader .filter-top-container .right .badge-container {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+#CalendarHeader .filter-top-container .right .badge-container .Badge {
+  margin-right: 5px;
+}
+#CalendarHeader .filter-top-container .right .button-container.icon-only .icon {
+  color: rgb(130, 130, 130);
+}
+#CalendarHeader .expanded-filter-container {
+  background: #FAFAFA;
+}
+#CalendarHeader .expanded-filter-container .dropdown-filter-container {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding: 13px 26px;
+}
+#CalendarHeader .AddonsSelect,
+#CalendarHeader .CustomersSelect,
+#CalendarHeader .PetsSelect,
+#CalendarHeader .ServicesSelect,
+#CalendarHeader .StatusSelect {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 15px;
+  max-width: 170px;
+  min-width: 170px;
+}
+#CalendarHeader .expanded-filter-container .dropdown-filter-container > .icon-container {
+  align-items: center;
+  align-self: center;
+  padding-right: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#CalendarHeader .expanded-filter-container .dropdown-filter-container .icon-container .icon {
+  color: #d8d8d8;
+  font-size: 18px;
+}
+#CalendarHeader .expanded-filter-container .dropdown-filter-container .dropdown-filter, .Customers, .Services, .Statuses {
+  font-size: 12px;
+  font-weight: 200;
+  border-radius: 4px;
+  height: auto;
+  z-index: 30;
+}
+#CalendarHeader .expanded-filter-container .dropdown-filter-container .dropdown-filter, .Customers, .Services, .Statuses .Select-menu-outer {
+  z-index: 30;
+}

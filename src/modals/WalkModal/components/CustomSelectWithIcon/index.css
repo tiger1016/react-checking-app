@@ -1,0 +1,75 @@
+.CustomSelectWithIcon {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;
+}
+.CustomSelectWithIcon .icon-container {
+  align-items: center;
+  border: 1px solid #DADADA;
+  border-radius: 4px 0 0 4px;
+  color: #D8D8D8;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+}
+.CustomSelectWithIcon.alert .icon-container {
+  background: #cc9f9f;
+  border-color: #cc9f9f;
+  color: #ffffff;
+}
+.CustomSelectWithIcon.mark .icon-container {
+  color: #75ab98;
+}
+.CustomSelectWithIcon .icon-container.larger {
+  font-size: 24px;
+}
+.CustomSelectWithIcon .select-container {
+  border: 1px solid #DADADA;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  display: flex;
+  height: auto;
+}
+.CustomSelectWithIcon.alert .select-container {
+  border-color: #cc9f9f;
+}
+.CustomSelectWithIcon .select-container .Select.select-component {
+  border-radius: 0 4px 4px 0;
+  flex: 1;
+  padding: 0;
+}
+.CustomSelectWithIcon .select-container .Select.select-component .Select-control {
+  border-radius: 0 4px 4px 0;
+  border: none;
+}
+.CustomSelectWithIcon .select-container .Select.select-component.Select--single .Select-control .Select-value {
+  border-radius: 0 4px 4px 0;
+  padding-right: 40px;
+}
+.CustomSelectWithIcon .select-container .Select.select-component.Select--single .Select-control .Select-multi-value-wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+}
+.CustomSelectWithIcon .select-container .Select.select-component.Select--single .Select-control .Select-multi-value-wrapper .Select-input input {
+  height: 100%;
+  padding: 0;
+}
+.CustomSelectWithIcon .select-container .Select.select-component.Select--multi .Select-control .Select-value .Select-value-label,
+.CustomSelectWithIcon .select-container .Select.select-component.Select--single .Select-control .Select-value .Select-value-label {
+  font-size: 12px;
+}
+.CustomSelectWithIcon .select-container .Select.select-component.Select--single .Select-control .Select-value .Select-value-label {
+  border-radius: 0 4px 4px 0;
+  color: #999999;
+}
+.CustomSelectWithIcon .Select-input input {
+  color: #999999;
+  font-size: 12px;
+}
+.CustomSelectWithIcon .Select-menu-outer {
+  font-size: 12px;
+  font-weight: 200;
+  width: 100%;
+}

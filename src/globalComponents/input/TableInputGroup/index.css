@@ -1,0 +1,61 @@
+.TableInputGroup {
+  width: 100%;
+  border-spacing: 0;
+  table-layout: auto;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.TableInputGroup.stripped .Row:nth-child(odd) {
+  background-color: #F6F6F6;
+}
+.TableInputGroup .HeaderRow .Column,
+.TableInputGroup .Row .Column {
+  padding: 3px 10px;
+  width: auto;
+  vertical-align: middle;
+}
+.TableInputGroup .HeaderRow .Column {
+  padding: 10px;
+  text-align: left;
+}
+.TableInputGroup .HeaderRow .Column.sortable:hover {
+  cursor: pointer;
+}
+.TableInputGroup .HeaderRow .Column.sortable::after{
+  content: '';
+  position: relative;
+  left: 20px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #e8e8e8;
+  clear: both;
+}
+.TableInputGroup .Row .Column.multiple .multiple-input-column-row {
+  border-radius: 2px;
+  padding: 5px;
+  margin-right: -35px;
+}
+.TableInputGroup .Row .Column.multiple .multiple-input-column-row:nth-child(odd) {
+  background-color: #F6F6F6;
+}
+.TableInputGroup .Row .Column.multiple .multiple-input-column-row:last-child {
+  margin-bottom: 20px;
+}
+.TableInputGroup .Row .Column.center {
+  text-align: center;
+}
+.TableInputGroup .Row .Column.bold .FormText {
+  font-weight: bold;
+}
+.TableInputGroup .HeaderRow .Column:first-child,
+.TableInputGroup .Row .Column:first-child {
+  padding-left: 35px;
+}
+.TableInputGroup .HeaderRow .Column:last-child,
+.TableInputGroup .Row .Column:last-child {
+  padding-right: 35px;
+}

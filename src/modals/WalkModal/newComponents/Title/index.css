@@ -1,0 +1,26 @@
+.Title {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.Title .title {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: normal;
+  margin-right: 20px;
+}
+.Title .color-badge {
+  border-radius: 50%;
+  height: 15px;
+  margin: 5px;
+  width: 15px;
+  min-width: 15px;
+}
+.Title .status.pulsate {
+  -webkit-animation: color_change 1.5s infinite alternate;
+  -moz-animation: color_change 1.5s infinite alternate;
+  -ms-animation: color_change 1.5s infinite alternate;
+  -o-animation: color_change 1.5s infinite alternate;
+  animation: color_change 1.5s infinite alternate;
+}

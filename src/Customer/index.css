@@ -1,0 +1,57 @@
+#Customer {
+  min-height: 400px;
+}
+#Customer.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#Customer h6 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+#Customer .go-back {
+  margin-right: 15px;
+}
+#Customer .headerRightComponent {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+#Customer .headerRightComponent a {
+  z-index: 99999;
+}
+#Customer .headerRightComponent > div:not(:last-child) {
+  margin-right: 8px;
+}
+#Customer .headerRightComponent .button-container {
+  display: flex;
+}
+#Customer .headerRightComponent .delete-icon-container {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 28px;
+  justify-content: center;
+  max-height: 28px;
+  max-width: 28px;
+  min-height: 28px;
+  min-width: 28px;
+  overflow: hidden;
+  width: 28px;
+}
+#Customer .headerRightComponent .delete-icon-container img {
+  height: 60px;
+  margin-top: -2px;
+  width: 66px;
+}
+#Customer .SaveCancel {
+  margin-top: 40px;
+}
+#Customer .header-action-label {
+  font-size: 12px;
+  color: #B3B3B3;
+}
+#Customer a {
+  text-decoration: none;
+}

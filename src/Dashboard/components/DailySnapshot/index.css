@@ -1,0 +1,32 @@
+#Dashboard .dashboard-data-container.DailySnapshot {
+  min-width: 60%;
+  max-width: 60%;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content.daily-snapshot-container .pie-chart {
+  position: relative;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1358px) {
+  #Dashboard .dashboard-data-container .dashboard-data .content.daily-snapshot-container .pie-chart {
+    margin-right: 3%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #Dashboard .dashboard-data-container .dashboard-data .content.daily-snapshot-container .pie-chart {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 990px) {
+  #Dashboard .dashboard-data-container.DailySnapshot {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  #Dashboard .dashboard-data-container .dashboard-data .content.daily-snapshot-container .pie-chart {
+    position: relative;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+}

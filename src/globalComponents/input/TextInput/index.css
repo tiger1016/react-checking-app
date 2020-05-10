@@ -1,0 +1,115 @@
+.TextInput {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.TextInput label {
+  align-items: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.TextInput label .input-section {
+  align-items: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.TextInput label .label-text {
+  margin-right: 10px;
+}
+.TextInput .input-section .input-wrapper {
+  align-items: stretch;
+  background-color: #FFF;
+  border: 1px solid #dadada;
+  border-radius: 3px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 9px 10px;
+}
+.TextInput.error .input-section .input-wrapper,
+.TextInput.type-2.error .input-section .input-wrapper {
+  border-color: #c7011a;
+}
+
+.input-wrapper:visited {
+  border-color: red !important;
+}
+
+.TextInput.type-2 .input-section .input-wrapper {
+  border: 1px solid #DADADA;
+  border-radius: 5px;
+  padding: 8px;
+}
+.TextInput .input-section .input-wrapper input[type=password],
+.TextInput .input-section .input-wrapper input[type=text] {
+  display: block;
+  border: none;
+  color: #808080;
+  flex: 1;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
+}
+.TextInput.type-2 .input-section .input-wrapper:focus-within {
+  border-color: #aeaeae;
+}
+.TextInput.type-2 .input-section .input-wrapper input[type=password],
+.TextInput.type-2 .input-section .input-wrapper input[type=text] {
+  font-weight: normal;
+}
+.TextInput.icon-left .input-section .input-wrapper {
+  padding-left: 58px;
+}
+.TextInput.icon-right .input-section .input-wrapper {
+  padding-right: 24px;
+}
+.TextInput.error label .input-section .icon-section {
+  border: 1px solid #c7011a !important;
+}
+.TextInput label .input-section .icon-section {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 5px;
+  position: absolute;
+  top: 0;
+  border: 1px solid #dadada;
+  border-radius: 4px 0 0 4px;
+  width: 40px;
+  background: #FFF;
+}
+.TextInput .icon-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100% !important;
+  width: 100% !important;
+  line-height: auto !important;
+}
+
+.TextInput.error label .input-section .icon-section .CustomIcon.icon-container .icon-wrapper .icon,
+.TextInput.type2.error label .input-section .icon-section .CustomIcon.icon-container .icon-wrapper .icon {
+  color: #c7011a;
+}
+.TextInput.icon-left label .input-section .icon-section.textinput-left {
+  left: 0;
+}
+.TextInput.icon-right label .input-section .icon-section.textinput-right {
+  padding-right: 10px;
+  right: 0;
+}

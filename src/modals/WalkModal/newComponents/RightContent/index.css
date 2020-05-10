@@ -1,0 +1,89 @@
+#RightContent {
+  background: #FFF;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 20px;
+}
+#RightContent .header-container {
+  background-color: #F4F4F4;
+  background: rgb(19, 77, 119);
+  border-radius: 12px 12px 0 0;
+  /*color: #3E3E3E;*/
+  color: #FFF;
+  display: flex;
+  font-weight: 500;
+  justify-content: space-between;
+  line-height: 30px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+#RightContent .header-container .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  align-items: stretch;
+  flex: 1;
+  padding: 0 !important;
+}
+#RightContent .header-container .header .appointment-details-container {
+  flex: 1;
+}
+#RightContent .header-container .header .appointment-details-container .appointment-details {
+  padding-left: 16px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#RightContent .header-container .close-modal-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 80px;
+}
+#RightContent .header-container .close-modal-container .close-modal {
+  background-color: transparent;
+  position: absolute;
+  right: 14px;
+  bottom: 9;
+  top: 0;
+  color: #FFF;
+  height: 100%;
+}
+#RightContent .details-header {
+  align-items: center;
+  background-color: #FFFFFF;
+  height: 45px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 20px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+#RightContent .details-header .close{
+ display: inline-block;
+ position:absolute;
+ right: 20px;
+ top: 20px;
+}
+#RightContent .details-header .details-button {
+  height: 100%;
+  position: relative;
+  top: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #808080;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #808080;
+}
+#RightContent .details-header .details-button.active {
+  border-bottom: 4px solid #808080;
+}

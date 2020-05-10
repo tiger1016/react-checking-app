@@ -1,0 +1,34 @@
+.ServiceDetail {
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ServiceDetail .label {
+  color: #FFF;
+  font-weight: normal;
+}
+.ServiceDetail .input {
+}
+.ServiceDetail .CustomSelectWithIcon {
+  max-width: 250px;
+}
+.ServiceDetail .noEdit {
+  font-family: roboto;
+  align-items: center;
+  max-width: 250px;
+  display: flex;
+  flex-direction: row;
+  min-height: 36px;
+  width: 250px;
+}
+.ServiceDetail .walkNotes {
+  width: 250px;
+}
+.ServiceDetail .loadingList {
+  width: 250px;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+}

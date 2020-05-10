@@ -1,0 +1,91 @@
+#Payroll {
+  width: 100%;
+}
+#Payroll .filter-container {
+  align-items: start;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 20px;
+}
+#Payroll .filter-container .filter-right {
+  flex: 2;
+  margin-left: 32px;
+  display: flex;
+  align-items: start;
+}
+#Payroll .filter-container .filter-right .cal-span {
+  width: 30px;
+  margin-left: 30px;
+}
+#Payroll .filter-container .filter-right .filter-walker-label {
+  font-family: roboto;
+  font-size: 14px;
+  margin-left: 40px;
+  margin-right: 10px;
+  color: #666;
+  min-width: 110px;
+  line-height: 35px;
+}
+#Payroll .filter-container .filter-search-bar {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+#Payroll .filter-container .filter-search-bar input {
+  height: 40px;
+  color: #dddddd;
+  border-radius: 4px;
+  border: 1.5px solid #dddddd !important;
+  width: 90%;
+}
+#Payroll .filter-container .filter-search-bar input::-webkit-input-placeholder {
+  color: #dddddd;
+}
+#Payroll .filter-container .filter-search-bar .icon-search {
+  border-radius: 4px;
+  border: 1.5px solid #dddddd !important;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+#Payroll .filter-container .filter-search-bar .icon-search img {
+  height: 16px;
+  width: 16px;
+}
+#Payroll .filter-container .filter-left {
+  flex: 1;
+  display: flex;
+}
+#Payroll .filter-container .filter-left label {
+  margin-top: 15px;
+  color: #dddddd;
+  font-size: 12px;
+  margin-right: 5px;
+}
+#Payroll .filter-container .filter-left input {
+  margin-right: 20px;
+  width: 85% !important;
+}
+#Payroll .filter-container .filter-left .btnAction {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #D9D9D9 !important;
+  border-radius: 25px;
+  border: none;
+  color: #D9D9D9;
+  font-size: 26px;
+  background: white;
+}
+#Payroll .action-container span:hover {
+  color: #1875F0;
+  cursor: pointer;
+}
+#Payroll .action-header {
+  text-align: center;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  width: 12% !important;
+}

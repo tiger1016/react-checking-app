@@ -1,0 +1,83 @@
+// Libraries
+import React from 'react'
+import { Field } from 'redux-form'
+import { connect } from 'react-redux'
+
+// Utils
+import { utility } from 'Utils/utility'
+
+// Controllers
+import { customersController } from 'Controllers/customersController'
+
+// Components
+import CustomSelect from '../CustomSelect'
+
+// Styles
+import './index.css'
+
+const Select = props => <CustomSelect {...props} reduxForm />
+
+const reduxFormSelect = props => <Field
+  component={Select}
+  help={props.help}
+  iconClassname={props.iconClassname}
+  multi={props.multi}
+  name={props.name}
+  onClose={props.onClose}
+  onOpen={props.onOpen}
+  onValidate={props.onValidate}
+  options={props.addons}
+  placeholder={props.placeholder || '--'}
+  required={props.required}
+  disabled={props.disabled}
+/>
+
+const defaultSelect = props => <CustomSelect
+  clearable={props.clearable}
+  error={props.error}
+  iconClassname={props.iconClassname}
+  multi={props.multi}
+  name={props.name}
+  onChange={props.onChange}
+  onClose={props.onClose}
+  onOpen={props.onOpen}
+  onValidate={props.onValidate}
+  options={props.addons}
+  placeholder={props.placeholder || '--'}
+  required={props.required}
+  value={props.value}
+  disabled={props.disabled}
+/>
+
+class CustomerAddonsSelect extends React.Component {
+  componentWillMount () {
+    if (this.noAddons() && this.props.customer) {
+      customersController.actions.fetchAddonsRates(this.props.customer)
+    }
+  }
+  noAddons () {
+    let {
+      addons
+    } = this.props
+
+    return !addons || !utility.isAnArray(addons) || !addons.length
+  }
+  render () {
+    if (this.noAddons() && this.props.customerLoading) return <div className='selectLoading'>Loading Addons...</div>
+
+    return <div className='CustomerAddonsSelect'>{
+      this.props.reduxForm ? reduxFormSelect(this.props) : defaultSelect(this.props)}
+    </div>
+  }
+}
+
+const mapStateToProps = (state, props) => {
+  let addons = customersController.selectCustomerAddonsForSelectInput(props.customer, null, state)
+
+  return {
+    addons,
+    customerLoading: state.customers.loading
+  }
+}
+
+export default connect(mapStateToProps)(CustomerAddonsSelect)

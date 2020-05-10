@@ -1,0 +1,9 @@
+.ModalContainer {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: 200;
+  height: 100%;
+  padding: 18px;
+  width: 100%;
+}

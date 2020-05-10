@@ -1,0 +1,72 @@
+@-webkit-keyframes color_change {
+ from { color: #C14D4D; }
+ to { color: #FFC7C7; }
+}
+@-moz-keyframes color_change {
+ from { color: #C14D4D; }
+ to { color: #FFC7C7; }
+}
+@-ms-keyframes color_change {
+ from { color: blue; }
+ to { color: green; }
+}
+@-o-keyframes color_change {
+ from { color: #C14D4D; }
+ to { color: #FFC7C7; }
+}
+@keyframes color_change {
+ from { color: #C14D4D; }
+ to { color: #FFC7C7; }
+}
+
+.calendar-loading {
+  width: 100px;
+  height: 100px;
+}
+
+.header-column-for-search {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.highlighted {
+  background-color: #D1D1D1;
+}
+
+.icons-dropdown { /*// all icons in select*/
+  width: 40px;
+  border: 1px solid #DADADA;
+  border-radius: 4px 0 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.larger { /*// all larger icons*/
+  font-size: 24px;
+}
+
+#Scheduler .Select-control:hover {
+  box-shadow: none;
+}
+
+.sheduler-container-firefox {
+   width: 96.5vw
+}
+
+@media (max-width: 1200px){
+  .sheduler-container-firefox {
+     width: 95.5vw
+  }
+}
+
+@media (max-width: 992px){
+  .sheduler-container-firefox {
+     width: 94.5vw
+  }
+}

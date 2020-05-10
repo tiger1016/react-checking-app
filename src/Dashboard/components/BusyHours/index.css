@@ -1,0 +1,19 @@
+#Dashboard .dashboard-data-container .dashboard-data .content.busy-hours-container {
+  padding-top: 0;
+  position: relative;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content.busy-hours-container .barchart-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#Dashboard .dashboard-data-container .dashboard-data .content.busy-hours-container .barchart-container .recharts-wrapper {
+  z-index: 1;
+}
+@media screen and (max-width: 990px) {
+  #Dashboard .dashboard-data-container.BusyHours {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}

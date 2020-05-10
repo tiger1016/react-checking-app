@@ -1,0 +1,55 @@
+.ImageUploader .DropZone {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 160px;
+    min-width: 160px;
+    padding: 2px;
+  }
+  .ImageUploader .DropZone .image-container {
+    align-items: center;
+    flex: 1;
+    margin-right: 2px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .ImageUploader .DropZone .image-container img {
+    max-height: 160px;
+    max-width: 160px;
+  }
+  .ImageUploader .DropZone .image-container .delete {
+    background: #FFF;
+    position: absolute;
+    margin: 2px;
+    right: 0;
+    top: 0;
+    z-index: 10;
+  }
+  .ImageUploader .DropZone .image-container .delete .ButtonGroup {
+    margin: 6px 9px 0 9px !important;
+  }
+  .ImageUploader .upload-btn {
+    background: #3DA647;
+    color: white;
+    padding: 10px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 9.5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  .ImageUploader .file-size-info {
+    font-size: 13px;
+    font-family: roboto;
+    color: #666;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+  }

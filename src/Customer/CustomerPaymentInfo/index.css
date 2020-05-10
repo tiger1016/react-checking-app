@@ -1,0 +1,17 @@
+#CustomerPaymentInfo .balance {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 0 20px;
+}
+#CustomerPaymentInfo .balance .label {
+  font-weight: 300;
+}
+#CustomerPaymentInfo .grid {
+  display: flex;
+}
+#CustomerPaymentInfo .grid .DataDisplay {
+  flex: 1;
+}
+#CustomerPaymentInfo .grid > div:not(:last-child) {
+  margin-right: 40px;
+}

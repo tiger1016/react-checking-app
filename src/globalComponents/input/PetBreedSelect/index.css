@@ -1,0 +1,6 @@
+.PetBreedSelect {
+  display: inline-block;
+}
+.PetBreedSelect .CustomSelect .select-container {
+  width: 200px;
+}

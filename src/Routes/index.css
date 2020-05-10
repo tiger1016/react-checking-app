@@ -1,0 +1,9 @@
+#Routes {
+  height: auto;
+  border-radius: 6px;
+  margin: 1.4rem;
+}
+#Routes > div:not(.desktopOnly) {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,59 @@
+.ModalTemplate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 11px;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 750px;
+  overflow: hidden;
+}
+
+.ModalTemplate .ModalTemplate-header {
+  align-items: stretch;
+  background: rgb(19, 77, 119);
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+.ModalTemplate .ModalTemplate-body {
+  background: #FFF;
+  display: flex;
+  flex: 1;
+  max-height: calc(100vh - 200px);
+}
+.ModalTemplate .ModalTemplate-actions {
+  background: #FFF;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  padding: 20px;
+}
+.ModalTemplate .ModalTemplate-header .title {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+.ModalTemplate .ModalTemplate-header .close {
+  align-items: center;
+  display: flex;
+  margin-left: 16px;
+}
+.ModalTemplate .ModalTemplate-actions .ButtonGroup {
+  justify-content: flex-end;
+}
+.ModalTemplate .ModalTemplate-header .close .button-container.text-only.icon-only .icon-only-button .icon-container .icon-wrapper .icon {
+  color: #FFF;
+}
+.ModalTemplate span.pad10 {
+  display: block;
+  width: 10px;
+}
+.ModalTemplate .dualInput {
+  display: flex;
+}

@@ -1,0 +1,71 @@
+.CustomTimePickerWithIcon .CustomTimePickerWithIcon-inputs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 250px;
+}
+.CustomTimePickerWithIcon .Select {
+  background: #FFF;
+  border: none;
+}
+.CustomDatePickerWithIcon .icon-container.larger,
+.CustomTimePickerWithIcon .icon-container {
+  background: #FFF;
+}
+.CustomTimePickerWithIcon .CustomTimePickerWithIcon-inputs-container .icon-container {
+  align-items: center;
+  background: #FFF;
+  border: 1px solid #DADADA;
+  border-radius: 4px 0 0 4px;
+  color: #D8D8D8;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+}
+.CustomTimePickerWithIcon.alert .icon-container {
+  background-color: #c7011a;
+  border-color: #c7011a;
+  color: #FFF;
+}
+.CustomTimePickerWithIcon.alert .CustomTimePickerWithIcon-Hour.alert,
+.CustomTimePickerWithIcon.alert .CustomTimePickerWithIcon-Minute.alert,
+.CustomTimePickerWithIcon.alert .CustomTimePickerWithIcon-AmPm.alert {
+  border: 2px solid #c7011a;
+}
+.CustomTimePickerWithIcon.mark .CustomTimePickerWithIcon-inputs-container .icon-container {
+  color: #75ab98;
+}
+.CustomTimePickerWithIcon .CustomTimePickerWithIcon-inputs-container .Select {
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+  display: flex;
+  flex: 1;
+  height: auto;
+  margin-left: 5px;
+  padding: 0;
+}
+.CustomTimePickerWithIcon .CustomTimePickerWithIcon-inputs-container :nth-child(2) {
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+  margin-left: 0;
+}
+.CustomTimePickerWithIcon .CustomTimePickerWithIcon-inputs-container .Select .Select-control {
+  border-radius: 4px;
+  border: none;
+}
+.CustomTimePickerWithIcon .CustomTimePickerWithIcon-inputs-container .Select.Select--single .Select-control .Select-value {
+  border-radius: 0 4px 4px 0;
+}
+.CustomTimePickerWithIcon .CustomTimePickerWithIcon-inputs-container .Select.Select--multi .Select-control .Select-value .Select-value-label,
+.CustomTimePickerWithIcon .CustomTimePickerWithIcon-inputs-container .Select.Select--single .Select-control .Select-value .Select-value-label {
+  font-size: 12px;
+}
+.CustomTimePickerWithIcon .CustomTimePickerWithIcon-inputs-container .Select.Select--single .Select-control .Select-value .Select-value-label {
+  border-radius: 0 4px 4px 0;
+  color: #999999;
+}
+.CustomTimePickerWithIcon .Select-menu-outer {
+  font-weight: 200;
+  width: 100%;
+}

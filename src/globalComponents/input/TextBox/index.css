@@ -1,0 +1,41 @@
+.TextBox {
+  border: 1px solid #DADADA;
+  border-radius: 5px;
+  display: flex;
+  flex: 1;
+  padding: 8px;
+  overflow: hidden;
+  width: 100%;
+}
+.TextBox textarea {
+  border: none;
+  color: #808080;
+  flex: 1;
+  font-family: Roboto;
+  font-size: 12px;
+  resize: none;
+}
+.TextBoxWithIcon .icon-container {
+  align-items: center;
+  border: 1px solid #dadada;
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+  background: #FFF;
+  color: #D8D8D8;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+}
+.TextBoxWithIcon {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.TextBoxWithIcon .TextBox {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background: #FFF;
+}
+.TextBox.error{
+  border-color: #c7011a;
+}

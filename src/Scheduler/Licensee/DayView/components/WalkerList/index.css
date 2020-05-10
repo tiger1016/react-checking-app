@@ -1,0 +1,53 @@
+#Scheduler-DayView #FirstColumn {
+  background: #FFF;
+  border: 1px solid #f5f5f5;
+  border-top: none;
+  border-right: none;
+  position: absolute;
+  z-index: 2;
+}
+#Scheduler-DayView .WalkerSearchContainer {
+  align-items: center;
+  border-color: #f5f5f5;
+  border-style: solid;
+  border-width: 1px;
+  color: #B7B7B7;
+  display: flex;
+  font-size: 12px;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+}
+#Scheduler-DayView .WalkerSearchContainer.sticky-top {
+  display: none;
+  background-color: #FFF;
+  position: fixed;
+  top: 0;
+}
+#Scheduler-DayView .walker-label {
+  align-items: center;
+  border: 1px solid #f5f5f5;
+  border-bottom: none;
+  border-right: none;
+  color: #000000;
+  display: flex;
+  font-size: 13px;
+  font-weight: 599;
+  justify-content: flex-start;
+  padding: 12px 0;
+  padding-left: 15px;
+  text-align: left;
+}
+#Scheduler-DayView .walker-label:nth-child(odd) {
+  background: rgba(220,220,220,.6);
+}
+#Scheduler-DayView .walker-label.no-walks {
+  padding: 0;
+}
+#Scheduler-DayView .walker-label.active {
+  background: #76887b;
+  color: #FFF;
+}
+#Scheduler-DayView .walker-label.selected span  {
+  color: #1875F0;
+}

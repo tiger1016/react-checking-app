@@ -1,0 +1,154 @@
+.CustomTable .ReactTable {
+    border: none;
+  }
+  .CustomTable .ReactTable .rt-thead {
+    padding: 0 15px;
+  }
+  .CustomTable .ReactTable .rt-tbody {
+    padding: 0 15px;
+  }
+  .CustomTable .ReactTable .rt-thead.-headerGroups {
+    display: none;
+  }
+  .CustomTable .ReactTable .rt-thead.-header,
+  .CustomTable .ReactTable .rt-tfoot {
+    box-shadow: none;
+  }
+  .CustomTable .ReactTable .rt-th {
+    color: #B3B3B3;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 5px 0 !important;
+  }
+  .CustomTable .ReactTable .rt-resizable-header-content {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .CustomTable .ReactTable .rt-th:first-child {
+    padding: 0;
+  }
+  .CustomTable .ReactTable .rt-thead .rt-th,
+  .CustomTable .ReactTable .rt-thead .rt-td {
+    border-right: 1px solid #F9F9F9;
+  }
+  .CustomTable .ReactTable .rt-thead .rt-th.-sort-asc,
+  .ReactTable .rt-thead .rt-td.-sort-asc,
+  .CustomTable .ReactTable .rt-thead .rt-th.-sort-desc,
+  .ReactTable .rt-thead .rt-td.-sort-desc {
+    box-shadow: none;
+  }
+  .CustomTable .ReactTable .rt-th.-sort-desc .icon.down {
+    display: block;
+  }
+  .CustomTable .ReactTable .rt-th.-sort-asc .icon.up {
+    display: block;
+  }
+  .CustomTable .ReactTable .rt-tbody .rt-tr-group {
+    border-bottom: solid 1px #F9F9F9;
+    min-height: 41px;
+  }
+  .CustomTable .ReactTable.-striped .rt-tbody .rt-tr {
+    padding: 0 0 0 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .CustomTable .ReactTable.-striped .rt-tr.-odd {
+    background: #F9F9F9;
+  }
+  .CustomTable .ReactTable .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  .CustomTable .ReactTable .wrapper .icon {
+    display: none;
+    margin-left: 10px;
+  }
+  .CustomTable .ReactTable .rt-td {
+    align-items: center;
+    border-right: 1px solid #F9F9F9;
+    cursor: pointer;
+    display: flex;
+    padding: 2px 15px;
+  }
+  .CustomTable .ReactTable .text {
+    align-items: center;
+    color: #999999;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .CustomTable .corner-header {
+    align-items: center;
+    color: #B3B3B3;
+    display: flex;
+    flex: 1;
+    font-size: 28px;
+    justify-content: flex-start;
+  }
+  .CustomTable .ReactTable .strong {
+    color: #6C6C6C;
+  }
+  .CustomTable .ReactTable .text-center {
+    justify-content: center;
+    text-align: center;
+  }
+  .CustomTable .ReactTable .-pagination .button-container:not(.disabled):hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .CustomTable .ReactTable .-pagination .button-container.disabled .icon-only-button .icon-container .icon-wrapper .icon {
+    color: #F0F0F0;
+  }
+  .CustomTable .ReactTable .-pagination .button-container:not(.disabled):hover .icon-only-button .icon-container .icon-wrapper .icon {
+    color: #FFF;
+  }
+  .CustomTable .ReactTable .-pagination .button-container {
+    display: block;
+  }
+  .CustomTable .ReactTable .-pagination .button-container button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .CustomTable .ReactTable .-pagination {
+    box-shadow: none;
+    border-top: none;
+    color: #c7c7c7;
+    font-size: 13px;
+  }
+  .CustomTable .ReactTable .-pagination .-center .select-wrap {
+    border-radius: 3px;
+    padding: 3px 5px;
+  }
+  .CustomTable .ReactTable .-pagination .-center .select-wrap select {
+    border: none;
+    color: #808080;
+  }
+  .CustomTable .ReactTable .-pageJump input {
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    color: #808080;
+    padding: 5px 7px;
+  }
+  .CustomTable .table-loading {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    transition: all .3s ease;
+    pointer-events: none;
+    align-items: center;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,50 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+# TEST COMMENT
+
+# definitions:
+#   services:
+#     chrome:
+#       image: selenium/standalone-chrome
+
+# pipelines:
+#   pull-requests:
+#     '**':
+#       - step:
+#           deployment: e2e Tests
+#           image: ubuntu:18.04
+#           services:
+#             - chrome
+#           script:
+#             - echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
+#             - apt-get update -q && apt-get install -q -y curl git gnupg2
+#             - mkdir -p /usr/local/nvm
+#             - export NVM_DIR=/usr/local/nvm
+#             - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+#             - export NODE_VERSION=v10.16.0
+#             - /bin/bash -c "source $NVM_DIR/nvm.sh && nvm install $NODE_VERSION && nvm use $NODE_VERSION"
+#             - export NODE_PATH=$NVM_DIR/versions/node/$NODE_VERSION/lib/node_modules
+#             - export PATH=$NVM_DIR/versions/node/$NODE_VERSION/bin:$PATH
+#             - npm install http-server forever -g --quiet
+#             - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+#             - echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+#             - apt-get update -q && apt-get install -q -y --no-install-recommends yarn
+#             - yarn
+#             - git submodule update --init --recursive
+#             - yarn build
+#             - bash -c "forever start -c http-server dist -p 3301 -P http://localhost:3301?"
+#             - yarn e2e licensee:dashboard:loads
+#   branches:
+#     staging:
+#       - step:
+#           image: node:11.14.0
+#           caches:
+#             - node
+#           script:
+#             - apt-get update -y
+#             - apt-get install -y build-essential libkrb5-dev
+#             - yarn
+#             - yarn run deploy:staging

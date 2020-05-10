@@ -1,0 +1,9 @@
+#Scheduler-WeekView div.grid-row {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-height: 40px;
+  position: relative;
+  width: 100%;
+}

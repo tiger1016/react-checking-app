@@ -1,0 +1,51 @@
+#Addons .loading {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  min-height: 300px;
+}
+#Addons .CurrencyInput {
+  max-width: 100px;
+}
+#Addons .Switch label input[type=checkbox] + div:after {
+  top: 4px;
+}
+#Addons .Column .FormText {
+  display: block;
+  max-width: 700px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#Addons .Switch label {
+  line-height: normal;
+}
+#Addons .CustomTable{
+  margin-left: -35px;
+  margin-right: -35px;
+}
+@media screen and (max-width: 1380px) {
+  #Addons .Column .FormText {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 1260px) {
+  #Addons .Column .FormText {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  #Addons .Column .FormText {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  #Addons .Column .FormText {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 910px) {
+  #Addons .Column .FormText {
+    max-width: 200px;
+  }
+}

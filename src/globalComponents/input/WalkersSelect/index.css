@@ -1,0 +1,7 @@
+.WalkersSelect {
+  min-width: 200px;
+  display: inline-block;
+}
+.WalkersSelect .CustomSelect .select-container {
+  width: 100%;
+}

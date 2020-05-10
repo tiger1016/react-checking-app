@@ -1,0 +1,24 @@
+.staff-profile-container {
+  border-left: 2px solid #F5F5F5;
+  flex: 1;
+}
+.staff-profile-container .SectionHeader {
+  margin-bottom: 15px;
+}
+.staff-profile-container .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.staff-profile-container .division {
+  height: 2px;
+  background: #F5F5F5;
+  margin: 40px -35px;
+}
+.staff-profile-container .content > div {
+  flex: 1;
+  margin-bottom: 40px;
+  min-width: 380px;
+}
+.staff-profile-container .content > div:not(:last-child) {
+  margin-right: 40px;
+}

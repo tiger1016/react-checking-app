@@ -1,0 +1,26 @@
+.CustomerProfileLeft .SectionBody .images-container .pet {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.CustomerProfileLeft .SectionBody .images-container .pet .image-container {
+  border-radius: 50%;
+  height: 80px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  width: 80px;
+}
+.CustomerProfileLeft .SectionBody .images-container .pet .image-container img {
+  height: 100%;
+  width: 100%;
+}
+.CustomerProfileLeft .SectionBody .images-container .pet .pet-name {
+  color: #B3B3B3;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

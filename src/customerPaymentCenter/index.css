@@ -1,0 +1,1969 @@
+#CustomerProfile2 .customer-profile-container {
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#CustomerProfile2 .refund-credits-column-headers {
+  display: flex;
+  flex-direction: row;
+  margin-top: 13px;
+  margin-left: 25px;
+}
+#CustomerProfile2 .credit-headers {
+  display: flex;
+  flex-direction: row;
+  width: 10vw;
+}
+#CustomerProfile2 .refund-header {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+}
+#CustomerProfile2 .title-div {
+  margin-top: 33px;
+  margin-left: 10px;
+}
+#CustomerProfile2 .pet-name {
+  width: 102px !important;
+  text-align: center;
+  color: #B3B3B3;
+  font-family: Roboto;
+  padding: 0px !important;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin: 3px auto !important;
+  position: relative !important;
+  display: block !important;
+}
+#CustomerProfile2 .refunds-credits-title {
+  height: 60px;
+  width: 73px;
+  color: #4D4D4D;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 60px;
+  margin-left: 25px;
+}
+#CustomerProfile2 .icon-style {
+  font-size: 23px;
+  color: #D9D9D9;
+}
+#CustomerProfile2 .delete-icon-padding {
+  margin-left: 16px;
+}
+#CustomerProfile2 .refund-button {
+  height: 40px;
+  width: 130px;
+  border-radius: 100px;
+  background-color: #1875F0;
+  margin-left: 25px;
+}
+#CustomerProfile2 .credit-button {
+  height: 40px;
+  width: 130px;
+  border-radius: 100px;
+  background-color: #1875F0;
+  margin-left: 35px;
+}
+#CustomerProfile2 .btn-style {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-size: 10px;
+  color: #FFFFFF;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 11px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  border-top-width: 10px;
+  padding-left: 16px;
+  border-left-width: 12px;
+  padding-right: 27px;
+  border-bottom-width: 18px;
+}
+#CustomerProfile2 .fund-row-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  border: 1px solid #F5F5F5;
+  height: 58px;
+  padding-top: 0px;
+  padding-bottom: 21px;
+  padding-left: 25px;
+}
+#CustomerProfile2 .fund-row-container:nth-child(even) {
+  background-color: #FFF;
+}
+#CustomerProfile2 .fund-row-container:nth-child(odd) {
+  background-color: #F6F6F6;
+}
+#CustomerProfile2 .credit-data-container {
+  display: flex;
+  width: 10vw;
+  justify-content: flex-start;
+  align-items: center;
+  color: #6C6C6C;
+  font-family: Roboto;
+  padding-left: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 15px;
+}
+#CustomerProfile2 .refund-data-container {
+  display: flex;
+  width: 20vw;
+  justify-content: flex-start;
+  align-items: center;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 10px;
+}
+#CustomerProfile2 .no-data-ava {
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 150px;
+}
+#CustomerProfile2 .total-field-style {
+  margin-left: 18vw;
+  margin-top: 1.5vw;
+  padding-bottom: 25px;
+}
+#CustomerProfile2 .total-value-style {
+  margin-left: 18px;
+}
+#CustomerProfile2 .header-style {
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 14px;
+  padding-left: 10px;
+}
+#CustomerProfile2 .header-style email-header {
+  padding-left: 1px;
+}
+#CustomerProfile2 .image-circle {
+  height: 102.86px;
+  width: 102.86px;
+  margin-left: 45px;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+#CustomerProfile2 .arrow-icon {
+  margin-top: 15px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #cccccc;
+}
+#CustomerProfile2 .cus-header-top {
+  padding-left: 30px;
+  padding-top: 21px;
+}
+#CustomerProfile2 .title-text {
+  height: 60px;
+  width: 194px;
+  color: #4D4D4D;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 60px;
+  margin-left: 20px;
+}
+#CustomerProfile2 .contact-information-header {
+  height: 50px;
+  width: 215px;
+  color: #666666;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 50px;
+  margin-left: 33px;
+  margin-top: 18px;
+}
+#CustomerProfile2 .icon-display {
+  display: block;
+  padding-left: 20px;
+  float: right;
+  margin-right: 35px !important;
+  cursor: pointer;
+}
+#CustomerProfile2 .icon-display-cal {
+  float: right;
+}
+#CustomerProfile2 .icon-circle {
+  color: #cccccc;
+  padding: 18px 20px;
+  display: inline-block;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 50px;
+  -moz-box-shadow: 0px 0px 2px #888;
+  -webkit-box-shadow: 0px 0px 2px #888;
+  box-shadow: 0px 0px 2px #888;
+}
+#CustomerProfile2 .sub-header {
+  height: 15px;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 35px;
+  margin-top: 16px;
+}
+#CustomerProfile2 .row-style {
+  margin-left: 37px;
+  margin-top: 17px;
+}
+#CustomerProfile2 .left-divs {
+  float: left;
+  width: 15%;
+  padding-bottom: 30px;
+  border-right: 3px solid #F5F5F5;
+  min-height: 840px;
+}
+#CustomerProfile2 .left-divs .image-circle {
+  margin-top: 25px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 5px !important;
+  display: block;
+  position: relative;
+}
+#CustomerProfile2 .right-divs {
+  margin-top: 20px;
+  width: 85%;
+  float: left;
+}
+#CustomerProfile2 .edit-icon-position {
+  float: right;
+  margin-right: 40px;
+}
+#CustomerProfile2 .edit-icons-position {
+  float: right;
+  margin-right: 40px;
+}
+#CustomerProfile2 .icon-position {
+  padding-left: 900px;
+}
+#CustomerProfile2 .person-icon-position {
+  padding-left: 22px;
+  padding-top: 80px;
+}
+#CustomerProfile2 .profile-info-header {
+  margin-top: 22px;
+}
+#CustomerProfile2 .tab-container-customer-profile {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 5px solid #F5F5F5;
+}
+#CustomerProfile2 .logo-img {
+  width: 108px;
+  height: 108px;
+}
+#CustomerProfile2 .row-flex {
+  flex-direction: row;
+}
+#CustomerProfile2 .contact-containerss {
+  width: 100%;
+  height: 400px;
+  border-bottom: 3px solid #F5F5F5;
+}
+#CustomerProfile2 .primary-div {
+  width: 28%;
+  float: left;
+  padding-top: 20px;
+}
+#CustomerProfile2 .secondary-div {
+  width: 33%;
+  float: left;
+  padding-top: 20px;
+  padding-left: 18px;
+}
+#CustomerProfile2 .emergency-div {
+  width: 33%;
+  float: left;
+  padding-top: 20px;
+  padding-left: 7px;
+}
+#CustomerProfile2 .table-containers {
+  margin-left: 1px;
+  margin-top: 20px;
+}
+#CustomerProfile2 .payments-container {
+  margin-left: 26px;
+}
+#CustomerProfile2 .table-container-profile {
+  margin-left: 26px;
+  margin-top: 20px;
+  display: block;
+}
+#CustomerProfile2 .cus-profile-label {
+  vertical-align: top;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px;
+}
+#CustomerProfile2 .cus-qrloc-label {
+  vertical-align: top;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px;
+  width: 75px;
+}
+#CustomerProfile2 .cus-name-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding-left: 58px;
+  width: 60px;
+}
+#CustomerProfile2 .cus-email-value {
+  display: inline-block;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding-left: 60px;
+  width: 60px;
+}
+#CustomerProfile2 .cus-mphone-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding-left: 14px;
+  width: 60px;
+}
+#CustomerProfile2 .cus-wphone-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding-left: 24px;
+  width: 60px;
+}
+#CustomerProfile2 .cus-hphone-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding-left: 20px;
+  width: 60px;
+}
+#CustomerProfile2 .cus-address-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding-left: 47px;
+  width: 60px;
+}
+#CustomerProfile2 .cus-address2-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding-left: 115px;
+  width: 90px;
+}
+#CustomerProfile2 .profile-info-value {
+  vertical-align: top;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 35px;
+  width: 100%;
+}
+#CustomerProfile2 input[type=password] {
+  vertical-align: top;
+  border: 0px;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+}
+#CustomerProfile2 .profile-refer-value {
+  vertical-align: top;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 27px;
+  width: 100%;
+}
+#CustomerProfile2 .profile-alarm-value {
+  vertical-align: top;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px0;
+  margin-left: 5px;
+  padding: 10px;
+  width: 100%;
+}
+#CustomerProfile2 .profile-notes-value {
+  word-wrap: break-word;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  width: 900px !important;
+  display: inline;
+  vertical-align: top;
+  display: block-inline;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 45px;
+  padding-left: 13px;
+  width: 100%;
+}
+#CustomerProfile2 .profile-qr-value {
+  vertical-align: top;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 5px;
+  padding: 26px;
+  width: 100%;
+}
+#CustomerProfile2 .profile-qrloc-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 5px;
+  padding: 10px;
+  width: 100%;
+}
+#CustomerProfile2 .profile-default-value {
+  vertical-align: top;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 1px;
+  padding: 3px;
+  width: 100%;
+}
+#CustomerProfile2 .profile-date-value {
+  vertical-align: top;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 13px;
+  padding: 5px;
+  width: 100%;
+}
+#CustomerProfile2 .pet-left-margin {
+  margin-top: 20px;
+}
+#CustomerProfile2 .pet-left-title-name {
+  vertical-align: top;
+  display: inline-block;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+}
+#CustomerProfile2 .pet-left-title-value {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  width: 68%;
+  float: right;
+  color: #808080;
+}
+#CustomerProfile2 .pet-right-title-name {
+  color: #B3B3B3;
+  margin-left: 30px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-block;
+  width: 120px;
+}
+#CustomerProfile2 .pet-right-title-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+}
+#CustomerProfile2 .pet-top-alligment {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+#CustomerProfile2 .row-scroll-in-pet-tabs {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#CustomerProfile2 .pets {
+  height: 50px;
+  color: #666666;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+#CustomerProfile2 .div-borders {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #F5F5F5;
+  overflow: hidden;
+}
+#CustomerProfile2 .line-copy-5 {
+  height: 2px;
+  width: 100%;
+  background-color: #F5F5F5;
+  margin-top: 20px;
+}
+#CustomerProfile2 .button-float-right {
+  float: right;
+  margin-top: 5px;
+}
+#CustomerProfile2 .dog-tab-left-div {
+  float: left;
+  width: 12%;
+  height: inherit;
+}
+#CustomerProfile2 .dog-tab-right-div {
+  float: left;
+  width: 35%;
+  height: inherit;
+  margin-left: 40px;
+}
+#CustomerProfile2 .dog-tab-right-div-1 {
+  float: left;
+  width: 35%;
+  height: inherit;
+  margin-left: 40px;
+}
+#CustomerProfile2 .dog-tab-right-div-2 {
+  float: left;
+  width: 35%;
+  height: inherit;
+  margin-left: 40px;
+}
+#CustomerProfile2 .dog-tab-right-end-div {
+  float: right;
+  width: 12%;
+  height: inherit;
+  margin-top: 20px;
+}
+#CustomerProfile2 .dog-tab-right-end-div .ion-edit.icon-circle {
+  float: right;
+  margin-right: 40px;
+}
+#CustomerProfile2 .dog-edit-icon-position {
+  padding-left: 750px;
+}
+#CustomerProfile2 .image-circle {
+  height: 102.86px;
+  width: 102.86px;
+  margin-left: 45px;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+#CustomerProfile2 .dog-info-table {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#CustomerProfile2 .dog-info-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#CustomerProfile2 .dog-info-table th,
+#CustomerProfile2 td {
+  text-align: left;
+  padding: 8px;
+  width: 150px;
+  font-size: 13px;
+  font-weight: 500;
+}
+#CustomerProfile2 .pet-values {
+  vertical-align: top;
+  color: #B3B3B3;
+  font-family: Roboto;
+  width: 15%;
+  padding-left: 20px;
+}
+#CustomerProfile2 .pet-values-coloumn {
+  vertical-align: top;
+  color: #808080;
+  font-family: Roboto;
+}
+#CustomerProfile2 .pay-profile-label {
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px;
+}
+#CustomerProfile2 .pay-profile-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 14px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .pay-right-div {
+  width: 100%;
+  height: inherit;
+}
+#CustomerProfile2 .payments-container {
+  width: 100%;
+  height: 550px;
+  border-bottom: 1px solid #F5F5F5;
+}
+#CustomerProfile2 .pay-icon-circles {
+  color: #cccccc;
+  padding: 18px 20px;
+  display: inline-block;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 50px;
+  -moz-box-shadow: 0px 0px 2px #888;
+  -webkit-box-shadow: 0px 0px 2px #888;
+  box-shadow: 0px 0px 2px #888;
+  float: right;
+  margin-top: 20px;
+  margin-right: 65px;
+  cursor: pointer;
+}
+#CustomerProfile2 .service-rates {
+  margin-left: 40px;
+  height: 60px;
+  width: 119px;
+  color: #4D4D4D;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 60px;
+}
+#CustomerProfile2 .rates-button-padding {
+  margin-left: 40px;
+}
+#CustomerProfile2 .rates-header-allignemnt {
+  margin-top: 20px;
+}
+#CustomerProfile2 .rates-left-div {
+  float: left;
+  width: 50%;
+  padding-left: 8%;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+#CustomerProfile2 .rates-right-div {
+  float: right;
+  width: 50%;
+  padding-top: 20px;
+  padding-right: 150px;
+}
+#CustomerProfile2 .rate-heading {
+  height: 14px;
+  width: 48px;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  text-align: left;
+}
+#CustomerProfile2 .empty-data {
+  text-align: center;
+}
+#CustomerProfile2 .color-style {
+  background-color: #F6F6F6;
+}
+#CustomerProfile2 .rate-padding {
+  padding-left: 300px;
+}
+#CustomerProfile2 .addon-padding {
+  padding-left: 280px;
+}
+#CustomerProfile2 .rate-row {
+  padding-top: 15px;
+  padding-bottom: 45px;
+  padding-right: 30px;
+  padding-left: 20px;
+  width: 100%;
+  height: 25%;
+}
+#CustomerProfile2 .rate-heading-padding {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+#CustomerProfile2 .rate-row-container {
+  height: 220px;
+  width: auto;
+  overflow-y: auto;
+}
+#CustomerProfile2 .rate-style {
+  padding-left: 260px;
+}
+#CustomerProfile2 .icon-placing {
+  padding-top: 30px;
+}
+#CustomerProfile2 .addon-icon {
+  color: lightgrey;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+#CustomerProfile2 .data-padding-name {
+  width: 250px;
+  text-align: left;
+  padding-top: 30px;
+  font-weight: bold;
+  font-family: Roboto;
+  opacity: 0.49;
+}
+#CustomerProfile2 .data-no-service {
+  width: auto;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  font-family: Roboto;
+  opacity: 0.49;
+  padding-left: 140px;
+}
+#CustomerProfile2 .data-padding-value {
+  text-align: left;
+  padding-top: 30px;
+  font-weight: bold;
+  font-family: Roboto;
+  opacity: 0.49;
+  padding-left: 135px;
+}
+#CustomerProfile2 .addon-data-padding-value {
+  text-align: left;
+  padding-top: 30px;
+  font-weight: bold;
+  font-family: Roboto;
+  opacity: 0.49;
+  padding-left: 150px;
+}
+#CustomerProfile2 .rate-row:nth-child(even) {
+  background-color: #FFF;
+}
+#CustomerProfile2 .rate-row:nth-child(odd) {
+  background-color: #F6F6F6;
+}
+#CustomerProfile2 .service-column-div {
+  width: 50%;
+  float: left;
+}
+#CustomerProfile2 .addon-column-div {
+  width: 40%;
+  float: left;
+}
+#CustomerProfile2 .addon-icon-column-div {
+  padding-left: 30px;
+  width: 20px;
+  float: left;
+}
+#CustomerProfile2 .headers-top {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 21px;
+  width: 100%;
+}
+#CustomerProfile2 .headers-top-left {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 21px;
+  width: 50%;
+}
+#CustomerProfile2 .header-tops-right {
+  position: absolute;
+  right: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 21px;
+  float: right;
+}
+#CustomerProfile2 .vertical-line {
+  height: 50px;
+  width: 2px;
+  border: 1px solid #979797;
+  opacity: 0.5;
+}
+#CustomerProfile2 .outstand-header {
+  height: 4.35%;
+  width: 7vw;
+  color: #FF9D9D;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  padding-left: 2vw;
+}
+#CustomerProfile2 .outstanding-balance {
+  height: 14px;
+  width: 11vw;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  padding-top: 30px;
+  padding-left: 2vw;
+}
+#CustomerProfile2 .credit-header {
+  height: 4.35%;
+  width: 6.81%;
+  color: #1875F0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+#CustomerProfile2 .credit-balance {
+  height: 14px;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  padding-top: 30px;
+  padding-left: 1vw;
+}
+#CustomerProfile2 .total-header {
+  height: 4.35%;
+  width: 6.81%;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+#CustomerProfile2 .total-balance {
+  height: 14px;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  padding-top: 30px;
+}
+#CustomerProfile2 .column-headers {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+}
+#CustomerProfile2 .invoice-header {
+  width: 9vw;
+  margin-left: 18px;
+}
+#CustomerProfile2 .total-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  height: 58px;
+  padding-top: 22px;
+  padding-bottom: 21px;
+  padding-left: 34%;
+}
+#CustomerProfile2 .total-container .outstanding-total-container {
+  display: flex;
+  flex-direction: row;
+  color: #FF9D9D;
+  font-family: Roboto;
+  justify-content: flex-start;
+  align-items: center;
+  width: 9vw;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 2.5vw;
+}
+#CustomerProfile2 .total-container .amount-totals-container {
+  display: flex;
+  flex-direction: row;
+  width: 10vw;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 9px;
+}
+#CustomerProfile2 .total-container .texts-total-container {
+  display: flex;
+  flex-direction: row;
+  width: 11vw;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 28px;
+}
+#CustomerProfile2 .row-container:nth-child(odd) {
+  background-color: #F6F6F6;
+}
+#CustomerProfile2 .row-container:nth-child(even) {
+  background-color: #FFF;
+}
+#CustomerProfile2 .ions-style {
+  height: 20px;
+  width: 24px;
+  color: #D9D9D9;
+  font-size: 20px;
+}
+#CustomerProfile2 .row-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  border: 1px solid #F5F5F5;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  height: 58px;
+  padding-top: 22px;
+  padding-bottom: 21px;
+  padding-left: 28px;
+}
+#CustomerProfile2 .row-container .dates-container {
+  display: flex;
+  flex-direction: row;
+  width: 10.5vw;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 2vw;
+}
+#CustomerProfile2 .row-container .numbers-container {
+  display: flex;
+  flex-direction: row;
+  width: 9vw;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 1.5vw;
+}
+#CustomerProfile2 .row-container .status-containers {
+  display: flex;
+  flex-direction: row;
+  width: 9vw;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 3vw;
+  text-transform: uppercase;
+}
+#CustomerProfile2 .row-container .outstanding-container {
+  display: flex;
+  flex-direction: row;
+  color: #FF9D9D;
+  font-family: Roboto;
+  justify-content: flex-start;
+  align-items: center;
+  width: 9vw;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 2.5vw;
+}
+#CustomerProfile2 .row-container .amounts-container {
+  display: flex;
+  flex-direction: row;
+  width: 11vw;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 3vw;
+}
+#CustomerProfile2 .row-container .action-container {
+  display: flex;
+  flex-direction: row;
+  width: 12vw;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 1vw;
+  float: right;
+}
+#CustomerProfile2 .img-edit {
+  width: 20px;
+  height: 20px;
+  padding-left: none;
+}
+#CustomerProfile2 .img-delete {
+  width: 20px;
+  height: 20px;
+  padding-left: none;
+}
+#CustomerProfile2 .img-send {
+  width: 30px;
+  height: 30px;
+  padding-left: none;
+}
+#CustomerProfile2 .creates-button {
+  height: 40px;
+  width: 156px;
+  background-color: #1875F0;
+  padding-left: 15px;
+  float: right;
+}
+#CustomerProfile2 .receives-button {
+  height: 40px;
+  width: 156px;
+  background-color: #999999;
+}
+#CustomerProfile2 .pet-add-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-size: 10px;
+  color: #FFFFFF;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 11px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  border-top-width: 10px;
+  padding-left: 16px;
+  border-left-width: 12px;
+  padding-right: 27px;
+  border-bottom-width: 18px;
+  margin-right: 33px;
+}
+#CustomerProfile2 .rows-scroll {
+  overflow-y: auto;
+  height: 610px;
+  width: 100.8%;
+}
+#CustomerProfile2 .profile-info-modal-popup {
+  width: 900px;
+  margin-left: 100px;
+}
+#CustomerProfile2 .modal-main-container {
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+#CustomerProfile2 .modal-main-container button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+#CustomerProfile2 .cus-modal-main-container {
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  font-size: 16px;
+  height: 540px;
+  width: 100%;
+  overflow-y: auto;
+}
+#CustomerProfile2 .cus-modal-main-container button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+#CustomerProfile2 .modal-header-container {
+  width: 100%;
+  background-color: #F4F4F4;
+  border-radius: 6px 6px 0 0;
+  padding: 0;
+  font-weight: 500;
+  line-height: 30px;
+  color: #3E3E3E;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#CustomerProfile2 .modal-header-container .modal-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  align-items: center;
+  flex: 1;
+}
+#CustomerProfile2 .modal-header-container .modal-header .appointment-details {
+  padding-left: 30px;
+}
+#CustomerProfile2 .modal-header-container .modal-header .approval-state {
+  display: flex;
+  align-items: center;
+}
+#CustomerProfile2 .modal-header-container .modal-header .approval-status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#CustomerProfile2 .modal-header-container .modal-header .approval-status .status {
+  border-radius: 50%;
+  margin-right: 12px;
+  align-self: center;
+}
+#CustomerProfile2 .modal-header-container .modal-header .approval-status .status.approved {
+  background-color: #3DA647;
+  width: 18px;
+  height: 18px;
+}
+#CustomerProfile2 .modal-header-container .modal-header .approval-status .status.change.requested {
+  background-color: none;
+  width: 18px;
+  height: 18px;
+  border: 1px solid black;
+}
+#CustomerProfile2 .modal-header-container .modal-header .approval-status .pulsate {
+  -webkit-animation: color_change 1.5s infinite alternate;
+  -moz-animation: color_change 1.5s infinite alternate;
+  -ms-animation: color_change 1.5s infinite alternate;
+  -o-animation: color_change 1.5s infinite alternate;
+  animation: color_change 1.5s infinite alternate;
+}
+#CustomerProfile2 .close-modal {
+  background-color: #F4F4F4;
+  position: absolute;
+  right: 26px;
+  top: 14px;
+}
+#CustomerProfile2 .cus-contact-container {
+  width: 100%;
+  height: 692px;
+  border-bottom: 1px solid #F5F5F5;
+}
+#CustomerProfile2 .cus-align {
+  padding-top: 400px;
+  padding-right: 50px;
+}
+#CustomerProfile2 .pro-align {
+  margin-top: 90px;
+  margin-left: 450px;
+}
+#CustomerProfile2 .add-service-actions {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  max-width: 455px;
+  justify-content: space-between;
+}
+#CustomerProfile2 .add-service-actions div {
+  border-radius: 4px;
+}
+#CustomerProfile2 .add-service-actions button {
+  width: 139px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  text-decoration: none;
+}
+#CustomerProfile2 .add-service-actions .add-service-modal button {
+  background-color: #3DA647;
+}
+#CustomerProfile2 .add-service-actions .delete button {
+  background-color: #7D7D7D;
+}
+#CustomerProfile2 .add-service-actions .save button {
+  opacity: 0.3;
+  background-color: #8D8D8D;
+}
+#CustomerProfile2 .add-service-actions .delete {
+  padding-right: 15px;
+}
+#CustomerProfile2 .add-service-actions .approve button {
+  background-color: #3DA647;
+}
+#CustomerProfile2 .pets-edit-box {
+  width: 100%;
+  height: 469px;
+  border-bottom: 1px solid #F5F5F5;
+}
+#CustomerProfile2 .pets-edit-box input[type=text] {
+  border: 1px solid #ccc;
+}
+#CustomerProfile2 .pets-edit-box input[type=text]:focus {
+  border: 1px solid #555;
+}
+#CustomerProfile2 .add-pets-actions {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 455px;
+  justify-content: space-between;
+}
+#CustomerProfile2 .add-pets-actions button {
+  width: 109px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  text-decoration: none;
+}
+#CustomerProfile2 .add-pets-actions .add-service-modal button {
+  background-color: #3DA647;
+}
+#CustomerProfile2 .add-pets-actions .delete button {
+  margin-left: 380px;
+  background-color: #7D7D7D;
+}
+#CustomerProfile2 .add-pets-actions .save button {
+  margin-left: 20px;
+  background-color: #3DA647;
+}
+#CustomerProfile2 .pets-edit-div {
+  width: 30%;
+  float: left;
+}
+#CustomerProfile2 .pets-container {
+  margin-left: 26px;
+  margin-top: 10px;
+}
+#CustomerProfile2 .pets-container textarea {
+  width: 185px;
+  height: 72px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: none;
+}
+#CustomerProfile2 .pet-edit-label {
+  vertical-align: top;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 495;
+  line-height: 15px;
+  padding: 10px;
+}
+#CustomerProfile2 .icon-design {
+  padding-left: 8px;
+  padding-top: 1px;
+  color: #ccc;
+}
+#CustomerProfile2 .rate-row-container-edit-rates {
+  height: 700px;
+}
+#CustomerProfile2 .close {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+#CustomerProfile2 .rate-row-edit-rates {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 20px;
+  width: 100%;
+  height: 55px;
+}
+#CustomerProfile2 .service-column-div-edit-rates {
+  width: 30%;
+  float: left;
+}
+#CustomerProfile2 .rate-row-edit-rates:nth-child(even) {
+  background-color: #F6F6F6;
+}
+#CustomerProfile2 .rate-row-edit-rates:nth-child(odd) {
+  background-color: #FFF;
+}
+#CustomerProfile2 .rate-heading-padding-edit-tab {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+#CustomerProfile2 .edit-rate-actions {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 455px;
+  justify-content: space-between;
+}
+#CustomerProfile2 .edit-rate-actions button {
+  width: 109px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  text-decoration: none;
+}
+#CustomerProfile2 .edit-rate-actions .add-service-modal button {
+  background-color: #3DA647;
+}
+#CustomerProfile2 .edit-rate-actions .delete button {
+  margin-left: 300px;
+  background-color: #7D7D7D;
+}
+#CustomerProfile2 .edit-rate-actions .save button {
+  margin-left: 20px;
+  background-color: #3DA647;
+}
+#CustomerProfile2 .delete-box {
+  width: 100%;
+  height: 109px;
+  border-bottom: 1px solid #F5F5F5;
+}
+#CustomerProfile2 .modal-footer {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: auto;
+  justify-content: space-between;
+}
+#CustomerProfile2 .modal-footer button {
+  width: 109px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  text-decoration: none;
+}
+#CustomerProfile2 .modal-footer .add-service-modal button {
+  background-color: #3DA647;
+}
+#CustomerProfile2 .modal-footer .delete button {
+  margin-left: 160px;
+  background-color: #7D7D7D;
+}
+#CustomerProfile2 .modal-footer .save button {
+  margin-right: 10px;
+  background-color: #FF0000;
+}
+#CustomerProfile2 .delete-text {
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 495;
+  margin-top: 40px;
+  padding-left: 40px;
+  position: absolute;
+}
+#CustomerProfile2 .bill-address-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 78px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .card-lastname-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 78px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .card-name-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 53px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .bill-address2-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 68px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .bill-city-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 105px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .bill-state-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 96px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .bill-zip-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 108px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .payment-type-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .bill-time-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .bill-cycle-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .bill-date-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .card-type-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 154px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .card-num-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 134px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .cvv-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 186px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .card-expiry-value {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 123px;
+  padding: 10px;
+  width: 150px;
+}
+#CustomerProfile2 .issue-credit-label {
+  vertical-align: top;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 495;
+  line-height: 25px;
+}
+#CustomerProfile2 .refund-row {
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+}
+#CustomerProfile2 .refunds-type-label {
+  vertical-align: top;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 495;
+  line-height: 15px;
+  padding-top: 25px;
+}
+#CustomerProfile2 .issue-credit-container {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+#CustomerProfile2 .refund-type-box {
+  padding: 20px 20px 30px 30px;
+}
+#CustomerProfile2 .refund-typeselect-box {
+  padding: 20px 20px 30px 30px;
+  border-top: 1px solid #F5F5F5;
+}
+#CustomerProfile2 .refund-invoice-type-box {
+  height: 300px;
+  border-top: 1px solid #F5F5F5;
+}
+#CustomerProfile2 .trans-type-select {
+  width: 130px;
+  display: inline-table;
+  padding-left: 45px;
+}
+#CustomerProfile2 .custname-type-select {
+  width: 130px;
+  display: inline-table;
+  padding-left: 93px;
+}
+#CustomerProfile2 .trans-name-label {
+  display: -webkit-inline-box;
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 495;
+  line-height: 15px;
+  padding: 10px;
+}
+#CustomerProfile2 .trans-details-label {
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 495;
+  line-height: 15px;
+}
+#CustomerProfile2 .trans-type-label {
+  width: 202px;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+}
+#CustomerProfile2 .custo-type-label {
+  padding-left: 94px;
+}
+#CustomerProfile2 .amts-type-label {
+  padding-left: 105px;
+}
+#CustomerProfile2 .issue-credit-button {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+}
+#CustomerProfile2 .issue-credit-button button {
+  width: 189px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  text-decoration: none;
+}
+#CustomerProfile2 .issue-credit-button .save button {
+  margin-left: 20px;
+  background-color: #345AD9;
+}
+#CustomerProfile2 .add-credit-actions {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 455px;
+  width: auto;
+  justify-content: space-between;
+}
+#CustomerProfile2 .add-credit-actions button {
+  width: 109px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  text-decoration: none;
+}
+#CustomerProfile2 .add-credit-actions .delete button {
+  margin-left: 430px;
+  background-color: #7D7D7D;
+}
+#CustomerProfile2 .add-credit-actions .save button {
+  margin-left: 20px;
+  background-color: #3DA647;
+}
+#CustomerProfile2 .invoive-date-box {
+  padding-left: 10px;
+  width: auto;
+  float: left;
+}
+#CustomerProfile2 .invoive-date-box input[type=text] {
+  padding: 5px 5px 5px 5px;
+  width: 110px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  height: 16px;
+}
+#CustomerProfile2 .invoive-date-box input[type=text]:focus {
+  border: 1px solid #555;
+  border-radius: 4px;
+}
+#CustomerProfile2 input[type=text] {
+  padding: 5px 5px 5px 5px;
+  width: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  height: 16px;
+}
+#CustomerProfile2 input[type=text]:focus {
+  border: 1px solid #555;
+  border-radius: 4px;
+}
+#CustomerProfile2 .invoive-date-box1 {
+  width: 130px;
+  display: inline-table;
+}
+#CustomerProfile2 .issue-billing-box {
+  width: 100%;
+  height: 528px;
+  border-bottom: 1px solid #F5F5F5;
+  overflow-y: auto;
+  padding-bottom: 30px;
+}
+#CustomerProfile2 .issue-billing-box input[type=number] {
+  padding: 5px 5px 5px 5px;
+  width: 203px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#CustomerProfile2 .issue-billing-box input[type=number]:focus {
+  border: 1px solid #555;
+  border-radius: 4px;
+}
+#CustomerProfile2 .refund-type-container {
+  background-color: white;
+  border: 2px solid #D8E0E2;
+  border-radius: 4px;
+  padding: 10px;
+}
+#CustomerProfile2 .refundss-type-box {
+  padding-top: 10px;
+  flex-direction: row;
+  display: flex;
+}
+#CustomerProfile2 .refundss-type-container {
+  width: 33%;
+}
+#CustomerProfile2 .refund-credit {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-top: 8px;
+  padding-left: 25px;
+}
+#CustomerProfile2 .value-refund-data {
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 14px;
+}
+#CustomerProfile2 .refund-column-headers {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 65px;
+  padding-right: 20px;
+}
+#CustomerProfile2 .refund-header-style {
+  color: #B3B3B3;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  padding-left: 10px;
+}
+#CustomerProfile2 .checkbox_align {
+  width: 30px;
+  height: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#CustomerProfile2 .refunds-header {
+  padding-left: 17px;
+  width: 15%;
+}
+#CustomerProfile2 .refunds-date-header {
+  padding-left: 20px;
+  width: 20%;
+}
+#CustomerProfile2 .refund-row-container:nth-child(even) {
+  background-color: #F6F6F6;
+}
+#CustomerProfile2 .refund-row-container:nth-child(odd) {
+  background-color: #FFF;
+}
+#CustomerProfile2 .refunds-invoice-scroll {
+  overflow-y: auto;
+  min-height: auto;
+  max-height: 300px;
+}
+#CustomerProfile2 .refund-row-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  border: 1px solid #F5F5F5;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  height: 58px;
+  padding-top: 22px;
+  padding-bottom: 21px;
+  padding-left: 28px;
+}
+#CustomerProfile2 .refund-row-container .dates-container {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: inherit;
+}
+#CustomerProfile2 .refund-row-container .amounts-container {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 15px;
+  padding-left: 17px;
+}
+#CustomerProfile2 .pets-add-box {
+  width: 100%;
+  height: 469px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #F5F5F5;
+  overflow-y: auto;
+}
+#CustomerProfile2 .pets-add-box input[type=text] {
+  border: 1px solid #ccc;
+}
+#CustomerProfile2 .pets-add-box input[type=number] {
+  border: 1px solid #ccc;
+}
+#CustomerProfile2 .pets-add-box input[type=text]:focus {
+  border: 1px solid #555;
+}
+#CustomerProfile2 .pets-add-box input[type=number]:focus {
+  border: 1px solid #555;
+}
+#CustomerProfile2 .pets-add-box .pets-add-div {
+  width: 100%;
+  padding-left: 200px;
+  padding-top: 20px;
+}
+#CustomerProfile2 .pets-add-box .pets-pic-div {
+  padding-top: 30px;
+  padding-left: 20px;
+  width: 21%;
+  float: left;
+  background-color: #fff;
+  height: 130px;
+}
+#CustomerProfile2 .pets-add-box .pets-show-pic-div {
+  width: fit-content;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#CustomerProfile2 .pets-add-box .pet-add-name {
+  padding-left: 138px;
+}
+#CustomerProfile2 .pets-add-box .pet-add-breed {
+  padding-left: 136px;
+}
+#CustomerProfile2 .pets-add-box .pet-add-hosp {
+  padding-left: 76px;
+}
+#CustomerProfile2 .pets-add-box .pet-add-vname {
+  padding-left: 122px;
+}
+#CustomerProfile2 .pets-add-box .pet-add-addr {
+  padding-left: 97px;
+}
+#CustomerProfile2 .pets-add-box .pet-add-phone {
+  padding-left: 116px;
+}
+#CustomerProfile2 .pets-add-box .pet-add-rabdate {
+  padding-left: 16px;
+}
+#CustomerProfile2 .pets-add-box .pet-add-bdate {
+  padding-left: 127px;
+}
+#CustomerProfile2 .pets-add-box .pet-add-medInfo {
+  padding-left: 87px;
+  display: inline-block;
+}
+#CustomerProfile2 .pets-add-box .pet-add-colInfo {
+  padding-left: 64px;
+  display: inline-block;
+}
+#CustomerProfile2 .pets-add-box .pet-add-feedInfo {
+  padding-left: 97px;
+  display: inline-block;
+}
+#CustomerProfile2 .pets-add-box .pet-add-petsInfo {
+  padding-left: 120px;
+  display: inline-block;
+}
+#CustomerProfile2 .pets-add-box .pet-add-img {
+  padding-left: 140px;
+  display: inline-block;
+  font-size: 12px;
+}
+#CustomerProfile2 .uploadBtn {
+  overflow: hidden;
+  width: 0px;
+  background: red;
+  display: none;
+}

@@ -1,0 +1,19 @@
+#MainRouter {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+#MainRouter .main-content {
+  flex: 1;
+  padding-left: 15vw;
+  width: 85vw;
+  background: #f6f6f6;
+}
+#MainRouter .main-content.no-sidebar {
+  padding-left: 0;
+}
+@media only screen and (max-width: 768px) {
+  #MainRouter .main-content {
+    padding-left: 0;
+  }
+}

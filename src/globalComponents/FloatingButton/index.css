@@ -1,0 +1,30 @@
+.FloatingButton {
+  bottom: 50px;
+  position: fixed;
+  right: 50px;
+  z-index: 500000;
+}
+.FloatingButton .button {
+  align-items: center;
+  background-color: #3DA647;
+  border: none;
+  border-radius: 60px;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.2);
+  color: #FFFFFF;
+  display: flex;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 900;
+  height: 60px;
+  justify-content: center;
+  outline: none;
+  width: 60px;
+}
+.FloatingButton .icon-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.FloatingButton .CustomIcon.icon-container .icon-wrapper .icon {
+  color: #FFF;
+}

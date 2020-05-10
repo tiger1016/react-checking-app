@@ -1,0 +1,19 @@
+// Constants
+import { ACTIONS_BASE } from '../globals'
+
+const globalIdent = ACTIONS_BASE + 'ALERTS/'
+
+export const FETCH_ALERTS_REJECTED = globalIdent + 'FETCH_ALERTS_REJECTED'
+export const FETCH_ALERTS_REQUESTED = globalIdent + 'FETCH_ALERTS_REQUESTED'
+export const FETCH_ALERTS_SUCCEDED = globalIdent + 'FETCH_ALERTS_SUCCEDED'
+
+export const DELETE_ALERTS_REJECTED = globalIdent + 'DELETE_ALERTS_REJECTED'
+export const DELETE_ALERTS_REQUESTED = globalIdent + 'DELETE_ALERTS_REQUESTED'
+export const DELETE_ALERTS_SUCCEDED = globalIdent + 'DELETE_ALERTS_SUCCEDED'
+
+export const DELETE_SELECTED_ALERTS_REJECTED = globalIdent + 'DELETE_SELECTED_ALERTS_REJECTED'
+export const DELETE_SELECTED_ALERTS_REQUESTED = globalIdent + 'DELETE_SELECTED_ALERTS_REQUESTED'
+export const DELETE_SELECTED_ALERTS_SUCCEDED = globalIdent + 'DELETE_SELECTED_ALERTS_SUCCEDED'
+
+export const GET_LAST_ALERT = global + 'GET_LAST_ALERT'
+export const SET_READ_ALERT = global + 'SET_READ_ALERT'

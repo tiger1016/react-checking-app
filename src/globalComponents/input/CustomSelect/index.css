@@ -1,0 +1,250 @@
+.CustomSelectWithIcon,
+.CustomSelect {
+    display: flex;
+    flex: 1;
+    min-height: 34.52px;
+}
+
+.CustomSelectWithIcon .select-container,
+.CustomSelect .select-container {
+    display: flex;
+    flex: 1;
+}
+
+.CustomSelectWithIcon .Select,
+.CustomSelect .Select {
+    flex: 1;
+}
+
+.CustomSelectWithIcon.highContrast .Select-control,
+.CustomSelect.highContrast .Select-control {
+    border: 1px solid black !important;
+}
+
+.CustomSelectWithIcon .Select-control,
+.CustomSelect .Select-control {
+    background-color: #FFF;
+    border: 1px solid #dadada !important;
+    box-shadow: none !important;
+    display: flex;
+    flex: 1;
+    height: 100%;
+    padding: 6px 0 6px 3px;
+    outline: none !important;
+    overflow: hidden;
+}
+
+.CustomSelect.secondary .Select-control {
+    background-color: rgb(232, 232, 232);
+    border: none !important;
+}
+
+.CustomSelect.searchFormat .Select-control {
+    border-left: none !important;
+    border-radius: 0 !important;
+    border-right: none !important;
+    border-top: none !important;
+}
+
+.CustomSelect.searchFormat .Select-control .Select-multi-value-wrapper {
+    margin-left: 20px;
+}
+
+.CustomSelect.searchFormat .Select-control .Select-placeholder {
+    color: rgb(95, 95, 95);
+    left: 20px;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.CustomSelect.searchFormat .Select-control .Select-arrow-zone .icon {
+    color: rgb(136, 136, 136);
+    font-size: 18px;
+}
+
+.CustomSelect.searchFormat .Select-control .Select-arrow-zone {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.CustomSelectWithIcon .Select--multi.has-value .Select-control,
+.CustomSelect .Select--multi.has-value .Select-control {
+    padding: 2px 0 2px 3px;
+}
+
+.CustomSelectWithIcon .Select--multi.has-value .Select-multi-value-wrapper,
+.CustomSelect .Select--multi.has-value .Select-multi-value-wrapper {
+    padding-right: 25px;
+}
+
+.CustomSelectWithIcon .is-open .Select-control,
+.CustomSelect .is-open .Select-control {
+    border-color: #dadada;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.CustomSelectWithIcon .Select-multi-value-wrapper,
+.CustomSelect .Select-multi-value-wrapper {
+    align-items: stretch;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.CustomSelectWithIcon .Select-arrow-zone,
+.CustomSelect .Select-arrow-zone {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.CustomSelectWithIcon.highContrast .Select-value-label,
+.CustomSelect.highContrast .Select-value-label {
+    color: black !important;
+}
+
+.CustomSelectWithIcon .Select-value-label,
+.CustomSelect .Select-value-label {
+    color: #808080 !important;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: initial;
+}
+
+.CustomSelect.secondary .Select-value-label {
+    color: #000 !important;
+    font-size: 16px;
+}
+
+.CustomSelectWithIcon .Select--multi .Select-multi-value-wrapper .Select-value-label,
+.CustomSelect .Select--multi .Select-multi-value-wrapper .Select-value-label {
+    color: #007eff !important;
+    font-size: 10px;
+}
+
+.CustomSelectWithIcon .Select--multi .Select-value,
+.CustomSelect .Select--multi .Select-value {
+    line-height: initial;
+}
+
+.CustomSelect .Select-placeholder,
+.Select--single>.Select-control .Select-value,
+.CustomSelectWithIcon .Select-placeholder,
+.Select--single>.Select-control .Select-value,
+.CustomSelectWithIcon .Select-value,
+.CustomSelect .Select-value {
+    align-items: center;
+    display: flex;
+    margin: 1px 1px;
+    margin-right: 5px;
+    text-overflow: ellipsis;
+}
+
+.CustomSelectWithIcon .Select-value-icon,
+.CustomSelect .Select-value-icon {
+    padding: 3px 5px 1px;
+}
+
+.CustomSelectWithIcon .Select-menu-outer,
+.CustomSelect .Select-menu-outer {
+    border: 1px solid #dadada;
+    font-size: 12px;
+    z-index: 20;
+}
+
+.CustomSelectWithIcon .Select-input,
+.CustomSelect .Select-input {
+    align-items: center;
+    display: flex !important;
+    flex: 1;
+    height: auto;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 25px;
+}
+
+.CustomSelectWithIcon.highContrast .Select-input input,
+.CustomSelect.highContrast .Select-input input {
+    color: black;
+}
+
+.CustomSelectWithIcon .Select-input input,
+.CustomSelect .Select-input input {
+    color: #808080;
+    flex: 1;
+    font-size: 12px;
+    padding: 0;
+}
+
+.CustomSelectWithIcon.alert .Select-control,
+.CustomSelect.alert .Select-control {
+    border-color: #c7011a !important;
+}
+
+.CustomSelectWithIcon {
+    display: flex;
+    flex-direction: row;
+}
+
+.CustomSelectWithIcon.highContrast .icon-container {
+    border: 1px solid black;
+    color: black;
+}
+
+.CustomSelectWithIcon .icon-container {
+    align-items: center;
+    border: 1px solid #dadada;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+    background: #FFF;
+    color: #D8D8D8;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+}
+
+.CustomSelectWithIcon .Select-control {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.CustomSelectWithIcon.alert .icon-container {
+    background: #c7011a;
+    border-color: #c7011a;
+    color: rgb(255, 255, 255);
+}
+
+.CustomSelectWithIcon.mark .icon-container {
+    color: #75ab98;
+}
+
+.CustomSelectWithIcon .icon-container.larger {
+    font-size: 20px;
+}
+
+.CustomSelectWithIcon .Select-placeholder,
+.CustomSelect .Select-placeholder {
+    align-items: center;
+    display: flex;
+    font-size: 12px !important;
+}
+
+.CustomSelect .Select-menu-outer .Select-menu .Select-option,
+.CustomSelectWithIcon .Select-menu-outer .Select-menu .Select-option {
+    color: #808080;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.CustomSelect .Select-menu-outer .Select-menu .Select-option:hover,
+.CustomSelectWithIcon .Select-menu-outer .Select-menu .Select-option:hover {
+    background-color: rgba(24, 117, 240, .1);
+}

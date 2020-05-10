@@ -1,0 +1,50 @@
+.IssueRefundModal {
+  flex: 1;
+  padding: 20px;
+}
+.IssueRefundModal .label {
+  /*width: 120px;*/
+}
+.IssueRefundModal .input {
+  /*width: 200px;*/
+}
+.IssueRefundModal .RadioLabel {
+  color: #999999;
+  font-size: 12px;
+  font-weight: 500;
+}
+.IssueRefundModal .refund-type-box {
+  padding: 1rem;
+  background-color: #f4f4f4;
+}
+
+.IssueRefundModal h5.refunds-desc {
+  color: #666;
+  line-height: 2;
+  font-weight: bold;
+}
+
+.IssueRefundModal .refunds-detail {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.IssueRefundModal .mb10{
+  margin-bottom: 10px;
+}
+.IssueRefundModal .ml10{
+  margin-left: 10px;
+}
+.IssueRefundModal .span10{
+  display: block;
+  height: 10px;
+}
+.IssueRefundModal .empty {
+  min-height: 200px;
+  padding: 0;
+}
+
+.IssueRefundModal .CustomTable .ReactTable .rt-tbody {
+  max-height: 200px;
+}

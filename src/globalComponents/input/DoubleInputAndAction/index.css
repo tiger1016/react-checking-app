@@ -1,0 +1,23 @@
+.DoubleInputAndAction {
+  align-items: flex-end;
+  display: flex;
+}
+.DoubleInputAndAction .TextInput {
+  max-height: 34px;
+  min-height: 34px;
+}
+.DoubleInputAndAction div:not(:last-child) {
+  margin-right: 15px;
+}
+.DoubleInputAndAction .input-container {
+  max-width: 230px;
+  min-width: 230px;
+}
+.DoubleInputAndAction .label {
+  color: #808080;
+  font-family: Roboto;
+  line-height: 15px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,7 @@
+.QrcodesSelect {
+  min-width: 200px;
+  display: inline-block;
+}
+.QrcodesSelect .CustomSelect .select-container {
+  width: 100%;
+}

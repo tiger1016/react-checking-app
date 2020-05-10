@@ -1,0 +1,85 @@
+.sweet-alert {
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-bottom: 17px !important;
+}
+.sweet-alert .sa-icon {
+  height: 0 !important;
+  overflow: hidden  !important;
+  margin: 0  !important;
+  border: none  !important;
+}
+.sweet-alert h2 {
+  margin-top: 50px !important;
+  margin-left: 17px !important;
+  margin-right: 17px !important;
+}
+.sweet-alert #alert-custom-close {
+  background-color: #F4F4F4;
+  padding: 17px 17px 17px 17px;
+  text-align: right;
+}
+.sweet-alert #alert-custom-close span {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  color: #999;
+}
+
+.sweet-alert #alert-custom-close span:hover {
+  color: #000;
+}
+.sweet-alert button {
+  text-transform: uppercase;
+  font-size: 10px !important;
+  box-shadow: none !important;
+  height: 42px;
+  min-width: 120px;
+  align-items: center;
+  background-image: none;
+  border: none !important;
+  border-radius: 4px !important;
+  color: #FFFFFF !important;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  white-space: nowrap;
+  font-family: Roboto;
+  font-weight: 500 !important;
+  letter-spacing: 1px;
+  text-align: center;
+  outline: none !important;
+}
+.sweet-alert button.cancel {
+  background-color: transparent !important;
+  color: #999999 !important;
+}
+.sweet-alert button.cancel:hover {
+  color: #000 !important;
+}
+.sweet-alert .sa-button-container button.cancel:focus {
+  box-shadow: none !important;
+}
+.double-confirm .sweet-alert button.cancel {
+  background-color: #3DA647 !important;
+}
+.double-confirm .sweet-alert button.cancel:hover {
+  background-color: #38a142 !important;
+}
+.confirm-delete h2 {
+  margin: 0;
+}
+.sweet-alert #alert-delete-icon {
+  margin: -20px 0 0;
+}
+.sweet-alert #alert-delete-icon .icon {
+  color: #1875f0;
+  font-size: 40px;
+}
+.sweet-alert #alert-delete-icon + p {
+  font-weight: 600;
+  padding: 20px;
+}

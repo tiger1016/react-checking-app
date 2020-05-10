@@ -1,0 +1,26 @@
+#QrCodes .SimplePieChart {
+    margin-bottom: 50px;
+  }
+  #QrCodes .section-header {
+    align-items: center;
+    display: flex;
+  }
+  #QrCodes .section-header span {
+    color: #808080;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  #QrCodes .order-action {
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  #QrCodes .order-action div:not(:last-child) {
+    margin-right: 15px;
+  }
+  #QrCodes .DataDisplay {
+    margin-bottom: 40px;
+  }
+  #QrCodes .ButtonGroup {
+    margin-top: 0px;
+  }

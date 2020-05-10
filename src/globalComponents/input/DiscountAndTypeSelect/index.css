@@ -1,0 +1,10 @@
+.DiscountAndTypeSelect{
+    display: flex;
+    width:250px
+}
+.DiscountAndTypeSelect .TextInput{
+    margin-right: 10px;
+}
+.DiscountAndTypeSelect .TextInput .icon-wrapper .icon{
+    font-size: 20px !important;
+  }

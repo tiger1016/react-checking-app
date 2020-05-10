@@ -1,0 +1,8 @@
+// Constants
+import { ACTIONS_BASE } from '../globals'
+
+const globalIdent = ACTIONS_BASE + 'NETWORK_STATUS/'
+
+export const FETCH_NETWORK_STATUS_REJECTED = globalIdent + 'FETCH_NETWORK_STATUS_REJECTED'
+export const FETCH_NETWORK_STATUS_REQUESTED = globalIdent + 'FETCH_NETWORK_STATUS_REQUESTED'
+export const FETCH_NETWORK_STATUS_SUCCEDED = globalIdent + 'FETCH_NETWORK_STATUS_SUCCEDED'

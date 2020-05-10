@@ -1,0 +1,53 @@
+.NavButton button.nav-item {
+    align-items: center;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #F5F5F5;
+    border-radius: 0;
+    color: #999999;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-weight: 500;
+    height: 60px;
+    justify-content: center;
+    line-height: 30px;
+    width: 100%;
+  }
+  .NavButton button.nav-item.highlight {
+    background-color: #F5F5F5;
+    border-left: 2px solid blue;
+    color: #1875F0;
+    font-family: Roboto;
+    font-weight: bold;
+  }
+  .NavButton button.nav-item>div {
+    font-size: 24px;
+    display: flex;
+    flex: 1.25;
+    justify-content: center;
+  }
+  .NavButton button.nav-item span {
+    display: flex;
+    flex: 2;
+  }
+  
+  .NavButton button.nav-item .notifications {
+    position: relative;
+  }
+  
+  .NavButton button.nav-item .notifications .badge{
+    position: absolute;
+    display: block;
+    font-size: 10px;
+    width: 14px;
+    height: 14px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+    line-height: 14px;
+    right: -5px;
+    bottom: 0;
+  }

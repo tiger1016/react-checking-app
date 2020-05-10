@@ -1,0 +1,8 @@
+#CalendarBody {
+  background-color: #FFF;
+  position: relative;
+}
+#CalendarBody .scheduler-display-main-container {
+  display: flex;
+  flex-direction: row;
+}

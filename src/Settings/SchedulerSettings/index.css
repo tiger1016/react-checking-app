@@ -1,0 +1,7 @@
+#SchedulerSettings .CustomSelect {
+  width: 173px;
+}
+#SchedulerSettings .HourMinute .CustomSelect {
+  width: 80px;
+  min-width: 80px;
+}

@@ -1,0 +1,56 @@
+#CustomerRefundsAndCredits::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#CustomerRefundsAndCredits .totals {
+    text-align: right;
+    flex: 1;
+  }
+  #CustomerRefundsAndCredits .totals span {
+    font-weight: bold;
+  }
+  #CustomerRefundsAndCredits .full-width-section {
+    margin: 0;
+  }
+  #CustomerRefundsAndCredits .CustomTable {
+    margin-bottom: 60px;
+  }
+  #CustomerRefundsAndCredits .CustomTable .ReactTable .rt-resizable-header-content {
+    justify-content: flex-start;
+  }
+  #CustomerRefundsAndCredits .rt-th:first-child .rt-resizable-header-content {
+    padding-left: 20px;
+  }
+  #CustomerRefundsAndCredits .rt-th:last-child .rt-resizable-header-content {
+    padding-right: 20px;
+  }
+  #CustomerRefundsAndCredits .rt-td:first-child {
+    padding-left: 35px;
+  }
+  #CustomerRefundsAndCredits .rt-td:last-child {
+    padding-right: 35px;
+  }
+  #CustomerRefundsAndCredits .half-width-screen {
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+  }
+
+  #CustomerRefundsAndCredits .half-width-screen:first-child {
+    padding-right: 20px;
+    padding-left: 0;
+  }
+
+  @media screen and (max-width: 640px) {
+    #CustomerRefundsAndCredits .half-width-screen {
+      width: 100%;
+      float: none;
+      padding: 0;
+    }
+
+    #CustomerRefundsAndCredits .full-width-section {
+      margin: 0 -35px;
+    }
+  }
+

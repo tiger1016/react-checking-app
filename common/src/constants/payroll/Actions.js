@@ -1,0 +1,16 @@
+// Constants
+import { ACTIONS_BASE } from '../globals'
+
+const globalIdent = ACTIONS_BASE + 'PAYROLL/'
+
+/*
+  Payroll
+*/
+
+export const SEND_PAYROLL_REPORT_REJECTED = globalIdent + 'SEND_PAYROLL_REPORT_REJECTED'
+export const SEND_PAYROLL_REPORT_REQUESTED = globalIdent + 'SEND_PAYROLL_REPORT_REQUESTED'
+export const SEND_PAYROLL_REPORT_SUCCEDED = globalIdent + 'SEND_PAYROLL_REPORT_SUCCEDED'
+
+export const FETCH_PAYROLL_REJECTED = globalIdent + 'FETCH_PAYROLL_REJECTED'
+export const FETCH_PAYROLL_REQUESTED = globalIdent + 'FETCH_PAYROLL_REQUESTED'
+export const FETCH_PAYROLL_SUCCEDED = globalIdent + 'FETCH_PAYROLL_SUCCEDED'

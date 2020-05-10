@@ -1,0 +1,16 @@
+.CompleteDateInputAndSelect {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.CompleteDateInputAndSelect .TextInput {
+  margin-right: 10px;
+}
+.CompleteDateInputAndSelect .DaysOfMonthSelect {
+  margin-right: 10px;
+  width: 120px;
+}
+.CompleteDateInputAndSelect .MonthsSelect {
+  width: 240px;
+}

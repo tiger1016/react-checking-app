@@ -1,0 +1,29 @@
+html, body {
+  height: auto;
+  min-height: 100%;
+}
+#Scheduler-DayView .clear-all {
+  clear: both;
+  float: none
+}
+#Scheduler-DayView #Minute-Header-Search-pinned {
+  height: 60px;
+  float: left;
+  background: #FFF;
+  text-align: center;
+  padding: 20px 0;
+  border-color: #f5f5f5;
+  border-style: solid;
+  border-width: 1px;
+  color: #B7B7B7;
+  font-size: 12px;
+  height: 58px;
+  position: fixed;
+  z-index: 200;
+  left: 0;
+  top: 43px;
+  display: none;
+}
+#walker_0_container{
+  background-color: rgba(255, 255, 0, 0.6) !important;
+}

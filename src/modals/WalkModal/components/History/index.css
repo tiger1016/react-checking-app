@@ -1,0 +1,11 @@
+#History {
+  padding: 30px 60px;
+}
+#History .entry-container {
+  padding: 10px 0;
+}
+#History .entry-container .entry {
+  color: #6e6e6e;
+  font-size: 12px;
+  font-weight: 500;
+}

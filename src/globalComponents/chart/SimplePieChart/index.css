@@ -1,0 +1,34 @@
+.SimplePieChart {
+    overflow: hidden;
+  }
+  .SimplePieChart .chart-container {
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  .SimplePieChart .recharts-surface {
+    margin-left: -5px;
+    margin-top: -3px;
+  }
+  .SimplePieChart .chart-container .inner-label {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-family: Roboto;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    height: 50px;
+    left: -7px;
+    top: 44px;
+    width: 150px;
+  }
+  .SimplePieChart .chart-container .outer-label {
+    color: #c4c4c4;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    padding-left: 15px;
+  }

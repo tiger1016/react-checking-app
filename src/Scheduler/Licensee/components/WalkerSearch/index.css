@@ -1,0 +1,22 @@
+.WalkerSearch {
+  width: 100%;
+  text-align: left;
+  padding: 0 4px;
+}
+.WalkerSearch .highlighted-options {
+  font-weight: bold;
+}
+.WalkerSearch.has-value .Select-placeholder {
+  color: #000000;
+  font-weight: bold !important;
+  padding-right: 20px;
+}
+
+.WalkerSearch .Select-placeholder {
+  color: black;
+}
+
+.WalkerSearch .Select-control{
+  color: #000000;
+  border: none;
+}

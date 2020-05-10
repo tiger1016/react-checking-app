@@ -1,0 +1,77 @@
+#WalkerPayroll {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  width: 100%;
+}
+#WalkerPayroll .header-container {
+  width: 100%;
+}
+#WalkerPayroll .filter-container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: 'column';
+}
+#WalkerPayroll .filter-container .filter-right {
+  flex: 1.8;
+  margin-left: 40px;
+}
+#WalkerPayroll .filter-container .filter-search-bar {
+  flex: 1.2;
+  display: flex;
+  flex-direction: row;
+}
+#WalkerPayroll .filter-container .filter-search-bar input {
+  height: 40px;
+  color: #dddddd;
+  border-radius: 4px;
+  border: 1.5px solid #dddddd !important;
+}
+#WalkerPayroll .filter-container .filter-search-bar input::-webkit-input-placeholder {
+  color: #dddddd;
+}
+#WalkerPayroll .filter-container .filter-search-bar .icon-search {
+  border-radius: 4px;
+  border: 1.5px solid #dddddd !important;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+#WalkerPayroll .filter-container .filter-search-bar .icon-search img {
+  height: 16px;
+  width: 16px;
+}
+#WalkerPayroll .filter-container .filter-left {
+  flex: 1;
+  display: flex;
+}
+#WalkerPayroll .filter-container .filter-left label {
+  margin-top: 15px;
+  color: #dddddd;
+  font-size: 12px;
+  margin-right: 5px;
+}
+#WalkerPayroll .filter-container .filter-left input {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+#WalkerPayroll .filter-container .filter-left .btnAction {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #D9D9D9 !important;
+  border-radius: 25px;
+  border: none;
+  color: #D9D9D9;
+  font-size: 26px;
+  background: white;
+}
+#WalkerPayroll .cal-span {
+  width: 40px;
+  margin-left: 10px;
+  text-align: center;
+  color: #dddddd;
+  display: inline-block;
+}

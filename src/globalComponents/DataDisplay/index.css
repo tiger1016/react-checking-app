@@ -1,0 +1,81 @@
+.DataDisplay {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.DataDisplay .DataDisplay-row {
+    align-items: center;
+    display: flex;
+    margin-top: 5px;
+}
+
+.DataDisplay .DataDisplay-row .DataDisplay-column {
+    display: flex;
+    line-height: 15px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 0;
+    word-break: break-all;
+}
+
+.DataDisplay .DataDisplay-row .break {
+    flex: 1;
+    height: 40px;
+}
+
+.DataDisplay .DataDisplay-row .message {
+    color: #c4c4c4;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    padding: 20px 0;
+}
+
+.DataDisplay.edit .DataDisplay-row .DataDisplay-column {
+    padding: 0;
+}
+
+.DataDisplay .DataDisplay-row .DataDisplay-column.value-column {
+    flex: 1;
+}
+
+.DataDisplay .DataDisplay-row .DataDisplay-column .image {
+    height: 80px;
+    width: 80px;
+}
+
+.DataDisplay .DataDisplay-row .DataDisplay-column .label {
+    color: #808080;
+    width: 138px;
+    display: flex;
+}
+
+.DataDisplay .DataDisplay-row .DataDisplay-column .label.heading {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 40px 0;
+}
+
+.DataDisplay .DataDisplay-row .DataDisplay-column .value {
+    color: #B3B3B3;
+    font-size: 13px;
+}
+
+.DataDisplay .DataDisplay-row .DataDisplay-column .value.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DataDisplay .DataDisplay-row .DataDisplay-column .value img.card-icon {
+    width: 25px;
+}
+
+.DataDisplay .help-section {
+    padding-left: 10px;
+}

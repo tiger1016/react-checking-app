@@ -1,0 +1,295 @@
+.AddStaffModal {
+    display: flex;
+    flex: 1;
+}
+
+.AddStaffModal .ProfileModal-Add-contact-container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.AddStaffModal .ProfileModal-Add-contact-container .ProfileModal-ContentContainer {
+    flex: 1;
+    padding: 20px;
+    overflow: auto;
+    position: relative;
+}
+
+.AddStaffModal .ProfileModal-Add-contact-container .ProfileModal-ContentContainer .header {
+    width: 100%;
+    color: #666666;
+    font-family: Roboto;
+    font-size: 24px;
+    margin: 0px 0px 10px;
+}
+
+.AddStaffModal .ProfileModal-Add-contact-container .ProfileModal-ContentContainer .header .left {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+}
+
+.AddStaffModal .ProfileModal-Add-contact-container .ProfileModal-ContentContainer .header .right {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.AddStaffModal .ProfileModal-Add-contact-container .ProfileModal-ContentContainer .header .right .DiscountTypeSelect {
+    width: 60px;
+    margin-left: 10px;
+}
+
+
+.AddStaffModal .ProfileModal-Add-contact-container .ProfileModal-ContentContainer .label {
+    width: 160px;
+}
+
+.AddStaffModal .ProfileModal-Add-contact-container .ProfileModal-ContentContainer .helper-text {
+    color: #666;
+    font-size: 12px;
+}
+
+.AddStaffModal .ProfileModal-Add-contact-container .ProfileModal-Add-ContentContainer .header {
+    height: 50px;
+    width: 215px;
+    color: #666666;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 50px;
+    margin: 5px;
+}
+
+.AddStaffModal .ProfileModal-Add-contact-container .ProfileModal-ContentContainer .table-container {
+    margin: 0 -20px;
+}
+
+.AddStaffModal .ProfileModal-Add-contact-container .ProfileModal-ContentContainer .table-container .header-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+}
+
+.AddStaffModal .ProfileModal-Add-contact-container .ProfileModal-ContentContainer .table-container .header-container .header-style {
+    color: #6C6C6C;
+    font-family: Roboto;
+    line-height: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.AddStaffModal .table-container .row-scroll {
+    position: relative;
+}
+
+.AddStaffModal .table-container .row-scroll .row-container {
+    background-color: #FFF;
+    border: 1px solid #F5F5F5;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+    color: #9F9F9F;
+    flex-direction: row;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.AddStaffModal .table-container .row-scroll .row-container:nth-child(odd) {
+    background-color: #F6F6F6;
+}
+
+.AddStaffModal .table-container .payrollname-container {
+    width: 40%;
+}
+
+.AddStaffModal .table-container .payrollprice-container {
+    width: 20%;
+}
+
+.AddStaffModal .table-container .payrollmember-container {
+    width: 40%;
+}
+
+.AddStaffModal .table-container .payrollmember-container .DiscountTypeSelect {
+  margin-right: 10px;
+}
+
+.AddStaffModal .table-container .payrollmember-container .PercentInput,
+.AddStaffModal .table-container .payrollmember-container .CurrencyInput {
+  max-width: 100px;
+}
+.AddStaffModal .table-container .payrollmember-container .manual-percent-value {
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+.AddStaffModal .table-container .row-scroll .row-container .column-container {
+    align-items: center;
+    display: flex;
+}
+
+.AddStaffModal .table-container .row-scroll .row-container .column-container .text {
+    font-size: 12px;
+}
+
+
+
+/*.AddStaffModal .DatePicker {
+  max-width: 120px;
+}
+.AddStaffModal .ProfileModal-ContentContainer .right {
+  width: 50%;
+  display: inline-block;
+}
+.AddStaffModal .ProfileModal-ContentContainer .left {
+  float: right;
+  width: 40%;
+  display: inline-block;
+  position: absolute;
+  margin-left: 5%;
+}*/
+/*.AddStaffModal .settings-form form {
+  display: flex;
+  flex-direction: column;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 33px;
+}*/
+/*.AddStaffModal .input-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+.AddStaffModal .input-container .input-label {
+  min-width: 200px;
+}
+.AddStaffModal .input-description {
+  width: 25%;
+}
+.AddStaffModal .input-selection .dropdown-width {
+  width: 140px;
+}
+.AddStaffModal .input-selection .dropdown-width .Select-menu-outer {
+  width: 140px;
+}
+.AddStaffModal .input-selection label {
+  margin-bottom: 15px;
+  color: #999999;
+  font-size: 13px;
+}*/
+
+/*.AddStaffModal .table-container .payrollname-container {
+  width: 50%;
+  font-size: 13px;
+  word-wrap: break-word;
+}
+.AddStaffModal .table-container .payrollprice-container {
+  width: 25%;
+  text-align: center;
+  font-size: 13px;
+}
+.AddStaffModal .table-container .payrollmember-container {
+  text-align: center;
+  width: 20%;
+  font-size: 13px;
+}
+.AddStaffModal .table-container .payrollmember-container input {
+  padding: 10px 10px 10px 10px !important;
+  border: 1px solid #DADADA;
+  border-radius: 5px !important;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 13px;
+  width: 40%;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+.AddStaffModal .input-container {
+  margin-bottom: 10px;
+}
+.AddStaffModal .input-container .input-label {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  color: #6C6C6C;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px 10px 10px 0px;
+}
+.AddStaffModal .input-container input {
+  vertical-align: bottom;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  height: 16px;
+  padding: 10px 10px 10px 10px !important;
+  border: 1px solid #DADADA;
+  border-radius: 5px !important;
+  width: 50%;
+}
+.AddStaffModal .input-container select {
+  height: 40px !important;
+  color: #999999;
+  width: 26%;
+  margin-right: 10px;
+}
+.AddStaffModal .input-container textarea {
+  height: 80px;
+  width: 50%;
+  resize: vertical;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #999999;
+  padding: 10px 10px 10px 10px !important;
+  border: 1.5 px solid #DADADA;
+  border-radius: 5px !important;
+}
+.AddStaffModal .input-container .Select {
+  width: 26%;
+  margin-right: 10px;
+  display: inline-block;
+  margin-bottom: -3px;
+}
+.AddStaffModal .input-container .Select input {
+  border: none;
+  width: 100%;
+}
+.AddStaffModal .input-container .Select-control {
+  border: 1px solid #DADADA;
+  min-height: 40px;
+}
+.AddStaffModal .input-container .Select-value-label {
+  color: #999999 !important;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 36px !important;
+}
+.AddStaffModal .input-container .passwordMask {
+  width: 50%;
+  display: inline-block;
+}
+.AddStaffModal .divider {
+  background: #F4F4F4;
+  height: 3px;
+  margin: 25px 0;
+  width: 100%;
+}
+.AddStaffModal .Select.errBorder {
+  border: none !important;
+  box-shadow: none !important;
+}
+.AddStaffModal .Select.errBorder .Select-control {
+  border: 1px solid red !important;
+  box-shadow: 0px 0px 3px red;
+}*/

@@ -1,0 +1,9 @@
+.LoaderContainer {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+  }

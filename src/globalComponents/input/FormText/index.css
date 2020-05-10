@@ -1,0 +1,20 @@
+.FormText {
+  color: #4D4D4D;
+  color: #6C6C6C;
+  font-size: 12px;
+  font-weight: 400;
+}
+.FormText.help {
+  position: relative;
+  padding-right: 20px;
+}
+.FormText .help-section {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

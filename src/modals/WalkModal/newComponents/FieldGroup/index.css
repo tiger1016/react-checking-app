@@ -1,0 +1,61 @@
+.FieldGroup .item {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.FieldGroup .item .label {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.FieldGroup .item .input {
+    margin-left: 15px;
+}
+
+.FieldGroup .item.mark .input .CustomSelect,
+.FieldGroup .item.mark .input .CustomSelectWithIcon {
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 4px;
+}
+
+.FieldGroup .item .input .DatePicker {
+    width: 250px;
+}
+
+.FieldGroup .item .input .HourMinuteSelect,
+.FieldGroup .item .input div:not(.HourMinuteSelect) .CustomSelectWithIcon {
+    width: 250px;
+}
+
+.FieldGroup .item .input .HourMinuteSelect .CustomSelect {
+    min-width: 20px;
+    width: 40px;
+}
+
+.FieldGroup .item .input .HourMinuteSelect .CustomSelectWithIcon {
+    min-width: 20px;
+    width: 70px;
+}
+
+.FieldGroup .type-label span {
+    color: #FFF;
+    font-size: 12px;
+}
+
+.FieldGroup .item .input .TextBox {
+    width: 250px;
+    border: 1px solid #DADADA;
+    flex: 1;
+    padding: 8px;
+    overflow: hidden;
+    background: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+    position: relative;
+    align-items: center;
+}

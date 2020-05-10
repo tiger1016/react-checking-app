@@ -1,0 +1,55 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+.DayPicker-Month {
+    margin: 0 !important;
+    width: 100% !important;
+}
+.DayPicker-Day {
+    border: none;
+    color: #FFF;
+}
+.DayPicker-Day {
+    padding: .5rem 0;
+}
+.TimePickerModal.day_mode .DayPicker-Day .theDay {
+	width: 24px;
+	height: 24px;
+	margin: auto;
+	line-height: 24px;
+	color: #FFF;
+	border-radius: 48px;
+	background: transparent;
+}
+.TimePickerModal.week_mode .DayPicker-Day .theDay {
+	width: 100%;
+	height: 24px;
+	margin: auto;
+	line-height: 24px;
+	color: #FFF;
+	border-radius: 0;
+	background: transparent;
+}
+.TimePickerModal.week_mode .DayPicker-Day:first-child .theDay {
+	border-top-left-radius: 48px;
+	border-bottom-left-radius: 48px;
+}
+.TimePickerModal.week_mode .DayPicker-Day:last-child .theDay {
+	border-top-right-radius: 48px;
+	border-bottom-right-radius: 48px;
+}
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside)  {
+	background: transparent;
+	color: #000;
+}
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside)  .theDay {
+	background: #FFF;
+	color: #000;
+}
+.Select {
+	flex: 1
+}
+.Select-value-label {
+	color: rgb(153, 153, 153);
+}

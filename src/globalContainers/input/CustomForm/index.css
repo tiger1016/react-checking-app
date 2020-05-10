@@ -1,0 +1,13 @@
+.custom-form-container form {
+  display: flex;
+  flex-direction: column;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+}
+.custom-form-container form .form-inner-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}

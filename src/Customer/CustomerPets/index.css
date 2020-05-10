@@ -1,0 +1,6 @@
+#CustomerPets .pet-container {
+  display: flex;
+  border-bottom: 1px solid #F5F5F5;
+  padding: 0 35px;
+  margin: 0 -35px 20px;
+}

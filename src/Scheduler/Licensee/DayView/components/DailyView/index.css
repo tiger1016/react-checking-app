@@ -1,0 +1,20 @@
+#Scheduler-DayView #DailyView {
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+#Scheduler-DayView #DailyView::-webkit-scrollbar {
+  display: none;
+}
+#Scheduler-DayView #RowsContainer {
+  position: relative;
+}
+#Scheduler-DayView .fixed-top-row {
+  display: none;
+  background-color: white;
+  border-left: 1px solid #f5f5f5;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+}

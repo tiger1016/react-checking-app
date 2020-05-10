@@ -1,0 +1,43 @@
+.InputGroup {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.InputGroup.skinny-bottom {
+  margin-bottom: 10px;
+}
+.InputGroup.column {
+  flex-direction: column;
+}
+.InputGroup .description-section {
+  margin-right: 10px;
+}
+.InputGroup .description-section {
+  display: flex;
+  flex-direction: column;
+}
+.InputGroup .input-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.InputGroup .input-section .loader {
+  max-height: 30px;
+  min-height: 30px;
+}
+.InputGroup .input-section .input-group-input-container.removable {
+  align-items: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.InputGroup .input-section .input-group-input-container.removable .removable-icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+}
+.InputGroup .input-section .input-group-input-container.removable .removable-icon .button-container {
+  display: inherit;
+}

@@ -1,0 +1,7 @@
+#ProfilePic .image-action-area {
+  align-items: flex-start;
+  display: flex;
+}
+#ProfilePic .image-action-area .ButtonGroup {
+  margin: 0 15px;
+}

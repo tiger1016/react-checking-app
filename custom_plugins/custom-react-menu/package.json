@@ -1,0 +1,58 @@
+{
+  "name": "react-menu",
+  "version": "0.0.10",
+  "description": "Accessible menu component for React.JS",
+  "main": "./lib/index",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "scripts/test --browsers Chrome --single-run",
+    "start": "scripts/dev-examples"
+  },
+  "authors": [
+    "Jason Madsen"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.13.2",
+    "babel-loader": "6.2.4",
+    "babel-plugin-transform-object-rest-spread": "6.8.0",
+    "babel-preset-es2015": "6.13.2",
+    "babel-preset-react": "6.11.1",
+    "envify": "3.4.0",
+    "expect": "1.14.0",
+    "karma": "0.13.19",
+    "karma-chrome-launcher": "0.2.2",
+    "karma-cli": "0.1.2",
+    "karma-firefox-launcher": "0.1.7",
+    "karma-mocha": "0.2.1",
+    "karma-webpack": "1.8.0",
+    "lodash.assign": "^4.1.0",
+    "mocha": "2.4.5",
+    "react": "^0.14.7",
+    "react-addons-test-utils": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "rf-release": "0.4.0",
+    "uglify-js": "2.6.1",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1"
+  },
+  "peerDependencies": {
+    "react": "^0.14.7"
+  },
+  "tags": [
+    "react",
+    "menu",
+    "dropdown"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "menu",
+    "dropdown"
+  ],
+  "dependencies": {
+    "js-stylesheet": "0.0.1"
+  }
+}

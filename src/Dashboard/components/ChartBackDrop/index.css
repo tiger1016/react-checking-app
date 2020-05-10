@@ -1,0 +1,29 @@
+#Dashboard .chart-backdrop {
+  position: absolute;
+  height: 145px;
+  width: 100%;
+}
+#Dashboard .chart-backdrop .backdrop-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#Dashboard .chart-backdrop .backdrop-container div:first-child {
+  padding-top: 5px;
+}
+#Dashboard .chart-backdrop .backdrop-container .backdrop-horizontal {
+  border-bottom: 2px solid #F5F5F5;
+  padding-top: 35px;
+}
+#Dashboard .chart-backdrop .backdrop-container .backdrop-vertical {
+  position: absolute;
+  top: 0;
+  left: 113px;
+  height: 153px;
+  border-right: 2px solid #F5F5F5;
+}
+#Dashboard .chart-backdrop.right .backdrop-vertical {
+  left: auto;
+  right: 113px;
+}

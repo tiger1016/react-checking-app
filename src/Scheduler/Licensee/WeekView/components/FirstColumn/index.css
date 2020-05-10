@@ -1,0 +1,28 @@
+#Scheduler-WeekView div.grid-row-label {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid #f5f5f5;
+  background: #FFF;
+  color: #6C6C6C;
+  display: flex;
+  flex: 1;
+  font-size: 12px;
+  font-weight: bold;
+  max-width: 160px;
+  min-width: 160px;
+  padding: 12px 10px 0;
+  text-align: left;
+  width: 160px;
+}
+#Scheduler-WeekView div.grid-row-label.no-walks {
+  align-items: center;
+  padding: 2px 10px;
+}
+#Scheduler-WeekView div.grid-row-label.active {
+  background-color: #76887b !important;
+  color: #FFF;
+}
+#Scheduler-WeekView div.grid-row-label.selected .customer {
+  color: #1875F0;
+  text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+#CalendarPicker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#CalendarPicker #CustomInput button {
+  border: none;
+  background: transparent;
+  color: #999;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  padding-left: 20px;
+  text-align: left;
+  width: 100%;
+}
+#CalendarPicker .react-datepicker-popper {
+  z-index: 10;
+}

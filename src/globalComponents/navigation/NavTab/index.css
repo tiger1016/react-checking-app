@@ -1,0 +1,51 @@
+.NavTab {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: Roboto;
+    position: relative;
+    padding: 0 24px;
+  }
+  .NavTab.padding-bottom {
+    margin-bottom: 24px;
+  }
+  .NavTab .bottom-line {
+    background-color: #F5F5F5;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  .NavTab .nav-tab-link {
+    border-bottom: 2px solid #F5F5F5;
+    color: #999999;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 10px 11px 10px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    z-index: 1;
+  }
+  .NavTab .nav-tab-link.doNotOverflowLinkUnderline {
+    padding: 10px 0 10px;
+    margin: 0 11px;
+  }
+  .NavTab .nav-tab-link span {
+    font-size: 12.8px;
+    white-space: nowrap;
+  }
+  .NavTab .nav-tab-link.selected {
+    border-bottom: 2px solid #1875F0;
+    color: #1875F0;
+    z-index: 1;
+  }
+  

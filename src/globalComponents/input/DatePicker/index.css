@@ -1,0 +1,71 @@
+.DatePicker {
+  align-items: stretch;
+  background: white;
+  border: 1px solid #dadada;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 100px;
+  position: relative;
+  align-items: center;
+}
+.DatePicker.alert{
+  border: 1px solid #c7011a;
+}
+.DatePicker .icon-container {
+  align-items: center;
+  color: #D8D8D8;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  flex: 0 0 40px;
+  font-size: 20px;
+}
+.DatePicker.alert .icon-container {
+  background: #c7011a;
+  border-color: #c7011a;
+  color: rgb(255, 255, 255);
+  height: 33px;
+  margin-bottom: -0.5px;
+}
+.DatePicker > div {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+}
+.DatePicker .react-datepicker-wrapper {
+  display: flex;
+  flex: 1;
+  max-height: 100%;
+  max-width: 100%;
+  padding: 9px 10px;
+}
+.DatePicker .react-datepicker__input-container {
+  display: flex;
+  flex: 1;
+  min-width: 0 !important;
+  z-index: 1 !important;
+}
+.DatePicker .react-datepicker__input-container input {
+  background: transparent !important;
+  border: none;
+  color: #808080;
+  display: flex;
+  flex: 1;
+  font-size: 12px !important;
+  /*padding: 10px 0 10px 10px;*/
+  z-index: 1 !important;
+}
+.DatePicker .borderLeft .react-datepicker-wrapper {
+  border-left: 1px solid #dadada !important;
+}
+.DatePicker .borderRight .react-datepicker-wrapper {
+  border-Right: 1px solid #dadada !important;
+}
+.DatePicker .react-datepicker__navigation.react-datepicker__navigation--years.react-datepicker__navigation--years-upcoming,
+.DatePicker .react-datepicker__navigation.react-datepicker__navigation--years.react-datepicker__navigation--years-previous {
+  width: 1px;
+}
+.DatePicker .react-datepicker__header__dropdown.react-datepicker__header__dropdown--select {
+  padding: 10px 0 5px;
+}

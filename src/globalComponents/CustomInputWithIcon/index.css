@@ -1,0 +1,51 @@
+.CustomInputWithIcon {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+}
+
+.CustomInputWithIcon .icon-container {
+    align-items: center;
+    border: 1px solid #DADADA;
+    border-radius: 4px 0 0 4px;
+    color: #D8D8D8;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    background: white;
+    font-size: 22px;
+}
+
+.CustomInputWithIcon .input-container {
+    background: white;
+    border: 1px solid #DADADA;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    height: auto;
+    width: 60%;
+}
+
+.CustomInputWithIcon .input-container input {
+    width: 100%;
+    border: none !important;
+    padding: 10px !important;
+}
+
+.CustomInputWithIcon .react-datepicker__input-container input {
+    width: 100%;
+    border: none !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+    height: auto;
+    background: transparent;
+    color: #999999
+}
+
+.CustomInputWithIcon .Select {
+    width: 100% !important;
+}
+
+.CustomInputWithIcon .Select .Select-control {
+    border: none !important;
+}

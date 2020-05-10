@@ -1,0 +1,12 @@
+.PetPeePooSelect {
+    width: 250px;
+    align-items: center;
+    height: 40px;
+    display: flex;
+}
+
+.PetPeePooSelect .pee-poo-icon-container {
+    line-height: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,10 @@
+.ModalSaveCancel .ModalSaveCancel-buttons-container {
+  align-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-top: 15px;
+}
+.ModalSaveCancel .ModalSaveCancel-buttons-container div {
+  border-radius: 4px;
+}

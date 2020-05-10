@@ -1,0 +1,24 @@
+#Footer {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+#Footer .copyright-2011-201 {
+  height: 16px;
+  width: 348px;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+#Footer .dashboard-schedule {
+  height: 16px;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  float: right;
+  margin-right: 35px;
+}

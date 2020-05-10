@@ -1,0 +1,93 @@
+#Invoices {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#Invoices .headerRightComponent {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+#Invoices .headerRightComponent .clearfix {
+  width: 10px;
+}
+#Invoices .empty {
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  padding-bottom: 100px;
+}
+#Invoices .filter-container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0 20px;
+}
+#Invoices .filter-container .filter-right {
+  flex: 1.8;
+  margin-left: 32px;
+  display: flex;
+  align-items: center;
+}
+#Invoices .filter-container .filter-right .cal-span {
+  width: 30px;
+  margin-left: 30px;
+}
+#Invoices .filter-container .filter-search-bar {
+  flex: 1.2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#Invoices .filter-container .filter-search-bar input {
+  vertical-align: bottom;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 12px;
+  height: 12px;
+  padding: 10px 40px 10px 10px !important;
+  border: 1px solid #DADADA;
+  border-radius: 5px !important;
+  width: 60%;
+}
+#Invoices .filter-container .filter-search-bar input::-webkit-input-placeholder {
+  color: #dddddd;
+}
+#Invoices .filter-container .filter-search-bar .icon-search {
+  width: 36px;
+  height: 36px;
+  padding: 10px;
+  margin-left: -35px;
+}
+#Invoices .filter-container .filter-search-bar .icon-search img {
+  height: 12px;
+  width: 12px;
+}
+#Invoices .filter-container .filter-left {
+  flex: 1;
+  display: flex;
+}
+#Invoices .filter-container .filter-left label {
+  color: #999999;
+  font-size: 12px;
+  margin-right: 5px;
+}
+#Invoices .filter-container .filter-left input {
+  margin-right: 20px;
+  width: 85% !important;
+}
+#Invoices .filter-container .filter-left .btnAction {
+  padding: 10px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #D9D9D9 !important;
+  border-radius: 25px;
+  border: none;
+  color: #D9D9D9;
+  font-size: 26px;
+  background: white;
+}

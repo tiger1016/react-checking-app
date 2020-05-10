@@ -1,0 +1,23 @@
+#Dashboard .DashboardButton {
+  height: 30px;
+  width: 110px;
+  border-radius: 4px;
+  background-color: #979797;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: 10px;
+}
+#Dashboard .DashboardButton button {
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 10px;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,53 @@
+.petcheck_tab.modal {
+  bottom: 0;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.petcheck_tab {
+  align-items: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.petcheck_tab .tabContainer {
+  align-items: stretch;
+  box-shadow: inset 0px -3px #F5F5F5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 60px;
+  padding: 0 20px;
+}
+.petcheck_tab .circleContainer {
+  display: flex;
+  padding: 12px 0;
+  align-items: center;
+  justify-content: center;
+}
+.petcheck_tab .rc-progress-circle {
+  height: 40px;
+  width: 40px;
+  padding: 1px;
+  margin: -1px;
+}
+.petcheck_tab .tabButton {
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid #F5F5F5;
+  border-radius: 0px !important;
+  color: #999999;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0 5px;
+}
+.petcheck_tab .tabButton.highlight {
+  border-bottom: 3px solid #1875F0;
+  color: #1875F0;
+  font-weight: bold;
+}

@@ -1,0 +1,12 @@
+.TimeRangeSelect {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.TimeRangeSelect .HourMinuteSelect {
+  margin-bottom: 0;
+}
+.TimeRangeSelect .RangeSeparator {
+  margin: 0 12px;
+}
