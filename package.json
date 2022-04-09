@@ -84,7 +84,7 @@
     "copy-to-clipboard": "^3.2.0",
     "fuse.js": "^3.4.5",
     "google-map-react": "^1.1.4",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-duration-format": "^2.3.2",
     "moment-timezone": "^0.5.26",
     "print-js": "^1.0.61",
