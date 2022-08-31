@@ -86,7 +86,7 @@
     "google-map-react": "^1.1.4",
     "moment": "^2.24.0",
     "moment-duration-format": "^2.3.2",
-    "moment-timezone": "^0.5.26",
+    "moment-timezone": "^0.5.35",
     "print-js": "^1.0.61",
     "rc-progress": "^2.5.1",
     "rc-slider": "^8.6.13",
